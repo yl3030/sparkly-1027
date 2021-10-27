@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./public/img/favicon.svg" type="image/x-icon">
+    <title>蜀隆</title>
+    <!-- awesomefont CDN -->
+    <script
+      src="https://kit.fontawesome.com/69fd600045.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://use.typekit.net/cho0ciw.css">
+
+    <link rel="stylesheet" href="./public/css/bootstrap/bootstrap.css" />
+    <link rel="stylesheet" href="./public/css/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./public/css/DistortedLinkEffects/base.css" />
+    <link rel="stylesheet" href="./public/css/aos/aos.css" />
+    <!-- my css -->
+    <link rel="stylesheet" href="./public/css/style.css" />
+
+    <!--Google Analytics Script碼(start) 要放在</head>之前 -->
+    <script>
+      (function (i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function () {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "https://www.google-analytics.com/analytics.js",
+        "ga"
+      );
+
+      ga("create", "UA-17182539-2", "auto");
+      ga("send", "pageview");
+    </script>
+    <!--Google Analytics Script碼(End) -->
+  </head>
+  <style>
+    main {
+      padding: 70px 0 0 0 !important;
+      margin: 0;
+      overflow: hidden;
+    }
+    @media screen and (max-width:575px) {
+      main {
+        padding: 60px 0 0 0 !important;
+      }
+    }
+  </style>
+  <body>
+    <div id="loading">
+      <img src="./public/img/logo1.gif" alt="" />
+    </div>
+    <header class="d-flex">
+      <div class="icon d-flex">
+        <div class="logo">
+          <a href="./index.html">
+            <img
+              class="origin"
+              src="./public/img/logo2.svg"
+              alt="西伯里品牌形象設計"
+            />
+            <img
+              class="down"
+              src="./public/img/logo2.svg"
+              alt="西伯里品牌形象設計"
+            />
+          </a>
+        </div>
+        <div class="social">
+          <a
+            href="https://www.facebook.com/sparkly.identity.design"
+            class="social-icon"
+            target="_blank"
+          >
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <!-- <a href="#" class="social-icon">
+            <i class="fab fa-linkedin-in"></i>
+          </a> -->
+          <a
+            href="https://www.instagram.com/sparkly_identity/"
+            class="social-icon"
+            target="_blank"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+          <!-- <a href="#" class="social-icon">
+            <i class="fab fa-behance"></i>
+          </a> -->
+          <a href="https://liff.line.me/1645278921-kWRPP32q/?accountId=sparklyidentity" class="social-icon" target="_blank">
+            <img src="./public/img/line.svg" alt="" />
+          </a>
+        </div>
+      </div>
+      <div class="link d-flex">
+        <a class="consult" href="./contact.html">開始諮詢</a>
+        <div class="menu-box">
+          <div class="top-bar bar"></div>
+          <div class="middle-bar bar"></div>
+          <div class="bottom-bar bar"></div>
+        </div>
+        <nav class="main-nav menu menu--line">
+          <ul>
+            <li class="cross menu-cross">
+              <img src="./public/img/cross.svg" alt="" />
+            </li>
+            <li>
+              <a class="" href="./work.html">WORK</a>
+            </li>
+            <li>
+              <a class="" href="./about.html">ABOUT</a>
+            </li>
+            <li>
+              <a class="" href="./about.html#service">SERVICE</a>
+            </li>
+            <li>
+              <a class="" href="./contact.html">CONTACT</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <!-- <img class="w-100" src="" alt="" /> -->
+      <img class="w-100" src="./public/img/shulong_pic_13.png" alt="">
+      <div class="shulong-blossom work-p">
+        <h2 class="text-white" data-aos="fade-up" data-aos-duration="400" data-aos-easing="ease-in-sine">
+          Blossom with bliss,<br />
+          live with bliss.
+        </h2>
+        <div class="row">
+          <div class="col-md-6 mb-md-0 mb-5" data-aos="fade-right" data-aos-duration="400" data-aos-easing="ease-in-sine">
+            <img class="w-50" src="./public/img/shulong_logo_1.svg" alt="" />
+          </div>
+          <div class="col-md-6" data-aos="fade-left" data-aos-duration="400" data-aos-easing="ease-in-sine">
+            <div class="intro-box">
+              <h4>蜀隆花卉|品牌識別更新</h4>
+              <p>
+                蜀隆蘭業為蝴蝶蘭專家，業界最早進行蝴蝶蘭產業升級的企業；面對市場瞬變挑戰，領先業界投入數位AI轉型，透過大數據管理及精準生產，歷經20餘年洗鍊，蘭花溫室從1997年2公頃溫室，擴展至今7.8公頃規模，事業版圖佈及全球41個國家，為國內蘭花三大出口公司之一。
+              </p>
+              <p>
+                透過育種優勢與創新技術配合品牌行銷拓展使產業不斷進步，增加產值並提升國際形象，讓台灣蘭花開遍世界各地。
+              </p>
+              <p>#品牌診斷  #品牌識別  #策略擬定  #花卉  #苗株出口</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <img class="w-100" src="./public/img/shulong_pic_1.jpg" alt="" />
+
+      <div class="shulong-strategy work-px py-200px mt-n5">
+        <div
+          class="title-box font-noto text-center"
+          data-aos="fade-up"
+          data-aos-duration="400"
+          data-aos-easing="ease-in-sine"
+        >
+          <p>品牌策略</p>
+          <h2>STRATEGY</h2>
+        </div>
+        <div class="intro-box text-center" data-aos="fade-up" data-aos-duration="400" data-aos-easing="ease-in-sine">
+          <h4 class="mb-5">
+            以新品牌形象貼近消費者<br />
+            促進國際行銷
+          </h4>
+          <p>
+            花卉外銷出口，除創新技術與研發提升品質外，取得末端市場資訊並達到市場導向的客製化需求益為重要；蜀隆蘭業作為花卉B2B品牌，期望以貼近末端消費市場需求之形象，以B2C形象建立提升B2B需求商業策略，使間接客戶（末端消費者）影響直接客戶（花苗採購商）採購意願之提升。
+          </p>
+        </div>
+        <img
+          class="d-block mx-auto"
+          src="./public/img/shulong_pic_3.svg"
+          alt="" data-aos="fade-up" data-aos-duration="400" data-aos-easing="ease-in-sine"
+        />
+        <div class="intro-box text-center" data-aos="fade-up" data-aos-duration="400" data-aos-easing="ease-in-sine">
+          <p>
+            透過精準切入點，跳脫台灣傳統農產印象，突顯科技管理優勢與專業形象；將「優良蝴蝶蘭育苗商」標籤加諸品牌形象中的同時建立蜀隆蘭花之於末端消費者連結度，促成更多國際行銷管道。
+          </p>
+        </div>
+      </div>
+
+      <img class="w-100" src="./public/img/shulong_pic_4.jpg" alt="" />
+
+      <div class="shulong-logo pb-200px">
+        <img class="w-100" src="./public/img/shulong_logo_2.png" alt="" />
+        <img
+          class="logo-element my-200px d-block mx-auto"
+          src="./public/img/shulong_logoicon_1.svg"
+          alt=""
+        />
+        <div class="row mb-200px">
+          <div class="col-md-4">
+            <div class="intro-box work-px" data-aos="fade-right" data-aos-duration="400" data-aos-easing="ease-in-sine">
+              <h4>品牌標誌設計</h4>
+              <p>
+                因應蜀隆標誌圓角特性，為統一品牌調性，英文標準字上採用圓角設計，為蜀隆品牌標誌增加獨特性與識別度。
+              </p>
+            </div>
+          </div>
+          <div class="col-md-8">
+            <img
+              class="w-100"
+              src="./public/img/shulong_logoicon_2.svg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="row work-px">
+          <div class="col-md-5">
+            <div class="intro-box" data-aos="fade-right" data-aos-duration="400" data-aos-easing="ease-in-sine">
+              <h4>品牌英文標誌設計過程</h4>
+              <p>
+                SHULONG英文標誌設計為讓品牌更具親和力，經由嚴密的視覺調整，過程中將大寫U與小寫u的設計進行比對與衡量，採用小寫u與o以利視覺上的平衡也反映出品牌事業體的彈性。
+              </p>
+              <p>
+                標誌製圖上，為提高識別度與視覺平衡，考量字體比例、重心、筆畫、字距與閱讀流暢度，在最終設計標誌上，決定採用u小寫版本，作為品牌永續使用之英文商標。
+              </p>
+            </div>
+          </div>
+          <div class="col-md-7">
+            <div class="row">
+              <div class="col-6 px-sm-5 px-4 text-white text-center compare">
+                <img src="./public/img/shulong_logoicon_4.svg" alt="" />
+                <h3 class="my-4">大寫U</h3>
+                <p>
+                  全大寫讓企業過於嚴肅，視覺上大寫U的面積顯得特別龐大，使標誌重心過重，導致上排文字大、下排文字擁擠的狀況發生。
+                </p>
+              </div>
+              <div class="col-6 px-sm-5 px-4 text-white text-center">
+                <img src="./public/img/shulong_logoicon_3.svg" alt="" />
+                <h3 class="my-4">小寫U</h3>
+                <p>
+                  小寫的u讓親近感倍增，字母之間留有適當空間，小寫u筆畫的襯線特色與其他字母互相搭配，視覺重心穩定，辨識度佳。
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="shulong-brand py-200px">
+        <div class="row shulong-brand_compare">
+          <div class="col-6">
+            <div class="pic">
+              <img src="./public/img/shulong_logoicon_4.png" alt="" />
+            </div>
+
+            <p>品牌標誌更新前</p>
+          </div>
+          <div class="col-6">
+            <div class="pic">
+              <img src="./public/img/shulong_logoicon_5.png" alt="" />
+            </div>
+            <p>品牌標誌更新後</p>
+          </div>
+        </div>
+        <div class="row shulong-brand_feature align-items-center">
+          <div class="col-sm-3 col-12 text-center"><p>品牌特色</p></div>
+          <div class="col-sm-3 col-4 px-md-4 px-sm-3 px-1">
+            <div class="feature-box">
+              <div class="text text-center">
+                <h4>
+                  Technology<br />
+                  Cultivation
+                </h4>
+                <p>科技培育</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 col-4 px-md-4 px-sm-3 px-1">
+            <div class="feature-box">
+              <div class="text text-center">
+                <h4>
+                  International<br />
+                  Market
+                </h4>
+                <p>國際市場</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 col-4 px-md-4 px-sm-3 px-1">
+            <div class="feature-box">
+              <div class="text text-center">
+                <h4>
+                  Orchid<br />
+                  Flowers
+                </h4>
+                <p>蘭花</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 col-12 text-center mt-4"><p>品牌關鍵字</p></div>
+          <div class="col-sm-3 col-4 px-md-4 px-sm-3 px-1">
+            <div class="feature-box">
+              <div class="text text-center">
+                <h4>
+                  Chinese<br />
+                  Culture
+                </h4>
+                <p>中華文化</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 col-4 px-md-4 px-sm-3 px-1">
+            <div class="feature-box">
+              <div class="text text-center">
+                <h4>Life</h4>
+                <p>日常生活</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 col-4 px-md-4 px-sm-3 px-1">
+            <div class="feature-box">
+              <div class="text text-center">
+                <h4>Variety</h4>
+                <p>多元的樣貌</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row shulong-brand_slogan align-items-center mt-200px">
+          <div class="col-md-5">
+            <div class="intro-box work-px" data-aos="fade-right" data-aos-duration="400" data-aos-easing="ease-in-sine">
+              <h4>品牌標語</h4>
+              <p>
+                為企業中不可或缺的重要資產之一，代表企業理念與對外形象核心，針對國際銷售為主的蜀隆花卉，團隊經縝密規劃擬定蜀隆花卉之中英文標語。品牌標語以「Blossom with bliss,live with bliss.」為切入點，呼應蘭花於不同生活場合中的多變姿態，將美好花朵意象與心情結合，加深品牌與消費者的連結，Bliss為愉悅、幸福之意，藉此傳遞品牌價值。
+              </p>
+            </div>
+          </div>
+          <div class="col-md-7">
+            <!-- <img class="w-100" src="./public/img/shulong_pic_5.png" alt="" /> -->
+            <img class="w-100" src="./public/img/shulong_pic_5.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <video class="w-100" autoplay="" muted="" loop playsinline>
+        <source src="./public/video/shulong1.mp4" type="video/mp4" />
+      </video>
+
+      <div class="shulong-color d-flex">
+        <div class="color-box">
+          <div class="color-bg">
+            <div class="linear">
+              <div class="linear-1"><div class="percent">80%</div></div>
+              <div class="linear-2"><div class="percent">60%</div></div>
+              <div class="linear-3"><div class="percent">40%</div></div>
+              <div class="linear-4"><div class="percent">20%</div></div>
+            </div>
+            <div class="text">
+              <h4>Variety</h4>
+              <p>
+                ＃川劇變臉<br />
+                ＃多元奇幻<br />
+                ＃蘭花
+              </p>
+              <p>
+                Pantone 1925<br>
+                C10 M100 Y55 K0
+              </p>
+            </div>
+          </div>
+          <!-- <div class="pic">
+            <img src="./public/img/shulong_pic_6.png" alt="" />
+          </div> -->
+        </div>
+        <div class="color-box">
+          <div class="color-bg">
+            <div class="linear">
+              <div class="linear-1"><div class="percent">80%</div></div>
+              <div class="linear-2"><div class="percent">60%</div></div>
+              <div class="linear-3"><div class="percent">40%</div></div>
+              <div class="linear-4"><div class="percent">20%</div></div>
+            </div>
+            <div class="text">
+              <h4>Technology</h4>
+              <p>
+                ＃科技培育<br />
+                ＃專業<br />
+                ＃蘭花
+              </p>
+              <p>
+                Pantone 375<br>
+                C60 M0 Y95 K0
+              </p>
+            </div>
+          </div>
+          <!-- <div class="pic">
+            <img src="./public/img/shulong_pic_7.png" alt="" />
+          </div> -->
+        </div>
+        <div class="color-box">
+          <div class="color-bg">
+            <div class="linear">
+              <div class="linear-1"><div class="percent">80%</div></div>
+              <div class="linear-2"><div class="percent">60%</div></div>
+              <div class="linear-3"><div class="percent">40%</div></div>
+              <div class="linear-4"><div class="percent">20%</div></div>
+            </div>
+            <div class="text">
+              <h4>Colorful</h4>
+              <p>
+                ＃豐富色彩<br />
+                ＃多樣姿態
+              </p>
+              <p class="m-0 space">&nbsp;</p>
+              <p>
+                Pantone 2583<br>
+                C50 M70 Y0 K0
+              </p>
+            </div>
+          </div>
+          <!-- <div class="pic">
+            <img src="./public/img/shulong_pic_8.png" alt="" />
+          </div> -->
+        </div>
+        <div class="color-box">
+          <div class="color-bg">
+            <div class="linear">
+              <div class="linear-1"><div class="percent">80%</div></div>
+              <div class="linear-2"><div class="percent">60%</div></div>
+              <div class="linear-3"><div class="percent">40%</div></div>
+              <div class="linear-4"><div class="percent">20%</div></div>
+            </div>
+            <div class="text">
+              <h4>Bliss</h4>
+              <p>
+                ＃幸福感<br />
+                ＃美好心情
+              </p>
+              <p class="m-0 space">&nbsp;</p>
+              <p>
+                Pantone 297<br>
+                C60 M5 Y5 K0
+              </p>
+            </div>
+          </div>
+          <!-- <div class="pic">
+            <img src="./public/img/shulong_pic_9.png" alt="" />
+          </div> -->
+        </div>
+        <div class="color-box">
+          <div class="color-bg">
+            <div class="linear">
+              <div class="linear-1"><div class="percent">80%</div></div>
+              <div class="linear-2"><div class="percent">60%</div></div>
+              <div class="linear-3"><div class="percent">40%</div></div>
+              <div class="linear-4"><div class="percent">20%</div></div>
+            </div>
+            <div class="text">
+              <h4>Life</h4>
+              <p>
+                ＃日常生活<br />
+                ＃百種心情
+              </p>
+              <p class="m-0 space">&nbsp;</p>
+              <p>
+                Pantone 144<br>
+                C5 M60 Y95 K0
+              </p>
+            </div>
+          </div>
+          <!-- <div class="pic">
+            <img src="./public/img/shulong_pic_10.png" alt="" />
+          </div> -->
+        </div>
+      </div>
+
+      <img class="w-100" src="./public/img/shulong_pic_15.png" alt="" />
+
+      <div class="shulong-video mt-n5">
+        <video autoplay="" muted="" loop playsinline>
+          <source src="./public/video/shulong2.mp4" type="video/mp4" />
+        </video>
+        <a href="https://zh-tw.taiwan-orchid-nursery.com/" class="link">
+          <p>View</p>
+          <p>前往閱覽</p>
+        </a>
+      </div>
+
+      <img class="w-100" src="./public/img/shulong_pic_11.png" alt="" />
+      <img class="w-100" src="./public/img/shulong_pic_12.jpg" alt="" />
+
+      <div class="shulong-cross work-p">
+        <div
+          class="title-box font-noto text-center"
+          data-aos="fade-up"
+          data-aos-duration="400"
+          data-aos-easing="ease-in-sine"
+        >
+          <h2>CROSS-SECTOR<br />PARTNERSHIP</h2>
+          <p>攝影企劃</p>
+        </div>
+        <div class="life-box">
+          <div class="text text-center">
+            <h4>Life</h4>
+            <p>蘭花與生活</p>
+          </div>
+        </div>
+        <div class="season work-px d-flex align-items-center justify-content-center">
+          <div class="dot">
+            <div class="text text-center">
+              <h4>春季花開</h4>
+              <p>Feb.-Mar.</p>
+              <h4>點綴驚喜</h4>
+            </div>
+          </div>
+          <div class="line"></div>
+          <div class="dot">
+            <div class="text text-center">
+              <h4>秋日花開</h4>
+              <p>Aug.-Sep.</p>
+              <h4>日常微笑</h4>
+            </div>
+          </div>
+          <!-- <div class="line"></div>
+          <div class="dot">
+            <div class="text text-center">
+              <h4>SPRING</h4>
+              <p>花季三<br />1~5月</p>
+              <h4>派對活動</h4>
+            </div>
+          </div> -->
+        </div>
+        <div class="intro-box text-dark" data-aos="fade-up" data-aos-duration="400" data-aos-easing="ease-in-sine">
+          <h4>多樣苗種為主軸，識別設計建立生活花卉品牌形象</h4>
+          <p>
+            與客戶確立商業策略後，西伯里品牌形象設計以「綻放生活中的千百種心情」為主軸，配合與花藝師三方合作攝影企劃，提升品牌溢價，量身打造全新生活面花卉品牌形象。
+          </p>
+          <p>
+            蘭花形貌萬千多變，姿態高雅清幽；識別設計提取育苗品種“多變”與“多樣”為核心主軸，由種苗到花朵綻放以漸層色彩與簡潔線條展現創新生活面模式，並以“Blossom with bliss,live with bliss. ”作為品牌標語，透過經濟學bliss point意涵，象徵外銷國際以最佳、多樣、美好的姿態盛放，能成為國際買家中最受親睞之育苗商。
+          </p>
+        </div>
+        <img src="./public/img/shulong_brand.svg" alt="" class="brand-pic" />
+      </div>
+
+      <div class="shulong-slogan">
+        <h3>Blossom with bliss,live with bliss.</h3>
+      </div>
+
+      <div class="shulong-slider">
+        <div class="swiper-container swiper-shulong">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./public/img/shulong_slider_1.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./public/img/shulong_slider_2.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./public/img/shulong_slider_3.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./public/img/shulong_slider_4.jpg" alt="" />
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+
+      <div class="shulong-cooperate">
+        <div class="row mx-0 align-items-center">
+          <div class="col-lg-8 px-0">
+            <img class="w-100" src="./public/img/shulong_pic_14.jpg" alt="" />
+          </div>
+          <div class="col-lg-4 px-0 py-lg-0 py-4">
+            <div class="intro-box text-dark work-px">
+              <h4>三方合作 跨界交流</h4>
+              <p class="mb-5">
+                以品牌統籌角度，根據花期與消費者需求，規劃花卉形象攝影，經由現場張俊傑總監、業主與花藝師交流，激盪不同火花，為品牌帶來多元面向；並串連各界能量，帶點實驗性且美感角度詮釋。除了應用於品牌官網之外，在媒體投放等文宣中，大大提升了消費者新穎感與好感度！
+              </p>
+              <p class="mb-0">圖由左至右｜張俊傑總監、花藝師、蜀隆業務主任</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <img class="w-100" src="./public/img/shulong_pic_16.jpg" alt="">
+
+    </main>
+    <footer class="work-footer footer-shulong">
+      <div class="other-work">
+        <p class="text-center w-100">YOU MIGHT ALSO LIKE....</p>
+        <div class="row">
+          <div class="col-sm-4 col-12">
+            <a href="#" target="_blank" class="pic"
+              ><img src="./public/img/other-1.jpeg" alt=""
+            /></a>
+          </div>
+          <div class="col-sm-4 col-12">
+            <a href="#" target="_blank" class="pic"
+              ><img src="./public/img/other-2.gif" alt=""
+            /></a>
+          </div>
+          <div class="col-sm-4 col-12">
+            <a href="#" target="_blank" class="pic"
+              ><img src="./public/img/other-3.jpeg" alt=""
+            /></a>
+          </div>
+        </div>
+      </div>
+      <div class="backtotop">
+        <button class="top">
+          <i class="fas fa-chevron-up"></i>
+          <p>BACK TO TOP</p>
+        </button>
+      </div>
+      <div class="row justify-content-between">
+        <div class="col-md-6 col-sm-5 col-12 mb-sm-0 mb-5 d-flex align-items-center justify-content-start">
+          <img class="logo-shulong" src="./public/img/shulong_logo_1.svg" alt="" />
+          <img src="./public/img/logo2.gif" alt="" />
+        </div>
+        <div class="col-md-6 col-sm-7 col-12">
+          <p>品牌訪談、消費者診斷分析、品牌定位策略、主視覺設計、品牌行銷</p>
+          <p>
+            Brand interview , Consumer diagnostic analysis , Brand positioning
+            stratrgy , Key visual design,Brand marketing
+          </p>
+        </div>
+      </div>
+    </footer>
+    <footer class="normal">
+      <div class="d-flex">
+        <a href="./index.html" class="logo">
+          <img
+            src="./public/img/logo-red.svg"
+            alt="西伯里品牌形象設計"
+          />
+        </a>
+        <div class="about">
+          <div>
+            <p>西伯里品牌形象設計 SPARKLY IDENTITY</p>
+            <p>
+              異業合作<a
+                href="mailto:service@sparkly.com.tw"
+                class="ms-1"
+                >service@sparkly.com.tw</a
+              >
+            </p>
+            <p>
+              品牌設計<a
+                href="mailto:rachel@sparkly.com.tw"
+                class="ms-1"
+                >rachel@sparkly.com.tw</a
+              >
+            </p>
+            <p>886+ 02 2331 2476</p>
+          </div>
+        </div>
+        <div class="page-outer">
+          <ul class="page-box">
+            <li class="page-list"><a href="./work.html">WORK</a></li>
+            <li class="page-list">
+              <a href="./contact.html">CONTACT</a>
+            </li>
+            <li class="page-list">
+              <a href="./about.html">ABOUT</a>
+            </li>
+            <li class="page-list">
+              <a href="./about.html#join">JOIN US</a>
+            </li>
+            <li class="page-list">
+              <a href="./about.html#service">SERVICE</a>
+            </li>
+            <li class="page-list">
+              <a
+                href="https://www.instagram.com/s.midweekend/"
+                target="_blank"
+                >MIDWEEKEND</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="social">
+          <!-- <h4>SOCIAL MEDIA</h4> -->
+          <a
+            href="https://www.facebook.com/sparkly.identity.design"
+            class="social-icon"
+            target="_blank"
+          >
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <!-- <a href="#" class="social-icon">
+                <i class="fab fa-linkedin-in"></i>
+              </a> -->
+          <a
+            href="https://www.instagram.com/sparkly_identity/"
+            class="social-icon"
+            target="_blank"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+          <!-- <a href="#" class="social-icon">
+                <i class="fab fa-behance"></i>
+              </a> -->
+          <a
+            href="https://liff.line.me/1645278921-kWRPP32q/?accountId=sparklyidentity"
+            class="social-icon"
+            target="_blank"
+          >
+            <img src="./public/img/line.svg" alt="" />
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./public/js/jquery/jquery.min.js"></script>
+    <script src="./public/js/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="./public/js/bootstrap/bootstrap.min.js"></script>
+    <script src="./public/js/swiper/swiper-bundle.min.js"></script>
+    <script src="./public/js/DistortedLinkEffects/distorted1.js"></script>
+    <script src="./public/js/DistortedLinkEffects/index.js"></script>
+    <script src="./public/js/aos/aos.js"></script>
+    <script src="./public/js/index.js"></script>
+    <script>
+      AOS.init();
+      var swiper = new Swiper(".swiper-shulong", {
+        slidesPerView: 1,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
+      });
+    </script>
+  </body>
+</html>

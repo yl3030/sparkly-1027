@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./public/img/favicon.svg" type="image/x-icon">
+    <title>服務項目</title>
+    <!-- awesomefont CDN -->
+    <script
+      src="https://kit.fontawesome.com/69fd600045.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./public/css/bootstrap/bootstrap.css" />
+    <link rel="stylesheet" href="./public/css/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./public/css/aos/aos.css" />
+    <link rel="stylesheet" href="./public/css/DistortedLinkEffects/base.css" />
+    <!-- my css -->
+    <link rel="stylesheet" href="./public/css/style.css" />
+
+    <!--Google Analytics Script碼(start) 要放在</head>之前 -->
+    <script>
+      (function (i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function () {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "https://www.google-analytics.com/analytics.js",
+        "ga"
+      );
+
+      ga("create", "UA-17182539-2", "auto");
+      ga("send", "pageview");
+    </script>
+    <!--Google Analytics Script碼(End) -->
+  </head>
+  <body onload="init()">
+    <div id="loading">
+      <img src="./public/img/logo1.gif" alt="">
+    </div>
+    <header class="d-flex">
+      <div class="icon d-flex">
+        <div class="logo">
+          <a href="./index.html">
+            <img
+              class="origin"
+              src="./public/img/logo2.svg"
+              alt="西伯里品牌形象設計"
+            />
+            <img
+              class="down"
+              src="./public/img/logo2.svg"
+              alt="西伯里品牌形象設計"
+            />
+          </a>
+        </div>
+        <div class="social">
+          <a
+            href="https://www.facebook.com/sparkly.identity.design"
+            class="social-icon"
+            target="_blank"
+          >
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <!-- <a href="#" class="social-icon">
+            <i class="fab fa-linkedin-in"></i>
+          </a> -->
+          <a
+            href="https://www.instagram.com/sparkly_identity/"
+            class="social-icon"
+            target="_blank"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+          <!-- <a href="#" class="social-icon">
+            <i class="fab fa-behance"></i>
+          </a> -->
+          <a href="https://liff.line.me/1645278921-kWRPP32q/?accountId=sparklyidentity" class="social-icon" target="_blank">
+            <img src="./public/img/line.svg" alt="" />
+          </a>
+        </div>
+      </div>
+      <div class="link d-flex">
+        <a class="consult" href="./contact.html">開始諮詢</a>
+        <div class="menu-box">
+          <div class="top-bar bar"></div>
+          <div class="middle-bar bar"></div>
+          <div class="bottom-bar bar"></div>
+        </div>
+        <nav class="main-nav menu menu--line">
+          <ul>
+            <li class="cross menu-cross">
+              <img src="./public/img/cross.svg" alt="" />
+            </li>
+            <li>
+              <a class="" href="./work.html">WORK</a>
+            </li>
+            <li>
+              <a class="" href="./about.html">ABOUT</a>
+            </li>
+            <li>
+              <a class="" href="./about.html#service">SERVICE</a>
+            </li>
+            <li>
+              <a class="" href="./contact.html">CONTACT</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <nav class="inner-nav">
+        <div class="d-flex">
+          <h1>CONTACT</h1>
+        </div>
+      </nav>
+      <div class="row contact-content">
+        <h3 class="col-12">
+          能為您做什麼呢？<br />
+          請留下訊息，我們會儘快與您聯繫！
+        </h3>
+        <div class="col-md-7">
+          <form enctype="text/plain" accept-charset="utf-8">
+            <input
+              id="companyText"
+              type="text"
+              placeholder="公司名稱"
+              required
+            />
+            <input
+              id="nameText"
+              type="text"
+              placeholder="聯絡人（小姐／先生)"
+              required
+            />
+            <input id="phone" type="number" placeholder="聯絡電話" required />
+            <input id="mail" type="email" placeholder="電子郵件" required />
+            <div class="select-box">
+              <select id="caseType" name="" id="" required>
+                <option selected disable>案件類型</option>
+                <option value="品牌顧問">品牌顧問</option>
+                <option value="設計整合">設計整合</option>
+                <option value="品牌識別">品牌識別</option>
+                <option value="包裝設計">包裝設計</option>
+                <option value="廣告行銷">廣告行銷</option>
+                <option value="其他">其他</option>
+              </select>
+            </div>
+            <textarea
+              id="description"
+              required
+              name=""
+              id=""
+              cols="10"
+              rows="10"
+              placeholder="需求簡述"
+            ></textarea>
+            <input
+              id="submit"
+              type="submit"
+              value="送出"
+              onclick="submitHandler();"
+            />
+            <a id="mailTo"></a>
+          </form>
+        </div>
+        <div class="col-md-5">
+          <div class="inform">
+            <ul>
+              <li>西伯里品牌形象設計 Sparkly Identity</li>
+              <li>100台北市中正區重慶南路一段57號12樓之15</li>
+              <li>TEL +886 2-2331-2476</li>
+              <li>FAX +886 2-2331-2412</li>
+              <li>MAIL rachel@sparkly.com.tw</li>
+              <li>聯絡窗口 王經理</li>
+            </ul>
+          </div>
+          <div class="map">
+            <div class="map-box">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.6891330171243!2d121.51119931498808!3d25.044621744019576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a90cba109bcf%3A0xbd5d44bc9ad0019!2zMTAw5Y-w5YyX5biC5Lit5q2j5Y2A6YeN5oW25Y2X6Lev5LiA5q61NTfomZ8!5e0!3m2!1szh-TW!2stw!4v1625758730108!5m2!1szh-TW!2stw"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="normal">
+      <div class="d-flex">
+        <a href="./index.html" class="logo">
+          <img
+            src="./public/img/logo-red.svg"
+            alt="西伯里品牌形象設計"
+          />
+        </a>
+        <div class="about">
+          <div>
+            <p>西伯里品牌形象設計 SPARKLY IDENTITY</p>
+            <p>
+              異業合作<a
+                href="mailto:service@sparkly.com.tw"
+                class="ms-1"
+                >service@sparkly.com.tw</a
+              >
+            </p>
+            <p>
+              品牌設計<a
+                href="mailto:rachel@sparkly.com.tw"
+                class="ms-1"
+                >rachel@sparkly.com.tw</a
+              >
+            </p>
+            <p>886+ 02 2331 2476</p>
+          </div>
+        </div>
+        <div class="page-outer">
+          <ul class="page-box">
+            <li class="page-list"><a href="./work.html">WORK</a></li>
+            <li class="page-list">
+              <a href="./contact.html">CONTACT</a>
+            </li>
+            <li class="page-list">
+              <a href="./about.html">ABOUT</a>
+            </li>
+            <li class="page-list">
+              <a href="./about.html#join">JOIN US</a>
+            </li>
+            <li class="page-list">
+              <a href="./about.html#service">SERVICE</a>
+            </li>
+            <li class="page-list">
+              <a
+                href="https://www.instagram.com/s.midweekend/"
+                target="_blank"
+                >MIDWEEKEND</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="social">
+          <!-- <h4>SOCIAL MEDIA</h4> -->
+          <a
+            href="https://www.facebook.com/sparkly.identity.design"
+            class="social-icon"
+            target="_blank"
+          >
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <!-- <a href="#" class="social-icon">
+                <i class="fab fa-linkedin-in"></i>
+              </a> -->
+          <a
+            href="https://www.instagram.com/sparkly_identity/"
+            class="social-icon"
+            target="_blank"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+          <!-- <a href="#" class="social-icon">
+                <i class="fab fa-behance"></i>
+              </a> -->
+          <a
+            href="https://liff.line.me/1645278921-kWRPP32q/?accountId=sparklyidentity"
+            class="social-icon"
+            target="_blank"
+          >
+            <img src="./public/img/line.svg" alt="" />
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script src="./public/js/jquery/jquery.min.js"></script>
+    <script src="./public/js/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="./public/js/bootstrap/bootstrap.min.js"></script>
+    <script src="./public/js/swiper/swiper-bundle.min.js"></script>
+    <script src="./public/js/aos/aos.js"></script>
+    <script src="./public/js/DistortedLinkEffects/distorted1.js"></script>
+    <script src="./public/js/DistortedLinkEffects/index.js"></script>
+    <script src="./public/js/index.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script>
+      var initSubject = "",
+        initBody = "";
+      function submitHandler() {
+        var to = "rachel@sparkly.com.tw";
+        var name = nameText.value;
+        var email = mail.value;
+        var tel = phone.value;
+        var subject = caseType.value;
+        //把user填的資料都塞到 mail body 中
+        var body = "" + description.value + "%0A%0A%0A"; //%0A是換行 換了三行
+        body += "From：" + companyText.value + "｜" + nameText.value + "%0A";
+        body += "Email：" + mail.value + "%0A";
+        body += "Tel：" + phone.value;
+        //傳送的主要程式碼
+        mailTo.href = "mailto:" + to + "?subject=" + subject + "&body=" + body;
+        mailTo.click();
+      }
+      function init() {
+        subText.value = initSubject;
+        toText.value = initTo;
+        bodyText.value = initBody;
+      }
+    </script>
+  </body>
+</html>

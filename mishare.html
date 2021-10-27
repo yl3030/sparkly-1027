@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./public/img/favicon.svg" type="image/x-icon">
+    <title>米雪兒</title>
+    <!-- awesomefont CDN -->
+    <script
+      src="https://kit.fontawesome.com/69fd600045.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://use.typekit.net/cho0ciw.css">
+
+    <link rel="stylesheet" href="./public/css/bootstrap/bootstrap.css" />
+    <link rel="stylesheet" href="./public/css/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./public/css/DistortedLinkEffects/base.css" />
+    <link rel="stylesheet" href="./public/css/aos/aos.css" />
+    <!-- my css -->
+    <link rel="stylesheet" href="./public/css/style.css" />
+
+    <!--Google Analytics Script碼(start) 要放在</head>之前 -->
+    <script>
+      (function (i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function () {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "https://www.google-analytics.com/analytics.js",
+        "ga"
+      );
+
+      ga("create", "UA-17182539-2", "auto");
+      ga("send", "pageview");
+    </script>
+    <!--Google Analytics Script碼(End) -->
+  </head>
+  <style>
+    main {
+      padding: 70px 0 0 0 !important;
+      margin: 0;
+      overflow: hidden;
+    }
+    @media screen and (max-width:575px) {
+      main {
+        padding: 60px 0 0 0 !important;
+      }
+    }
+  </style>
+  <body>
+    <div id="loading">
+      <img src="./public/img/logo1.gif" alt="" />
+    </div>
+    <header class="d-flex">
+      <div class="icon d-flex">
+        <div class="logo">
+          <a href="./index.html">
+            <img
+              class="origin"
+              src="./public/img/logo2.svg"
+              alt="西伯里品牌形象設計"
+            />
+            <img
+              class="down"
+              src="./public/img/logo2.svg"
+              alt="西伯里品牌形象設計"
+            />
+          </a>
+        </div>
+        <div class="social">
+          <a
+            href="https://www.facebook.com/sparkly.identity.design"
+            class="social-icon"
+            target="_blank"
+          >
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <!-- <a href="#" class="social-icon">
+            <i class="fab fa-linkedin-in"></i>
+          </a> -->
+          <a
+            href="https://www.instagram.com/sparkly_identity/"
+            class="social-icon"
+            target="_blank"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+          <!-- <a href="#" class="social-icon">
+            <i class="fab fa-behance"></i>
+          </a> -->
+          <a href="https://liff.line.me/1645278921-kWRPP32q/?accountId=sparklyidentity" class="social-icon" target="_blank">
+            <img src="./public/img/line.svg" alt="" />
+          </a>
+        </div>
+      </div>
+      <div class="link d-flex">
+        <a class="consult" href="./contact.html">開始諮詢</a>
+        <div class="menu-box">
+          <div class="top-bar bar"></div>
+          <div class="middle-bar bar"></div>
+          <div class="bottom-bar bar"></div>
+        </div>
+        <nav class="main-nav menu menu--line">
+          <ul>
+            <li class="cross menu-cross">
+              <img src="./public/img/cross.svg" alt="" />
+            </li>
+            <li>
+              <a class="" href="./work.html">WORK</a>
+            </li>
+            <li>
+              <a class="" href="./about.html">ABOUT</a>
+            </li>
+            <li>
+              <a class="" href="./about.html#service">SERVICE</a>
+            </li>
+            <li>
+              <a class="" href="./contact.html">CONTACT</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="bg-mi-yellow mishare-logo">
+        <img src="./public/img/mishare_logo_1.svg" alt="" />
+      </div>
+
+      <div class="bg-mi-blue work-px pt-200px pb-100px">
+        <div class="row">
+          <div class="col-md-8 mb-md-0 mb-5" data-aos="fade-right" data-aos-duration="400" data-aos-easing="ease-in-sine">
+            <img class="w-75" src="./public/img/mishare_logo_2.png" alt="" />
+          </div>
+          <div class="col-md-4" data-aos="fade-left" data-aos-duration="400" data-aos-easing="ease-in-sine">
+            <div class="intro-box mb-0">
+              <h4>
+                米雪兒<br />
+                品牌包裝形象設計
+              </h4>
+              <p>
+                泉利米香的前身，是1971年開始經營的基隆傳統麵包店。2007年，顧客上門訂米香作為訂婚喜餅，試吃品讓老闆的小孫子一吃上癮，也開啟糕餅老店轉型米香專賣店的新契機。
+              </p>
+              <p>
+                泉利米香以健康天然為產品訴求，採用不造成身體負擔的芥花油，不含人工色素、香料。獨家研發「冰凍米香」，一改傳統米香冰後變得更硬的口感，為米香走出新的方向，成為基隆著名的在地伴手禮。
+              </p>
+              <p>＃品牌命名 ＃品牌標語 ＃品牌標誌 ＃包裝設計</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-mi-blue work-p mishare-intro">
+        <div class="row">
+          <div class="col-md-4 mishare-intro_box" data-aos="fade-up" data-aos-duration="400" data-aos-easing="ease-in-sine">
+            <div class="intro-box">
+              <h3>CHALLENGE</h3>
+              <h4>
+                前進基隆獨有國際觀光市場<br />
+                挑戰推展在地米食文化
+              </h4>
+              <p>
+                泉利兼具傳統與創新口味的米香，已經是基隆在地人熟悉的食品。考慮到基隆擁有全球郵輪停泊利基的國際觀光市場，如何讓「泉利米香」作為「基隆特色品牌」，進一步向外推展在地米食文化，是泉利在面對新市場時的品牌形象挑戰。
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 mishare-intro_box" data-aos="fade-up" data-aos-delay="200" data-aos-duration="400" data-aos-easing="ease-in-sine">
+            <div class="intro-box">
+              <h3>STARTEGY</h3>
+              <h4>
+                鎖定米香喜餅「分享」喜氣<br />
+                中英文並用與全球溝通
+              </h4>
+              <p>
+                西伯里研究泉利的品牌定位與產品特色後，決定同時用中英文與國內外觀光客溝通；為泉利推出新品牌名「米雪兒MI.SHARE」，並以「分享與你，祝福於米Share
+                what we shared.」作為品牌標語，同時也設計新的品牌標誌。
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 mishare-intro_box" data-aos="fade-up" data-aos-delay="400" data-aos-duration="400" data-aos-easing="ease-in-sine">
+            <div class="intro-box">
+              <h3>SLOGAN</h3>
+              <h4>
+                分享與你，祝福於米<br />
+                Share what we shared.
+              </h4>
+              <p>
+                米香作為傳統的訂婚喜餅，是新人與賓客「分享」喜氣的食品，因此以分享（Share）作為品牌標語的主軸；品牌名「米雪兒MI.SHARE」除了呼應「米」和「分享」的主軸，同時「雪」字也代表冰凍吃法的特色。
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="square"></div>
+        <div class="intro-box">
+          <h4 class="text-center">
+            分享與你，祝福於米<br />
+            Share what we shared.
+          </h4>
+        </div>
+      </div>
+
+      <div class="bg-mi-yellow mishare-feature">
+        <div class="row mx-0">
+          <div class="col-md-4 col-6 px-0 mishare-feature_box">
+            <img class="w-100" src="./public/img/mishare_style_1.png" alt="" />
+            <div class="text text-center">
+              <h4>VARIETY</h4>
+              <p>多元</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-6 px-0 mishare-feature_box">
+            <img class="w-100" src="./public/img/mishare_style_1.png" alt="" />
+            <div class="text text-center">
+              <h4>RICE</h4>
+              <p>米食</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-6 px-0 mishare-feature_box">
+            <img class="w-100" src="./public/img/mishare_style_1.png" alt="" />
+            <div class="text text-center">
+              <h4>HEALTH</h4>
+              <p>健康</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-6 px-0 mishare-feature_box">
+            <img class="w-100" src="./public/img/mishare_style_1.png" alt="" />
+            <div class="text text-center">
+              <h4>KEELONG</h4>
+              <p>基隆</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-6 px-0 mishare-feature_box">
+            <img class="w-100" src="./public/img/mishare_style_1.png" alt="" />
+            <div class="text text-center">
+              <h4>FROZEN</h4>
+              <p>冰凍</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-6 px-0 mishare-feature_box">
+            <img class="w-100" src="./public/img/mishare_style_1.png" alt="" />
+            <div class="text text-center">
+              <h4>SHARE</h4>
+              <p>分享</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-mi-blue mishare-share work-px pt-100px pb-200px">
+        <p>
+          英文標語以“Share what we
+          shared”傳達品牌共享喜悅與祝福之意，句尾“shared”更象徵泉利米香將顧客作為家人看待，希望將家人間共享情誼與每一位顧客分享之精神。
+        </p>
+        <img class="sparkly-logo" src="./public/img/logo2.gif" alt="" />
+      </div>
+
+      <div class="work-p mishare-CIS">
+        <div
+          class="title-box font-noto"
+          data-aos="fade-up"
+          data-aos-duration="400"
+          data-aos-easing="ease-in-sine"
+        >
+          <h2>LOGO</h2>
+          <p>品牌標誌</p>
+        </div>
+        <img class="logo" src="./public/img/mishare_logo_1.svg" alt="" />
+        <div class="row mishare-CIS_box">
+          <div class="col-sm-4">
+            <div class="pic">
+              <img src="./public/img/mishare_logoicon_1.png" alt="" />
+            </div>
+            <p>RICE<br />CAKE</p>
+          </div>
+          <div class="col-sm-4">
+            <div class="pic">
+              <img src="./public/img/mishare_logoicon_2.png" alt="" />
+            </div>
+            <p>KEELONG<br />RAINWATER</p>
+          </div>
+          <div class="col-sm-4">
+            <div class="pic">
+              <img src="./public/img/mishare_logoicon_3.png" alt="" />
+            </div>
+            <p>MOUNTAIN</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="mishare-color">
+        <div class="row mx-0">
+          <div class="col-sm-6 px-0 bg-mi-yellow position-relative">
+            <img class="w-100" src="./public/img/mishare_style_2.png" alt="" />
+            <div class="text text-center text-white position-center">
+              晨暉金<br />
+              PANTONE 10342<br />
+              C0 M25 Y55 K15<br />
+              R225 G184 B114
+            </div>
+          </div>
+          <div class="col-sm-6 px-0 bg-mi-blue position-relative">
+            <img class="w-100" src="./public/img/mishare_style_2.png" alt="" />
+            <div class="text text-center text-white position-center">
+              潮汐藍<br />
+              PANTONE 8484<br />
+              C90 M70 Y35 K0<br />
+              R34 G83 B126
+            </div>
+          </div>
+        </div>
+        <div class="row mx-0 mishare-color_sub">
+          <div class="col-sm-4 col-6 px-0 mishare-color_sub_box">
+            <div class="text text-center text-white">
+              C0 M80 Y65 K0<br />
+              R234 G85 B72
+            </div>
+          </div>
+          <div class="col-sm-4 col-6 px-0 mishare-color_sub_box">
+            <div class="text text-center text-white">
+              C30 M15 Y100 K0<br />
+              R195 G194 B0
+            </div>
+          </div>
+          <div class="col-sm-4 col-6 px-0 mishare-color_sub_box">
+            <div class="text text-center text-white">
+              C0 M10 Y15 K0<br />
+              R253 G237 B219
+            </div>
+          </div>
+          <div class="col-sm-4 col-6 px-0 mishare-color_sub_box">
+            <div class="text text-center text-white">
+              C0 M55 Y0 K0<br />
+              R239 G147 B187
+            </div>
+          </div>
+          <div class="col-sm-4 col-6 px-0 mishare-color_sub_box">
+            <div class="text text-center text-white">
+              C50 M0 Y0 K0<br />
+              R126 G206 B244
+            </div>
+          </div>
+          <div class="col-sm-4 col-6 px-0 mishare-color_sub_box">
+            <div class="text text-center text-white">
+              C0 M40 Y50 K0<br />
+              R245 G175 B126
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-mi-yellow mishare-proto">
+        <img
+          class="w-100"
+          src="./public/img/mishare_pic_4.png"
+          alt=""
+          data-aos="fade-up"
+          data-aos-duration="400"
+          data-aos-easing="ease-in-sine"
+        />
+        <div
+          class="proto-2"
+          data-aos="fade-up"
+          data-aos-duration="400"
+          data-aos-delay="300"
+          data-aos-easing="ease-in-sine"
+        >
+          <img src="./public/img/mishare_pic_5.png" alt="" />
+        </div>
+        <div
+          class="proto-3"
+          data-aos="fade-up"
+          data-aos-duration="400"
+          data-aos-delay="500"
+          data-aos-easing="ease-in-sine"
+        >
+          <img class="w-50" src="./public/img/mishare_pic_6.png" alt="" />
+        </div>
+        <img class="logo" src="./public/img/mishare_logo_1.svg" alt="" />
+      </div>
+
+      <img class="w-100" src="./public/img/mishare_pic_7.png" alt="" />
+      <img class="w-100" src="./public/img/mishare_pic_8.png" alt="" />
+
+      <div class="bg-mi-blue work-px mishare-feedback pt-100px pb-200px">
+        <div class="row mb-100px">
+          <div class="col-md-6">
+            <div
+              class="title-box font-noto"
+              data-aos="fade-right"
+              data-aos-duration="400"
+              data-aos-easing="ease-in-sine"
+            >
+              <h2>FEEDBACK</h2>
+              <p>品牌更新後成果</p>
+            </div>
+          </div>
+          <div class="col-md-6" data-aos="fade-left"
+          data-aos-duration="400"
+          data-aos-easing="ease-in-sine">
+            <div class="intro-box">
+              <h4>
+                新品牌形象吸引旅人目光<br />
+                與親友「分享」基隆美好
+              </h4>
+              <p>
+                泉利推出新的「米雪兒」系列產品，新穎的品牌形象與高質感的包裝設計，讓來到基隆的國內外旅人有了驚喜的新發現。泉利的傳統米香，進入更多旅人的行李箱，讓旅人們的親友分享更多基隆的美好。
+              </p>
+            </div>
+          </div>
+        </div>
+        <img class="title-pic" src="./public/img/mishare_text.png" alt="" />
+        <div class="swiper-container swiper-mishare-feedback">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./public/img/mishare_slider_1.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./public/img/mishare_slider_2.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./public/img/mishare_slider_3.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./public/img/mishare_slider_4.png" alt="" />
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+
+      <img class="w-100 mt-n1 bg-mi-blue" src="./public/img/mishare_pic_9.png" alt="" />
+
+    </main>
+    <footer class="work-footer bg-mi-blue footer-mishare">
+      <div class="other-work">
+        <p class="text-center w-100">YOU MIGHT ALSO LIKE....</p>
+        <div class="row">
+          <div class="col-sm-4 col-12">
+            <a href="#" target="_blank" class="pic"
+              ><img src="./public/img/other-1.jpeg" alt=""
+            /></a>
+          </div>
+          <div class="col-sm-4 col-12">
+            <a href="#" target="_blank" class="pic"
+              ><img src="./public/img/other-2.gif" alt=""
+            /></a>
+          </div>
+          <div class="col-sm-4 col-12">
+            <a href="#" target="_blank" class="pic"
+              ><img src="./public/img/other-3.jpeg" alt=""
+            /></a>
+          </div>
+        </div>
+      </div>
+      <div class="backtotop">
+        <button class="top">
+          <i class="fas fa-chevron-up"></i>
+          <p>BACK TO TOP</p>
+        </button>
+      </div>
+      <div class="row justify-content-between">
+        <div class="col-md-6 col-sm-5 col-12 mb-sm-0 mb-5 d-flex align-items-center justify-content-start">
+          <img class="logo-mishare" src="./public/img/mishare_logo_2.png" alt="" />
+          <img src="./public/img/logo2.gif" alt="" />
+        </div>
+        <div class="col-md-6 col-sm-7 col-12">
+          <p>品牌訪談、消費者診斷分析、品牌定位策略、主視覺設計、品牌行銷</p>
+          <p>
+            Brand interview , Consumer diagnostic analysis , Brand positioning
+            stratrgy , Key visual design,Brand marketing
+          </p>
+        </div>
+      </div>
+    </footer>
+    <footer class="normal">
+      <div class="d-flex">
+        <a href="./index.html" class="logo">
+          <img
+            src="./public/img/logo-red.svg"
+            alt="西伯里品牌形象設計"
+          />
+        </a>
+        <div class="about">
+          <div>
+            <p>西伯里品牌形象設計 SPARKLY IDENTITY</p>
+            <p>
+              異業合作<a
+                href="mailto:service@sparkly.com.tw"
+                class="ms-1"
+                >service@sparkly.com.tw</a
+              >
+            </p>
+            <p>
+              品牌設計<a
+                href="mailto:rachel@sparkly.com.tw"
+                class="ms-1"
+                >rachel@sparkly.com.tw</a
+              >
+            </p>
+            <p>886+ 02 2331 2476</p>
+          </div>
+        </div>
+        <div class="page-outer">
+          <ul class="page-box">
+            <li class="page-list"><a href="./work.html">WORK</a></li>
+            <li class="page-list">
+              <a href="./contact.html">CONTACT</a>
+            </li>
+            <li class="page-list">
+              <a href="./about.html">ABOUT</a>
+            </li>
+            <li class="page-list">
+              <a href="./about.html#join">JOIN US</a>
+            </li>
+            <li class="page-list">
+              <a href="./about.html#service">SERVICE</a>
+            </li>
+            <li class="page-list">
+              <a
+                href="https://www.instagram.com/s.midweekend/"
+                target="_blank"
+                >MIDWEEKEND</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="social">
+          <!-- <h4>SOCIAL MEDIA</h4> -->
+          <a
+            href="https://www.facebook.com/sparkly.identity.design"
+            class="social-icon"
+            target="_blank"
+          >
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <!-- <a href="#" class="social-icon">
+                <i class="fab fa-linkedin-in"></i>
+              </a> -->
+          <a
+            href="https://www.instagram.com/sparkly_identity/"
+            class="social-icon"
+            target="_blank"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+          <!-- <a href="#" class="social-icon">
+                <i class="fab fa-behance"></i>
+              </a> -->
+          <a
+            href="https://liff.line.me/1645278921-kWRPP32q/?accountId=sparklyidentity"
+            class="social-icon"
+            target="_blank"
+          >
+            <img src="./public/img/line.svg" alt="" />
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./public/js/jquery/jquery.min.js"></script>
+    <script src="./public/js/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="./public/js/bootstrap/bootstrap.min.js"></script>
+    <script src="./public/js/swiper/swiper-bundle.min.js"></script>
+    <script src="./public/js/DistortedLinkEffects/distorted1.js"></script>
+    <script src="./public/js/DistortedLinkEffects/index.js"></script>
+    <script src="./public/js/aos/aos.js"></script>
+    <script src="./public/js/index.js"></script>
+    <script>
+      AOS.init();
+      var swiper = new Swiper(".swiper-mishare-feedback", {
+        slidesPerView: 1,
+        loop: true,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
+      });
+    </script>
+  </body>
+</html>

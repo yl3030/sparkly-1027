@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./public/img/favicon.svg" type="image/x-icon">
+    <title>透紅佳人</title>
+    <!-- awesomefont CDN -->
+    <script
+      src="https://kit.fontawesome.com/69fd600045.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://use.typekit.net/cho0ciw.css">
+
+    <link rel="stylesheet" href="./public/css/bootstrap/bootstrap.css" />
+    <link rel="stylesheet" href="./public/css/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./public/css/DistortedLinkEffects/base.css" />
+    <link rel="stylesheet" href="./public/css/aos/aos.css" />
+    <!-- my css -->
+    <link rel="stylesheet" href="./public/css/style.css" />
+
+    <!--Google Analytics Script碼(start) 要放在</head>之前 -->
+    <script>
+      (function (i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function () {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "https://www.google-analytics.com/analytics.js",
+        "ga"
+      );
+
+      ga("create", "UA-17182539-2", "auto");
+      ga("send", "pageview");
+    </script>
+    <!--Google Analytics Script碼(End) -->
+  </head>
+  <style>
+    main {
+      /* padding:  0 !important; */
+      padding: 70px 0 0 0 !important;
+      margin: 0;
+    }
+    @media screen and (max-width:575px) {
+      main {
+        padding: 60px 0 0 0 !important;
+      }
+    }
+  </style>
+  <body>
+    <div id="loading">
+      <img src="./public/img/logo1.gif" alt="" />
+    </div>
+    <header class="d-flex">
+      <div class="icon d-flex">
+        <div class="logo">
+          <a href="./index.html">
+            <img
+              class="origin"
+              src="./public/img/logo2.svg"
+              alt="西伯里品牌形象設計"
+            />
+            <img
+              class="down"
+              src="./public/img/logo2.svg"
+              alt="西伯里品牌形象設計"
+            />
+          </a>
+        </div>
+        <div class="social">
+          <a
+            href="https://www.facebook.com/sparkly.identity.design"
+            class="social-icon"
+            target="_blank"
+          >
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <!-- <a href="#" class="social-icon">
+            <i class="fab fa-linkedin-in"></i>
+          </a> -->
+          <a
+            href="https://www.instagram.com/sparkly_identity/"
+            class="social-icon"
+            target="_blank"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+          <!-- <a href="#" class="social-icon">
+            <i class="fab fa-behance"></i>
+          </a> -->
+          <a href="https://liff.line.me/1645278921-kWRPP32q/?accountId=sparklyidentity" class="social-icon" target="_blank">
+            <img src="./public/img/line.svg" alt="" />
+          </a>
+        </div>
+      </div>
+      <div class="link d-flex">
+        <a class="consult" href="./contact.html">開始諮詢</a>
+        <div class="menu-box">
+          <div class="top-bar bar"></div>
+          <div class="middle-bar bar"></div>
+          <div class="bottom-bar bar"></div>
+        </div>
+        <nav class="main-nav menu menu--line">
+          <ul>
+            <li class="cross menu-cross">
+              <img src="./public/img/cross.svg" alt="" />
+            </li>
+            <li>
+              <a class="" href="./work.html">WORK</a>
+            </li>
+            <li>
+              <a class="" href="./about.html">ABOUT</a>
+            </li>
+            <li>
+              <a class="" href="./about.html#service">SERVICE</a>
+            </li>
+            <li>
+              <a class="" href="./contact.html">CONTACT</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <img class="w-100" src="./public/img/jiadong_banner.png" alt="" />
+      <div class="jiadong-red work-p bg-ji-red">
+        <div id="scroll_div" class="scroll_div">
+          <div id="scroll_begin">
+            <ul>
+              <li><span>Jiadong, a place near blue,</span></li>
+              <li><img src="./public/img/logo-white.svg" alt="" /></li>
+              <li><span>with sweet-salty breeze.</span></li>
+              <li><img src="./public/img/logo-white.svg" alt="" /></li>
+              <li><span>a lady is born.</span></li>
+            </ul>
+          </div>
+          <div id="scroll_end"></div>
+        </div>
+        <div class="d-flex justify-content-start">
+          <div class="pic">
+            <img src="./public/img/jiadong_logo.svg" alt="" />
+          </div>
+          <div class="intro-box">
+            <h4>透紅佳人 | 品牌形象設計</h4>
+            <p>
+              佳冬鄉位於南台灣的農業大縣:屏東，轄內土地肥沃，農漁產業蓬勃發展，在蔬果農產中，蓮霧市場佳評不斷。
+            </p>
+            <p>消費者提到黑珍珠就會聯想到屏東蓮霧，而佳冬鄉所生產的蓮霧更獲選為國宴餐桌指定水果，可見其品質極佳，並在2001年成立透紅佳人蓮霧品牌，也持續與當地農民與農村結合，帶領佳冬鄉農村經濟發展。</p>
+            <p>#品牌診斷 #品牌識別 #設計策略 #包裝設計 #內容行銷 #果物</p>
+          </div>
+        </div>
+      </div>
+      <div class="jiadong-challenge work-px py-100px bg-ji-red">
+        <div
+          class="title-box"
+          data-aos="fade-up"
+          data-aos-duration="400"
+          data-aos-easing="ease-in-sine"
+        >
+          <h2>CHALLENGE</h2>
+          <p>挑戰</p>
+        </div>
+        <div class="content">
+          <div class="line-box">
+            <div class="d-flex">
+              <span
+                data-aos="fade-up"
+                data-aos-duration="400"
+                data-aos-easing="ease-in-sine"
+                >農產加工食品轉型</span
+              >
+              <span
+                data-aos="fade-up"
+                data-aos-duration="400"
+                data-aos-easing="ease-in-sine"
+                data-aos-delay="400"
+                >地方土產刻板印象</span
+              >
+              <span
+                data-aos="fade-up"
+                data-aos-duration="400"
+                data-aos-easing="ease-in-sine"
+                data-aos-delay="200"
+                >吸引年輕消費者</span
+              >
+            </div>
+            <div
+              class="rounded-circle border-1 circle-box"
+              data-aos="fade-up"
+              data-aos-duration="400"
+              data-aos-easing="ease-in-sine"
+              data-aos-delay="600"
+            >
+              <p>
+                嶄新現代<br />
+                品牌識別
+              </p>
+            </div>
+          </div>
+          <div class="intro-box">
+            <h4>老品牌迎向新時代， 創造現代視覺新形象</h4>
+            <p>
+              台灣四面環海每年夏季颱風接連不斷，在自然災害的影響下農民常常血本無歸，透過佳冬農會建立透紅佳人品牌來帶動農產加工食品及文創商品。由於近二十年成立的品牌視覺及整體形象有些過時甚至容易被歸類為地方土產，且舊形象不容易打入市場通路門市及引起年輕消費者的興趣。因此透紅佳人品牌的目標是在台灣農產市場上創造嶄新而現代的形象。
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="jiadong-stretagy work-px pb-200px bg-ji-red">
+        <div
+          class="title-box"
+          data-aos="fade-up"
+          data-aos-duration="400"
+          data-aos-easing="ease-in-sine"
+        >
+          <h2>STRETAGY</h2>
+          <p>策略</p>
+        </div>
+        <div class="content">
+          <div class="stretagy-box d-flex">
+            <div
+              data-aos="fade-up"
+              data-aos-duration="400"
+              data-aos-easing="ease-in-sine"
+            >
+              <h5>1. 業者通路</h5>
+              <p>團隊和業者及通路商進行訪談，討論品牌策略。</p>
+            </div>
+            <div
+              data-aos="fade-up"
+              data-aos-duration="400"
+              data-aos-easing="ease-in-sine"
+              data-aos-delay="200"
+            >
+              <h5>2. 口感測試</h5>
+              <p>經過多次消費者之產品口感測試，以利品牌定位之了解。</p>
+            </div>
+            <div
+              data-aos="fade-up"
+              data-aos-duration="400"
+              data-aos-easing="ease-in-sine"
+              data-aos-delay="400"
+            >
+              <h5>3. 消費喜好</h5>
+              <p>團隊經由訪談分析，了解消費者喜好。</p>
+            </div>
+          </div>
+          <img class="pic" src="./public/img/stretagy-pic.png" alt="" />
+          <div class="intro-box">
+            <h4>蓮霧樹下仰望果實視覺發想，設計時尚大方新品牌標識</h4>
+            <p>
+              對於品牌重塑計劃，2019年，西伯里品牌設計經過多次和業者及通路商訪談、口感測試，了解消費受眾的喜好後，討論出對於品牌重塑計劃將以「減法」呈現。更純粹簡鍊的設計，透過更新品牌logo與通路新包裝，為透紅佳人建立新品牌識別形象。
+            </p>
+          </div>
+          <img class="logo-gif" src="./public/img/logo2.gif" alt="" />
+        </div>
+      </div>
+      <div class="jiadong-logo-concept work-px">
+        <div
+          class="title-box"
+          data-aos="fade-up"
+          data-aos-duration="400"
+          data-aos-easing="ease-in-sine"
+        >
+          <h2>LOGO CONCEPT</h2>
+          <p>品牌標誌</p>
+        </div>
+        <div class="content">
+          <div
+            class="left-pic"
+            data-aos="fade-right"
+            data-aos-duration="400"
+            data-aos-easing="ease-in-sine"
+          >
+            <img src="./public/img/jiadong_fruit.png" alt="" />
+          </div>
+          <p>
+            「吹著海風生長的蓮霧，仰望的視角下，顆顆飽滿的果實底部，有如陽光中透出的蓮霧從優良的成長環境下散發出自信、閃耀光采的樣子。
+            」品牌標誌之更新，以蓮霧底部的造形為視覺核心，為透紅佳人標誌識別。
+          </p>
+          <div class="right-pic">
+            <img
+              data-aos="fade-left"
+              data-aos-duration="400"
+              data-aos-easing="ease-in-sine"
+              src="./public/img/jiadong_logo2.png"
+              alt=""
+            />
+            <p>
+              整體識別展現出時尚、簡潔、大方的形象，有助品牌與年輕族群進行交流。期望透紅佳人以新穎時尚面貌，呈現給消費者高品質與頂級感，為品牌增值。
+            </p>
+          </div>
+          <div class="row logo-compare">
+            <div class="col-6">
+              <div class="pic">
+                <img src="./public/img/old-logo.svg" alt="" />
+              </div>
+              <p>標誌更新前</p>
+            </div>
+            <div class="col-6">
+              <div class="pic">
+                <img src="./public/img/new-logo.svg" alt="" />
+              </div>
+              <p>標誌更新後</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="jiadong-color">
+        <div class="row">
+          <div class="col-sm-6 red-color red-right">
+            <p>
+              <span>
+                佳冬紅<br />
+                象徵鮮亮透紅的佳人魅力
+              </span>
+              <span>
+                Pantone 185<br />
+                C0 M100 Y100 K0 | R230 G0 B18
+              </span>
+            </p>
+          </div>
+          <div class="col-sm-6 red-color red-left">
+            <div class="row rl">
+              <div class="col-3">
+                <p>80%</p>
+              </div>
+              <div class="col-3">
+                <p>60%</p>
+              </div>
+              <div class="col-3">
+                <p>40%</p>
+              </div>
+              <div class="col-3">
+                <p>20%</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 green-color green-left">
+            <img src="./public/img/jiadong_logo3.svg" alt="" />
+          </div>
+          <div class="col-sm-6 green-color green-right">
+            <p>
+              深綠色<br />
+              神秘透亮的深邃色彩
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <img class="w-100" src="./public/img/jiadong-pic7.png" alt="" />
+      <div class="row jiadong-box">
+        <div class="col-sm-6">
+          <img class="w-100" src="./public/img/green-box.png" alt="" />
+        </div>
+        <div class="col-sm-6">
+          <img class="w-100" src="./public/img/red-box.png" alt="" />
+        </div>
+      </div>
+      <div class="jiadong-feedback work-px">
+        <div
+          class="title-box"
+          data-aos="fade-up"
+          data-aos-duration="400"
+          data-aos-easing="ease-in-sine"
+        >
+          <h2>FEEDBACK</h2>
+          <p>品牌更新後成果</p>
+        </div>
+        <div class="content">
+          <div class="intro-box">
+            <h4>2019品牌重塑計畫- 精煉與更新品牌識別</h4>
+            <p>
+              品牌重新啟動後,在發表會上新品牌標識受到了年輕消費者、通路和媒體的喜愛。這重要升級不僅改觀了消費者對於農產品牌的土產印象。它還傳達了農產蛻變的受到市場接納歡迎重要啟示,從而大大提升了農會品牌的競爭力,並提高了產品的價值。
+            </p>
+          </div>
+        </div>
+        <video class="w-100" autoplay="" muted="" loop playsinline>
+          <source src="./public/video/jiadong.mp4" type="video/mp4" />
+        </video>
+        <!-- <img class="w-100" src="./public/img/jiadong-pic10.png" alt="" /> -->
+      </div>
+      <img class="w-100" src="./public/img/jiadong-pic4.png" alt="" />
+      <img class="w-100" src="./public/img/jiadong-pic11.png" alt="" />
+      <div class="jiadong-green-bg">
+        <p>
+          Jiadong, a place settling<br />
+          near a piece of blue, with sweet-salty breeze<br />
+          – a alluring lady is born.
+        </p>
+        <img
+          data-aos="fade-right"
+          data-aos-duration="400"
+          data-aos-easing="ease-in-sine"
+          class="green-logo"
+          src="./public/img/jiadong_logo4.svg"
+          alt=""
+        />
+        <p>
+          Jiadong, a place settling<br />
+          near a piece of blue, with sweet-salty breeze<br />
+          – a alluring lady is born.
+        </p>
+        <span
+          data-aos="fade-left"
+          data-aos-duration="400"
+          data-aos-easing="ease-in-sine"
+          >鄰海的佳冬鄉，吹著甜美微鹹味的海風，一顆顆透紅佳人誕生。</span
+        >
+        <img
+          class="pack-pic w-100"
+          src="./public/img/jiadong-pic6.png"
+          alt=""
+        />
+      </div>
+      <img class="w-100" src="./public/img/jiadong-pic9.png" alt="" />
+      <!-- <div class="backtotop green">
+        <button class="top">
+          <i class="fas fa-chevron-up"></i>
+          <p>BACK TO TOP</p>
+        </button>
+      </div> -->
+      <footer class="work-footer footer-jiadong">
+        <div class="other-work">
+          <p class="text-center w-100">YOU MIGHT ALSO LIKE....</p>
+          <div class="row">
+            <div class="col-sm-4 col-12">
+              <a href="#" target="_blank" class="pic"
+                ><img src="./public/img/other-1.jpeg" alt=""
+              /></a>
+            </div>
+            <div class="col-sm-4 col-12">
+              <a href="#" target="_blank" class="pic"
+                ><img src="./public/img/other-2.gif" alt=""
+              /></a>
+            </div>
+            <div class="col-sm-4 col-12">
+              <a href="#" target="_blank" class="pic"
+                ><img src="./public/img/other-3.jpeg" alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+        <div class="backtotop">
+          <button class="top">
+            <i class="fas fa-chevron-up"></i>
+            <p>BACK TO TOP</p>
+          </button>
+        </div>
+        <div class="row justify-content-between">
+          <div class="col-md-6 col-sm-5 col-12 mb-sm-0 mb-5 d-flex align-items-center justify-content-start">
+            <img class="logo-jiadong" src="./public/img/jiadong_logo.svg" alt="" />
+            <img src="./public/img/logo2.gif" alt="" />
+            <!-- <div class="row">
+              <div class="col-sm-6 col-3">
+                <img src="./public/img/jiadong_logo.svg" alt="" />
+              </div>
+              <div class="col-sm-6 col-3">
+                <img src="./public/img/logo2.gif" alt="" />
+              </div>
+            </div> -->
+          </div>
+          <!-- <div class="col-md-3 col-sm-1 col-12"></div> -->
+          <div class="col-md-6 col-sm-7 col-12">
+            <p>品牌訪談、消費者診斷分析、品牌定位策略、主視覺設計、品牌行銷</p>
+            <p>
+              Brand interview , Consumer diagnostic analysis , Brand positioning
+              stratrgy , Key visual design,Brand marketing
+            </p>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <footer class="normal">
+      <div class="d-flex">
+        <a href="./index.html" class="logo">
+          <img
+            src="./public/img/logo-red.svg"
+            alt="西伯里品牌形象設計"
+          />
+        </a>
+        <div class="about">
+          <div>
+            <p>西伯里品牌形象設計 SPARKLY IDENTITY</p>
+            <p>
+              異業合作<a
+                href="mailto:service@sparkly.com.tw"
+                class="ms-1"
+                >service@sparkly.com.tw</a
+              >
+            </p>
+            <p>
+              品牌設計<a
+                href="mailto:rachel@sparkly.com.tw"
+                class="ms-1"
+                >rachel@sparkly.com.tw</a
+              >
+            </p>
+            <p>886+ 02 2331 2476</p>
+          </div>
+        </div>
+        <div class="page-outer">
+          <ul class="page-box">
+            <li class="page-list"><a href="./work.html">WORK</a></li>
+            <li class="page-list">
+              <a href="./contact.html">CONTACT</a>
+            </li>
+            <li class="page-list">
+              <a href="./about.html">ABOUT</a>
+            </li>
+            <li class="page-list">
+              <a href="./about.html#join">JOIN US</a>
+            </li>
+            <li class="page-list">
+              <a href="./about.html#service">SERVICE</a>
+            </li>
+            <li class="page-list">
+              <a
+                href="https://www.instagram.com/s.midweekend/"
+                target="_blank"
+                >MIDWEEKEND</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="social">
+          <!-- <h4>SOCIAL MEDIA</h4> -->
+          <a
+            href="https://www.facebook.com/sparkly.identity.design"
+            class="social-icon"
+            target="_blank"
+          >
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <!-- <a href="#" class="social-icon">
+                <i class="fab fa-linkedin-in"></i>
+              </a> -->
+          <a
+            href="https://www.instagram.com/sparkly_identity/"
+            class="social-icon"
+            target="_blank"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+          <!-- <a href="#" class="social-icon">
+                <i class="fab fa-behance"></i>
+              </a> -->
+          <a
+            href="https://liff.line.me/1645278921-kWRPP32q/?accountId=sparklyidentity"
+            class="social-icon"
+            target="_blank"
+          >
+            <img src="./public/img/line.svg" alt="" />
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./public/js/jquery/jquery.min.js"></script>
+    <script src="./public/js/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="./public/js/bootstrap/bootstrap.min.js"></script>
+    <script src="./public/js/swiper/swiper-bundle.min.js"></script>
+    <script src="./public/js/DistortedLinkEffects/distorted1.js"></script>
+    <script src="./public/js/DistortedLinkEffects/index.js"></script>
+    <script src="./public/js/aos/aos.js"></script>
+    <script src="./public/js/index.js"></script>
+    <script>
+      AOS.init();
+      // 跑馬燈
+      ScrollImgLeft();
+      function ScrollImgLeft() {
+        var speed = 10;
+        var scroll_begin = document.getElementById("scroll_begin");
+        var scroll_end = document.getElementById("scroll_end");
+        var scroll_div = document.getElementById("scroll_div");
+        scroll_end.innerHTML = scroll_begin.innerHTML;
+        function Marquee() {
+          if (scroll_end.offsetWidth - scroll_div.scrollLeft <= 0) {
+            scroll_div.scrollLeft -= scroll_begin.offsetWidth;
+          } else {
+            scroll_div.scrollLeft++;
+          }
+        }
+        var MyMar = setInterval(Marquee, speed);
+        scroll_div.onmouseover = function () {
+          clearInterval(MyMar);
+        };
+        scroll_div.onmouseout = function () {
+          MyMar = setInterval(Marquee, speed);
+        };
+      }
+    </script>
+  </body>
+</html>

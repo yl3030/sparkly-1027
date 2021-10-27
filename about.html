@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./public/img/favicon.svg"
+      type="image/x-icon"
+    />
+    <title>關於我們</title>
+    <!-- awesomefont CDN -->
+    <script
+      src="https://kit.fontawesome.com/69fd600045.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./public/css/bootstrap/bootstrap.css" />
+    <link rel="stylesheet" href="./public/css/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./public/css/aos/aos.css" />
+    <link rel="stylesheet" href="./public/css/DistortedLinkEffects/base.css" />
+    <!-- my css -->
+    <link rel="stylesheet" href="./public/css/style.css" />
+
+    <!--Google Analytics Script碼(start) 要放在</head>之前 -->
+    <script>
+      (function (i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function () {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "https://www.google-analytics.com/analytics.js",
+        "ga"
+      );
+
+      ga("create", "UA-17182539-2", "auto");
+      ga("send", "pageview");
+    </script>
+    <!--Google Analytics Script碼(End) -->
+  </head>
+  <body>
+    <div id="loading">
+      <img src="./public/img/logo1.gif" alt="" />
+    </div>
+    <header class="d-flex">
+      <div class="icon d-flex">
+        <div class="logo">
+          <a href="./index.html">
+            <img
+              class="origin"
+              src="./public/img/logo2.svg"
+              alt="西伯里品牌形象設計"
+            />
+            <img
+              class="down"
+              src="./public/img/logo2.svg"
+              alt="西伯里品牌形象設計"
+            />
+          </a>
+        </div>
+        <div class="social">
+          <a
+            href="https://www.facebook.com/sparkly.identity.design"
+            class="social-icon"
+            target="_blank"
+          >
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <!-- <a href="#" class="social-icon">
+            <i class="fab fa-linkedin-in"></i>
+          </a> -->
+          <a
+            href="https://www.instagram.com/sparkly_identity/"
+            class="social-icon"
+            target="_blank"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+          <!-- <a href="#" class="social-icon">
+            <i class="fab fa-behance"></i>
+          </a> -->
+          <a href="https://liff.line.me/1645278921-kWRPP32q/?accountId=sparklyidentity" class="social-icon" target="_blank">
+            <img src="./public/img/line.svg" alt="" />
+          </a>
+        </div>
+      </div>
+      <div class="link d-flex">
+        <a class="consult" href="./contact.html">開始諮詢</a>
+        <div class="menu-box">
+          <div class="top-bar bar"></div>
+          <div class="middle-bar bar"></div>
+          <div class="bottom-bar bar"></div>
+        </div>
+        <nav class="main-nav menu menu--line">
+          <ul>
+            <li class="cross menu-cross">
+              <img src="./public/img/cross.svg" alt="" />
+            </li>
+            <li>
+              <a class="" href="./work.html">WORK</a>
+            </li>
+            <li>
+              <a class="" href="./about.html">ABOUT</a>
+            </li>
+            <li>
+              <a class="" href="./about.html#service">SERVICE</a>
+            </li>
+            <li>
+              <a class="" href="./contact.html">CONTACT</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="swiper-container" id="about-banner">
+        <div class="swiper-wrapper">
+          <div
+            class="swiper-slide"
+            style="background-image: url(./public/img/about_banner_1.jpg)"
+          ></div>
+          <!-- <div
+            class="swiper-slide"
+            style="background-image: url(./public/img/about_banner_2.jpg)"
+          ></div> -->
+          <div
+            class="swiper-slide"
+            style="background-image: url(./public/img/about_banner_3.jpg)"
+          ></div>
+          <div
+            class="swiper-slide"
+            style="background-image: url(./public/img/about_banner_4.jpg)"
+          ></div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination container" id="ab-pag"></div>
+      </div>
+      <div class="a-introduce">
+        <h2
+          data-aos="fade-up"
+          data-aos-duration="400"
+          data-aos-easing="ease-in-sine"
+        >
+          ABOUT US
+        </h2>
+        <div class="content d-flex">
+          <div>
+            <h1 class="title">品牌形象設計</h1>
+            <p>
+              為客戶品牌診斷，我們開了一個包含策略、故事和視覺的品牌形象企劃，找出令人獨特有感的識別身份，再以主軸發想進行品牌形象設計，積極致力於通過所有溝通媒介讓品牌充滿活力，從而為目標受眾創造引人入勝的品牌體驗。
+            </p>
+          </div>
+          <div>
+            <h3 class="title">全方位行銷規畫</h3>
+            <p>
+              我們是品牌戰略、標識、傳播、品牌參與、行銷和品牌管理方面的專家。<br />配合品牌形象的活用，提供全方位行銷服務，形象網站、影片拍攝、活動直播、文案故事、展場設計、廣告投放、行銷工具。<br /><br />我們的任務多種多樣，跨越部門、消費大眾和地區。
+            </p>
+          </div>
+          <div>
+            <h3 class="title">多面向作品屢獲國際設計獎肯定</h3>
+            <p>
+              獎項不是最終目標，而是我們創造力和想法有效性的指標。客戶橫跨國內及國際品牌，囊括時尚、食品、美妝、公益、科技與運動等多元領域。此外，西伯里也服務諸多台灣在地農業、食品品牌外銷，多面向的設計作品屢獲國內外設計獎項肯定。
+            </p>
+          </div>
+        </div>
+        <div
+          class="record"
+          data-aos="fade-up"
+          data-aos-duration="400"
+          data-aos-easing="ease-in-sine"
+        >
+          <h4>獲獎事蹟</h4>
+          <img src="./public/img/prize-pic.svg" alt="" />
+          <div class="row justify-content-between">
+            <div class="record_content">
+              <!-- <h5>國外</h5> -->
+              <div class="d-flex">
+                <div class="year">2019</div>
+                <div class="name">台灣卓越設計師</div>
+                <div class="prize-name">文化部</div>
+              </div>
+              <div class="d-flex">
+                <div class="year">2019</div>
+                <div class="name">A'Design Award</div>
+                <div class="prize-name">義大利A’設計獎 鉑金獎</div>
+              </div>
+              <div class="d-flex">
+                <div class="year">2019</div>
+                <div class="name">German Design Award</div>
+                <div class="prize-name">德國設計獎</div>
+              </div>
+              <div class="d-flex">
+                <div class="year">2019</div>
+                <div class="name">TAIWAN TOP STAR</div>
+                <div class="prize-name">金獎</div>
+              </div>
+              <div class="d-flex">
+                <div class="year">2018</div>
+                <div class="name">Topawards Asia</div>
+                <div class="prize-name">亞洲設計獎</div>
+              </div>
+              <div class="d-flex">
+                <div class="year">2018</div>
+                <div class="name">Pentawards</div>
+                <div class="prize-name">包裝設計獎 銀獎</div>
+              </div>
+              <div class="d-flex">
+                <div class="year">2017</div>
+                <div class="name">Good design Award</div>
+                <div class="prize-name">日本優良設計獎</div>
+              </div>
+              <div class="d-flex">
+                <div class="year">2015</div>
+                <div class="name">iF Design Award</div>
+                <div class="prize-name">德國iF設計獎</div>
+              </div>
+              <div class="d-flex">
+                <div class="year">2014</div>
+                <div class="name">Red Star Design Award</div>
+                <div class="prize-name">中國紅星獎</div>
+              </div>
+              <div class="d-flex">
+                <div class="year">2014</div>
+                <div class="name">Successful Design Awards</div>
+                <div class="prize-name">中國最成功設計獎</div>
+              </div>
+              <div class="d-flex">
+                <div class="year">2014</div>
+                <div class="name">台灣視覺設計獎</div>
+                <div class="prize-name">金獎</div>
+              </div>
+              <div class="d-flex">
+                <div class="year">2013</div>
+                <div class="name">Golden Pin Design</div>
+                <div class="prize-name">金點設計獎 年度最佳設計獎</div>
+              </div>
+              <div class="d-flex">
+                <div class="year">2013</div>
+                <div class="name">Red Dot Design Award</div>
+                <div class="prize-name">德國紅點設計獎</div>
+              </div>
+              <div class="d-flex">
+                <div class="year">2013</div>
+                <div class="name">新興商業設計師</div>
+                <div class="prize-name">經濟部商業司</div>
+              </div>
+              <div class="d-flex">
+                <div class="year">2012</div>
+                <div class="name">Red Dot Design Award</div>
+                <div class="prize-name">德國紅點設計獎</div>
+              </div>
+              <div class="d-flex">
+                <div class="year">2012</div>
+                <div class="name">台灣視覺設計獎</div>
+                <div class="prize-name">鉑金獎</div>
+              </div>
+              <div class="d-flex">
+                <div class="year">2012</div>
+                <div class="name">台灣視覺設計獎</div>
+                <div class="prize-name">金獎</div>
+              </div>
+              <div class="d-flex">
+                <div class="year">2008</div>
+                <div class="name">iF Design Award</div>
+                <div class="prize-name">德國iF設計獎</div>
+              </div>
+              <div class="d-flex mb-5">
+                <div class="year">2007</div>
+                <div class="name">iF Design Award</div>
+                <div class="prize-name">德國iF設計獎</div>
+              </div>
+              <div>動腦雜誌</div>
+              <div class="d-flex">
+                <div class="year">2016</div>
+                <div class="name">台灣傑出設計公司商業設計類</div>
+                <div class="prize-name">銀獎</div>
+              </div>
+              <div class="d-flex">
+                <div class="year">2015</div>
+                <div class="name">台灣傑出設計公司商業設計類</div>
+                <div class="prize-name">金獎</div>
+              </div>
+              <div class="d-flex">
+                <div class="year">2014</div>
+                <div class="name">台灣傑出設計公司商業設計類</div>
+                <div class="prize-name">銀獎</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="service"></div>
+        <h2
+          data-aos="fade-up"
+          data-aos-duration="400"
+          data-aos-easing="ease-in-sine"
+        >
+          SERVICE
+        </h2>
+        <div class="service">
+          <div class="d-flex align-items-start">
+            <div
+              class="nav flex-column nav-pills"
+              id="service-tab"
+              role="tablist"
+              aria-orientation="vertical"
+            >
+              <button
+                class="nav-link active"
+                id="consultant-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#consultant"
+                type="button"
+                role="tab"
+                aria-controls="consultant"
+                aria-selected="true"
+              >
+                品牌顧問
+              </button>
+              <button
+                class="nav-link"
+                id="design-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#design"
+                type="button"
+                role="tab"
+                aria-controls="design"
+                aria-selected="false"
+              >
+                設計整合
+              </button>
+              <button
+                class="nav-link"
+                id="CIS-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#CIS"
+                type="button"
+                role="tab"
+                aria-controls="CIS"
+                aria-selected="false"
+              >
+                品牌識別
+              </button>
+              <button
+                class="nav-link"
+                id="pack-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pack"
+                type="button"
+                role="tab"
+                aria-controls="pack"
+                aria-selected="false"
+              >
+                包裝設計
+              </button>
+              <button
+                class="nav-link"
+                id="advertising-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#advertising"
+                type="button"
+                role="tab"
+                aria-controls="advertising"
+                aria-selected="false"
+              >
+                廣告行銷
+              </button>
+            </div>
+            <div class="tab-content" id="service-tabContent">
+              <div
+                class="tab-pane fade show active"
+                id="consultant"
+                role="tabpanel"
+                aria-labelledby="consultant-tab"
+              >
+                <div class="d-flex justify-content-between align-items-start">
+                  <div class="content">
+                    <h3>品牌顧問</h3>
+                    <p>
+                      我們認為所有公司都應該有一個明確的目標，如果沒有明確而有意義的目的，品牌將無法與您的員工和客戶建立互動。憑藉豐富的跨領域品牌設計經驗與多元產業合作經驗，十多年來協助客戶分析難題與痛點擬定策略，透過定期會議不斷品牌優化，提供全方位有效解決方案。
+                    </p>
+                  </div>
+                  <div class="service-item">
+                    <h3>服務項目</h3>
+                    <ul>
+                      <li>-品牌分析</li>
+                      <li>-策略擬定</li>
+                      <li>-教育訓練</li>
+                      <li>-定期會議</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="design"
+                role="tabpanel"
+                aria-labelledby="design-tab"
+              >
+                <div class="d-flex justify-content-between align-items-start">
+                  <div class="content">
+                    <h3>設計整合</h3>
+                    <p>
+                      盤點企業旗下品牌資產與現階段市場定位，梳理品牌資源與架構；
+                      協助客戶以適應新局的品牌形象，提升競爭力並強化消費者品牌黏著度。
+                    </p>
+                  </div>
+                  <div class="service-item">
+                    <h3>服務項目</h3>
+                    <ul>
+                      <li>-品牌盤點</li>
+                      <li>-市場分析</li>
+                      <li>-設計策略</li>
+                      <li>-設計統整</li>
+                      <li>-設計執行</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="CIS"
+                role="tabpanel"
+                aria-labelledby="CIS-tab"
+              >
+                <div class="d-flex justify-content-between align-items-start">
+                  <div class="content">
+                    <h3>品牌識別</h3>
+                    <p>
+                      聚焦核心價值，協助客戶搜尋品牌獨特銷售主張定位，執行品牌識別設計與應用；
+                      拓展品牌能見度、建立品牌價值並提升消費者心佔率。
+                    </p>
+                  </div>
+                  <div class="service-item">
+                    <h3>服務項目</h3>
+                    <ul>
+                      <li>-DNA計畫</li>
+                      <li>-識別設計</li>
+                      <li>-色彩計畫</li>
+                      <li>-使用規範</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="pack"
+                role="tabpanel"
+                aria-labelledby="pack-tab"
+              >
+                <div class="d-flex justify-content-between align-items-start">
+                  <div class="content">
+                    <h3>包裝設計</h3>
+                    <p>
+                      盤點客戶產品特性，考量目標市場與客群；
+                      依精準策略分析規劃產品包裝，協助客戶產出符合市場需求設計。
+                    </p>
+                  </div>
+                  <div class="service-item">
+                    <h3>服務項目</h3>
+                    <ul>
+                      <li>-包裝分析</li>
+                      <li>-市場策略</li>
+                      <li>-包裝設計</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="advertising"
+                role="tabpanel"
+                aria-labelledby="advertising-tab"
+              >
+                <div class="d-flex justify-content-between align-items-start">
+                  <div class="content">
+                    <h3>廣告行銷</h3>
+                    <p>
+                      協助客戶聚焦品牌目標受眾，擬定行銷策略；
+                      透過數據分析檢視，精準執行內容產出與投放，與目標受眾進行深度溝通。
+                    </p>
+                  </div>
+                  <div class="service-item">
+                    <h3>服務項目</h3>
+                    <ul>
+                      <li>-市場策略</li>
+                      <li>-內容生成</li>
+                      <li>-內容行銷</li>
+                      <li>-廣告投放</li>
+                      <li>-關鍵字投放</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="process">
+        <h2
+          data-aos="fade-up"
+          data-aos-duration="400"
+          data-aos-easing="ease-in-sine"
+        >
+          WORK PROCESS
+        </h2>
+        <div class="content d-flex">
+          <div class="process-box">
+            <div class="pic">
+              <img src="./public/img/about-gif_1.gif" alt="" />
+            </div>
+            <div class="title d-flex">
+              <div class="number">
+                <p>1</p>
+              </div>
+              <div class="text">
+                <h5>品牌診斷</h5>
+                <p>Brand analysis</p>
+              </div>
+              <p>
+                蒐集參考資料，研究市場資訊，進行深度訪談，檢視品牌當前面臨的狀況與問題。然後確定您品牌設計的最佳發展方向。
+              </p>
+            </div>
+          </div>
+          <div class="process-box">
+            <div class="pic">
+              <img src="./public/img/about-gif_2.gif" alt="" />
+            </div>
+            <div class="title d-flex">
+              <div class="number">
+                <p>2</p>
+              </div>
+              <div class="text">
+                <h5>策略企劃</h5>
+                <p>Strategic Planning</p>
+              </div>
+              <p>
+                了解強大的市場競爭者，重要的是要意識到對手的優勢，並有意識地努力展現自己的優勢。
+                挖掘自身品牌的獨特個性，制定品牌發展策略，擬定與消費者溝通的企畫方案。
+              </p>
+            </div>
+          </div>
+          <div class="process-box">
+            <div class="pic">
+              <img src="./public/img/about-gif_5.gif" alt="" />
+            </div>
+            <div class="title d-flex">
+              <div class="number">
+                <p>3</p>
+              </div>
+              <div class="text">
+                <h5>識別設計</h5>
+                <p>Identity Design</p>
+              </div>
+              <p>
+                提出品牌形象設計，以符合品牌獨特個性的識別設計，正確建立的交流使品牌能夠將商品推向市場，提高其競爭力並顯著降低廣告和促銷的成本。並在消費者心中植入品牌形象。
+              </p>
+            </div>
+          </div>
+          <div class="process-box">
+            <div class="pic">
+              <img src="./public/img/about-gif_4.gif" alt="" />
+            </div>
+            <div class="title d-flex">
+              <div class="number">
+                <p>4</p>
+              </div>
+              <div class="text">
+                <h5>行銷企劃</h5>
+                <p>Marketing Planning</p>
+              </div>
+              <p>
+                以跨領域的品牌設計能力，透過不同的媒介及工具，進行行銷企畫與執行。
+              </p>
+            </div>
+          </div>
+          <div class="process-box">
+            <div class="pic">
+              <img src="./public/img/about-gif_3.gif" alt="" />
+            </div>
+            <div class="title d-flex">
+              <div class="number">
+                <p>5</p>
+              </div>
+              <div class="text">
+                <h5>識別管理</h5>
+                <p>CIS MANAGEMENT</p>
+              </div>
+              <p>
+                提供品牌識別設計規範，及品牌顧問管理服務，
+                以確保品牌形象長期發展的一致性。
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="join" id="join">
+        <h2
+          data-aos="fade-up"
+          data-aos-duration="400"
+          data-aos-easing="ease-in-sine"
+        >
+          JOIN US
+        </h2>
+        <div class="d-flex">
+          <div
+            class="join-box"
+            data-aos="fade-up"
+            data-aos-duration="400"
+            data-aos-easing="ease-in-sine"
+          >
+            <h5>特約攝影</h5>
+            <ul>
+              <li>專案特約</li>
+              <li>二年以上專業經驗</li>
+              <li>註明專長風格</li>
+              <li>請提供作品</li>
+            </ul>
+          </div>
+          <div
+            class="join-box"
+            data-aos="fade-up"
+            data-aos-duration="400"
+            data-aos-easing="ease-in-sine"
+            data-aos-delay="200"
+          >
+            <h5>特約插畫</h5>
+            <ul>
+              <li>專案特約</li>
+              <li>二年以上專業經驗</li>
+              <li>註明專長風格</li>
+              <li>請提供作品</li>
+            </ul>
+          </div>
+          <div
+            class="join-box"
+            data-aos="fade-up"
+            data-aos-duration="400"
+            data-aos-easing="ease-in-sine"
+            data-aos-delay="400"
+          >
+            <h5>特約網頁設計</h5>
+            <ul>
+              <li>專案特約</li>
+              <li>三年以上專業經驗</li>
+              <li>註明專長風格</li>
+              <li>請提供作品</li>
+            </ul>
+          </div>
+          <div
+            class="join-box"
+            data-aos="fade-up"
+            data-aos-duration="400"
+            data-aos-easing="ease-in-sine"
+            data-aos-delay="600"
+          >
+            <h5>特約文案</h5>
+            <ul>
+              <li>專案特約</li>
+              <li>二年以上專業經驗</li>
+              <li>註明專長風格</li>
+              <li>請提供作品</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="contact">
+        <button class="top">
+          <i class="fas fa-chevron-up"></i>
+          <p>BACK TO TOP</p>
+        </button>
+      </div>
+    </main>
+    <footer class="normal">
+      <div class="d-flex">
+        <a href="./index.html" class="logo">
+          <img
+            src="./public/img/logo-red.svg"
+            alt="西伯里品牌形象設計"
+          />
+        </a>
+        <div class="about">
+          <div>
+            <p>西伯里品牌形象設計 SPARKLY IDENTITY</p>
+            <p>
+              異業合作<a
+                href="mailto:service@sparkly.com.tw"
+                class="ms-1"
+                >service@sparkly.com.tw</a
+              >
+            </p>
+            <p>
+              品牌設計<a
+                href="mailto:rachel@sparkly.com.tw"
+                class="ms-1"
+                >rachel@sparkly.com.tw</a
+              >
+            </p>
+            <p>886+ 02 2331 2476</p>
+          </div>
+        </div>
+        <div class="page-outer">
+          <ul class="page-box">
+            <li class="page-list"><a href="./work.html">WORK</a></li>
+            <li class="page-list">
+              <a href="./contact.html">CONTACT</a>
+            </li>
+            <li class="page-list">
+              <a href="./about.html">ABOUT</a>
+            </li>
+            <li class="page-list">
+              <a href="./about.html#join">JOIN US</a>
+            </li>
+            <li class="page-list">
+              <a href="./about.html#service">SERVICE</a>
+            </li>
+            <li class="page-list">
+              <a
+                href="https://www.instagram.com/s.midweekend/"
+                target="_blank"
+                >MIDWEEKEND</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="social">
+          <!-- <h4>SOCIAL MEDIA</h4> -->
+          <a
+            href="https://www.facebook.com/sparkly.identity.design"
+            class="social-icon"
+            target="_blank"
+          >
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <!-- <a href="#" class="social-icon">
+                <i class="fab fa-linkedin-in"></i>
+              </a> -->
+          <a
+            href="https://www.instagram.com/sparkly_identity/"
+            class="social-icon"
+            target="_blank"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+          <!-- <a href="#" class="social-icon">
+                <i class="fab fa-behance"></i>
+              </a> -->
+          <a
+            href="https://liff.line.me/1645278921-kWRPP32q/?accountId=sparklyidentity"
+            class="social-icon"
+            target="_blank"
+          >
+            <img src="./public/img/line.svg" alt="" />
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script src="./public/js/jquery/jquery.min.js"></script>
+    <script src="./public/js/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="./public/js/bootstrap/bootstrap.min.js"></script>
+    <script src="./public/js/swiper/swiper-bundle.min.js"></script>
+    <script src="./public/js/aos/aos.js"></script>
+    <script src="./public/js/DistortedLinkEffects/distorted1.js"></script>
+    <script src="./public/js/DistortedLinkEffects/index.js"></script>
+    <script src="./public/js/index.js"></script>
+    <script>
+      AOS.init();
+      var Aswiper = new Swiper("#about-banner", {
+        loop: true,
+        speed: 600,
+        parallax: true,
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: "#ab-pag",
+          clickable: true,
+        },
+      });
+    </script>
+  </body>
+</html>
