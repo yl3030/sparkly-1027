@@ -1,0 +1,376 @@
+$work-english: 'Vollkorn', serif;
+$jiadong-red:#e60012;
+
+$bijoutier-blue:#1f2c5c;
+$bijoutier-gold:#b28146;
+
+$mishare-blue:#2b4f77;
+$mishare-yellow:#d7b47c;
+
+$omee-brown:#48281e;
+$omee-brown2:#4b2c22;
+$omee-green:#123734;
+$omee-light-brown:#af694b;
+
+$shulong-green:#80be26;
+
+$happy-skin:#f9a176;
+$happy-gray:#9c9c9d;
+$happy-light-skin:#fef6ea;
+
+.title-box {
+  color: #fff;
+  h2 {
+    font-size: 55px;
+    font-family: $english-font;
+    margin-bottom: 0;
+  }
+  p {
+    font-size: 14px;
+  }
+  &.font-noto {
+    h2 {
+      font-family: $chinese-font;
+      font-weight: 300;
+    }
+  }
+  &.bigger-title {
+    h2 {
+      font-size: 60px;
+    }
+  }
+}
+
+.work-p {
+  padding: 40px;
+}
+
+.work-pl {
+  padding-left: 40px;
+}
+
+.work-px {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.intro-box {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 0 70px;
+  color: #fff;
+  h4 {
+    font-size: 27px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    line-height: 1.1;
+    font-family: inherit;
+  }
+  p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    // font-weight: 300;
+    line-height: 2;
+    text-align: left;
+    text-align: justify;
+  }
+}
+
+.scroll_div {
+  width: 100%;
+  // height: 400px;
+  height: 100px;
+  margin: 0 0;
+  overflow: hidden;
+  white-space: nowrap;
+  // background: #ffffff;
+  font-family: $english-font;
+  font-size: 60px;
+  line-height: 1.4;
+  #scroll_begin {
+    display: inline-block;
+    ul {
+      display: inline-block;
+      li {
+        display: inline-block;
+        &:last-child {
+          margin-right: 100px;
+        }
+      }
+    }
+  }
+  #scroll_end {
+    display: inline-block;
+    ul {
+      display: inline-block;
+      li {
+        display: inline-block;
+        &:last-child {
+          margin-right: 100px;
+        }
+      }
+    }
+  }
+  img {
+    width: 80px;
+    display: inline-block;
+    margin: 0 15px;
+  }
+}
+
+.work-footer {
+  background-color: #023325;
+  padding: 60px 40px 40px;
+  color: #fff;
+  .other-work {
+    padding-bottom: 60px;
+    p {
+      color: #fff;
+      font-size: 24px;
+      font-family: $english-font;
+      margin-bottom: 50px;
+    }
+    .row {
+      width: 100%;
+      margin: 0;
+      .pic {
+        display: block;
+        width: 100%;
+        padding-bottom: 55%;
+        position: relative;
+        margin-bottom: 20px;
+        img {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+    
+  }
+  .backtotop {
+    padding: 0 0 130px;
+    .top {
+      color: #fff;
+    }
+  }
+  &.footer-happy {
+    border-bottom: 25px solid $happy-skin;
+    .other-work {
+      p {
+        color: $happy-skin;
+      }
+    }
+    .backtotop {
+      .top {
+        color: $happy-skin;
+      }
+    }
+  }
+  &.footer-shulong {
+    background-image: url(../img/shulong_bg_3.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  &.footer-omee {
+    background-color: #163C38;
+    margin-top: -1px;
+  }
+  > div {
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    img {
+      width: 80px;
+      margin-right: 20px;
+      display: inline-block;
+      &.logo {
+        &-omee {
+          width: 200px;
+        }
+        &-mishare {
+          width: 280px;
+        }
+        &-happy {
+          width: 180px;
+        }
+        &-shulong {
+          width: 150px;
+        }
+        &-bijoutier {
+          width: 150px;
+        }
+      }
+    }
+    ul {
+      li {
+        margin-bottom: 5px;
+      }
+    }
+    p {
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .work-footer {
+    &.footer-mishare {
+      > div {
+        img {
+          width: 60px;
+          &.logo {
+            &-mishare {
+              width: 150px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .work-footer {
+    img {
+      width: 50px;
+    }
+    &.footer-jiadong {
+      > div {
+        img {
+          width: 70px;
+          &.logo {
+            &-omee {
+              width: 70px;
+              // margin-bottom: 20px;
+            }
+          }
+        }
+      }
+    }
+    &.footer-omee {
+      > div {
+        img {
+          width: 50px;
+          &.logo {
+            &-omee {
+              width: 100px;
+              // margin-bottom: 20px;
+            }
+          }
+        }
+      }
+    }
+    &.footer-happy {
+      > div {
+        img {
+          width: 50px;
+          &.logo {
+            &-happy {
+              width: 100px;
+            }
+          }
+        }
+      }
+    }
+    &.footer-shulong {
+      > div {
+        img {
+          width: 55px;
+          &.logo {
+            &-shulong {
+              width: 100px;
+            }
+          }
+        }
+      }
+    }
+    &.footer-bijoutier {
+      > div {
+        img {
+          width: 55px;
+          &.logo {
+            &-bijoutier {
+              width: 90px;
+            }
+          }
+        }
+      }
+    }
+    &.footer-mishare {
+      > div {
+        img {
+          width: 45px;
+          &.logo {
+            &-mishare {
+              width: 110px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .work-p {
+    padding: 20px;
+  }
+
+  .work-pl {
+    padding-left: 20px;
+  }
+
+  .work-px {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .work-footer {
+    padding: 100px 20px 20px;
+    img {
+      width: 80px;
+    }
+    &.footer-mishare {
+      > div {
+        img {
+          width: 60px;
+          &.logo {
+            &-mishare {
+              width: 150px;
+            }
+          }
+        }
+      }
+    }
+    &.footer-happy {
+      > div {
+        img {
+          width: 60px;
+          &.logo {
+            &-happy {
+              width: 120px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .title-box {
+    h2 {
+      font-size: 40px;
+    }
+    &.bigger-title {
+      h2 {
+        font-size: 40px;
+      }
+      
+    }
+  }
+}

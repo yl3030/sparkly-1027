@@ -1,0 +1,411 @@
+.mb-3 {
+  margin-bottom: 12px;
+}
+
+.mb-4 {
+  margin-bottom: 16px;
+}
+
+.mb-5 {
+  margin-bottom: 20px;
+}
+
+.mb-10 {
+  margin-bottom: 40px;
+}
+
+.mb-20 {
+  margin-bottom: 80px;
+}
+
+.pb-10 {
+  padding-bottom: 40px;
+}
+
+.text-bi-blue {
+  color: $bijoutier-blue;
+}
+
+.bg-bi-blue {
+  background-color: $bijoutier-blue;
+}
+
+.bg-bi-gold {
+  background-color: $bijoutier-gold;
+}
+
+.inner-padding {
+  // padding: 120px 20px;
+}
+
+.bijoutier__title {
+  h2 {
+    font-size: 48px !important;
+    font-weight: 300;
+  }
+}
+
+.bijoutier__contentSetting {
+  h3 {
+    font-size: 24px !important;
+  }
+  p {
+    font-size: 14px;
+  }
+}
+
+.wrapper {
+  overflow: hidden;
+}
+
+.bi-circle-box {
+  padding: 0 10px;
+  .circle {
+    width: 100%;
+    padding-bottom: 100%;
+    position: relative;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    .text {
+      position: absolute;
+      width: 100%;
+      text-align: center;
+      color: #fff;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      p {
+        &.en {
+          margin-bottom: 5px;
+          font-size: 18px;
+        }
+        &.ch {
+          font-size: 16px;
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}
+
+
+.bijoutier {
+  &_brand {
+    .scroll_div {
+      margin-bottom: 400px;
+      #scroll_begin {
+        ul {
+          li {
+            &:last-child {
+              margin-right: 0;
+            }
+          }
+        }
+      }
+      img {
+        width: 200px;
+      }
+    }
+  }
+  &_challenge {
+    .challenge-circle {
+      margin-bottom: 70px;
+      justify-content: space-between;
+      .bi-circle-box {
+        width: 21%;
+        &.big {
+          width: 29%;
+        }
+      }
+      img {
+        width: 8%;
+      }
+    }
+  }
+  &_key {
+    .key-circle {
+        justify-content: start !important;
+      .bi-circle-box {
+        width: 28%;
+        margin: 0 0 30px;
+        .circle {
+            box-sizing: content-box;
+        }
+      }
+    }
+  }
+  &_m-video {
+      position: relative;
+      video {
+          position: absolute;
+          width: 25%;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%,-50%);
+      }
+  }
+}
+
+// 品牌識別：藍色＆金色
+.inner-space-box {
+  padding-bottom: 50%;
+}
+
+.brand-bg-text {
+  position: relative;
+
+  p {
+    margin: 0;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 20px;
+  }
+
+  .pantone {
+    padding-left: 20px;
+  }
+
+  .colorNumber {
+    left: 50%;
+  }
+}
+
+.brand--pic--blue {
+  background-image: url("../img/bijoutier-pic-4.png");
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.brand--pic--gold {
+  background-image: url("../img/bijoutier-pic-5.png");
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+// feedback video
+.bijoutier__feedbackVideo {
+  video {
+    margin: -4px 0;
+  }
+}
+
+// footer section --------------------------------
+.bijoutier--footer {
+  .bijoutier-logo {
+    height: 40px;
+    margin-right: 40px;
+  }
+
+  .sparkly-logo {
+    height: 70px;
+  }
+}
+
+@media screen and(max-width:1200px) {
+  .bijoutier {
+    &_challenge {
+      .challenge-circle {
+        justify-content: center;
+        .bi-circle-box {
+          width: 33.3333%;
+          margin-bottom: 30px;
+          &.big {
+            width: 40%;
+          }
+        }
+        img {
+          width: 15%;
+          margin-right: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and(max-width:991px) {
+  .bijoutier-feedback_content {
+    .intro-box {
+      h4 {
+        font-size: 18px;
+      }
+    }
+  }
+  .bijoutier {
+    &_key {
+        .key-circle {
+            .bi-circle-box {
+                width: 33.3333%;
+              .circle {
+                .text {
+                  p {
+                    &.en {
+                      font-size: 14px;
+                    }
+                    &.ch {
+                      font-size: 14px;
+                    }
+                  }
+                }
+              }
+            }
+        }
+      
+    }
+  }
+}
+
+@media screen and(max-width:767px) {
+  .bijoutier {
+    &_challenge {
+      .title-box {
+        margin-bottom: 60px;
+      }
+      .challenge-circle {
+        justify-content: space-between;
+        .bi-circle-box {
+          width: 21%;
+          margin-bottom: 0;
+          &.big {
+            width: 29%;
+          }
+        }
+        img {
+          width: 8%;
+          margin-right: 0;
+        }
+      }
+    }
+    &_key {
+      .title-box {
+        margin-bottom: 60px;
+      }
+      .key-circle {
+        justify-content: center !important;
+        .bi-circle-box {
+          width: 28%;
+          .circle {
+            .text {
+              p {
+                &.en {
+                  font-size: 18px;
+                }
+                &.ch {
+                  font-size: 16px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and(max-width:650px) {
+  .bijoutier {
+    &_challenge {
+      .challenge-circle {
+        justify-content: center;
+        .bi-circle-box {
+          width: 33.3333%;
+          margin-bottom: 30px;
+          padding: 0 5px;
+          &.big {
+            width: 40%;
+          }
+        }
+        img {
+          width: 15%;
+          margin-right: 20px;
+        }
+      }
+    }
+    &_key {
+      .key-circle {
+        .bi-circle-box {
+          width: 33.3333%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and(max-width:575px) {
+  .bijoutier {
+    &_key {
+      .key-circle {
+        .bi-circle-box {
+          .circle {
+            .text {
+              p {
+                &.en {
+                  font-size: 14px;
+                }
+                &.ch {
+                  font-size: 14px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and(max-width:450px) {
+  .bi-circle-box {
+    .circle {
+      .text {
+        p {
+          &.en {
+            font-size: 14px;
+          }
+          &.ch {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+  .bijoutier {
+    &_key {
+        .key-circle {
+          .bi-circle-box {
+            width: 50%;
+            margin-bottom: 30px;
+          }
+        }
+      }
+  }
+}
+
+@media screen and(max-width:375px) {
+  .bijoutier-feedback_content {
+    .intro-box {
+      h4 {
+        font-size: 15px;
+      }
+      p {
+        font-size: 13px;
+      }
+    }
+  }
+  .bi-circle-box {
+    .circle {
+      .text {
+        p {
+          &.en {
+            font-size: 12px;
+          }
+          &.ch {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}

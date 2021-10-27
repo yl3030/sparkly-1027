@@ -1,0 +1,572 @@
+.shulong {
+    &-blossom {
+        background-image: url(../img/shulong_bg_1.png);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        h2 {
+            font-family: FuturaPTMedium;
+            font-size: 80px;
+            margin-bottom: 150px;
+        }
+    }
+    &-strategy {
+        background-image: url(../img/shulong_pic_2.png);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        .intro-box {
+            width: 100%;
+            max-width: 500px;
+            margin: 100px auto;
+        }
+        img {
+            width: 100%;
+            max-width: 500px;
+        }
+    }
+    &-logo {
+        background-image: url(../img/shulong_bg_2.png);
+        // background-size: 105%;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        .logo-element {
+            width: 300px;
+        }
+        .compare {
+            p {
+                text-align: justify;
+            }
+        }
+    }
+    &-brand {
+        // background: linear-gradient(to bottom,#d2e081,#d2e081 3.5%,#fff,#efefef 67.8%);
+        &_compare {
+            max-width: 800px;
+            width: 100%;
+            margin: 100px auto 0;
+            .pic {
+                width: 80%;
+                padding-bottom: 80%;
+                position: relative;
+                margin: 0 auto 60px;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    object-fit: contain;
+                    // width: 300px;
+                    // top: 0;
+                    // left: 50%;
+                    // transform: translateX(-50%);
+                }
+            }
+            p {
+                text-align: center;
+                color: #000;
+            }
+        }
+        &_feature {
+            max-width: 800px;
+            width: 100%;
+            margin: 200px auto 0;
+            color: #000;
+            .feature-box {
+                position: relative;
+                width: 100%;
+                padding-bottom: 100%;
+                border-radius: 35%;
+                border: 2px solid $shulong-green;
+                margin-bottom: 40px;
+                .text {
+                    position: absolute;
+                    width: 100%;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%,-50%);
+                    p {
+                        margin: 0;
+                    }
+                }
+            }
+        }
+        &_slogan {
+            .intro-box {
+                color: #000;
+            }
+        }
+    }
+    &-color {
+        margin-top: -20px;
+        .color-box {
+            width: 20%;
+            .linear {
+                position: absolute;
+                width: 100%;
+                top: 0;
+                left: 0;
+                >div {
+                    width: 100%;
+                    padding-bottom: 20%;
+                    color: #fff;
+                    position: relative;
+                    .percent {
+                        position: absolute;
+                        color: #fff;
+                        top: 50%;
+                        left: 20px;
+                        transform: translateY(-50%);
+                        // width: 100%;
+                    }
+                }
+            }
+            .color-bg {
+                width: 100%;
+                padding-bottom: 200%;
+                position: relative;
+                .text {
+                    position: absolute;
+                    color: #fff;
+                    left: 20px;
+                    // top: 60%;
+                    bottom: 10px;
+                    h4 {
+                        font-size: 22px;
+                        margin-bottom: 25px;
+                    }
+                }
+            }
+            .pic {
+                width: 100%;
+                padding-bottom: 100%;
+                position: relative;
+                overflow: hidden;
+                img {
+                    width: 105%;
+                    height: 105%;
+                    object-fit: cover;
+                    position: absolute;
+                }
+            }
+            &:first-child {
+                .color-bg {
+                    background-color: #E7004C;
+                    // background: linear-gradient(to top,#e5334c,#fff);
+                    .linear {
+                        &-1 {
+                            background-color: #eeaeac;
+                        }
+                        &-2 {
+                            background-color: #e99798;
+                        }
+                        &-3 {
+                            background-color: #e47b80;
+                        }
+                        &-4 {
+                            background-color: #de5465;
+                        }
+                    }
+                }
+            }
+            &:nth-child(2) {
+                .color-bg {
+                    background-color: #6CC72B;
+                    // background: linear-gradient(to top,#26a03e,#fff);
+                    .linear {
+                        &-1 {
+                            background-color: #cde3af;
+                        }
+                        &-2 {
+                            background-color: #bedc99;
+                        }
+                        &-3 {
+                            background-color: #acd37e;
+                        }
+                        &-4 {
+                            background-color: #92c75c;
+                        }
+                    }
+                }
+            }
+            &:nth-child(3) {
+                .color-bg {
+                    background-color: #A25EB5;
+                    // background: linear-gradient(to top,#833b92,#fff);
+                    .linear {
+                        &-1 {
+                            background-color: #d2bcdb;
+                        }
+                        &-2 {
+                            background-color: #c8abd0;
+                        }
+                        &-3 {
+                            background-color: #ba96c4;
+                        }
+                        &-4 {
+                            background-color: #a97bb4;
+                        }
+                    }
+                }
+            }
+            &:nth-child(4) {
+                .color-bg {
+                    background-color: #6BC4E8;
+                    // background: linear-gradient(to top,#00b2d8,#fff);
+                    .linear {
+                        
+                        &-1 {
+                            background-color: #cbe4f1;
+                        }
+                        &-2 {
+                            background-color: #bdddee;
+                        }
+                        &-3 {
+                            background-color: #a9d4e9;
+                        }
+                        &-4 {
+                            background-color: #90c9e3;
+                        }
+                    }
+                }
+            }
+            &:nth-child(5) {
+                .color-bg {
+                    background-color: #F18A00;
+                    // background: linear-gradient(to top,#ed6f00,#fff);
+                    .linear {
+                        &-1 {
+                            background-color: #f6d09f;
+                        }
+                        &-2 {
+                            background-color: #f3c387;
+                        }
+                        &-3 {
+                            background-color: #f0b368;
+                        }
+                        &-4 {
+                            background-color: #eca042;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &-colorful {
+        width: 100%;
+        padding-bottom: 75%;
+        position: relative;
+
+    }
+    &-video {
+        width: 100%;
+        padding-bottom: 87%;
+        position: relative;
+        background-color: #F0F4F6;
+        video {
+            width: 30%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        .link {
+            position: absolute;
+            text-decoration: underline;
+            left: 50%;
+            bottom: 6%;
+            transform: translateX(-50%);
+            text-align: center;
+            p {
+                margin-bottom: 3px;
+                font-size: 16px;
+                letter-spacing: 1.5px;
+            }
+        }
+    }
+    &-cross {
+        .title-box {
+            h2 {
+                color: $shulong-green;
+                font-size: 12vw;
+                margin-bottom: 30px;
+            }
+            p {
+                font-size: 17px;
+                color: #000;
+                font-weight: 700;
+            }
+        }
+        .life-box {
+            width: 160px;
+            height: 160px;
+            border-radius: 35%;
+            position: relative;
+            border: 2px solid $shulong-green;
+            margin: 50px auto;
+            .text {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                color: #000;
+            }
+        }
+        .season {
+            max-width: 800px;
+            width: 100%;
+            margin: 50px auto;
+            .dot {
+                width: 10px;
+                height: 10px;
+                border-radius: 50%;
+                border: 1px solid $shulong-green;
+                background-color: #fff;
+                position: relative;
+                .text {
+                    position: absolute;
+                    color: #000;
+                    top: 20px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 100px;
+                    h4 {
+                        margin-bottom: 20px;
+                    }
+                    p {
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+            .line {
+                width: calc(50% - 15px);
+                height: 2px;
+                background-color: $shulong-green;
+            }
+        }
+        .intro-box {
+            max-width: 800px;
+            width: 100%;
+            margin: 250px auto 100px;
+        }
+        .brand-pic {
+            max-width: 300px;
+            display: block;
+            margin: 0 auto 100px;
+        }
+    }
+    &-slogan {
+        width: 100%;
+        padding-bottom: 60%;
+        position: relative;
+        background-image: url(../img/shulong_pic_13.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        h3 {
+            width: 100%;
+            text-align: center;
+            color: #fff;
+            margin: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            position: absolute;
+            font-family: FuturaPTMedium;
+            font-size: 5vw;
+            letter-spacing: 3px;
+        }
+    }
+    &-slider {
+        .swiper-slide {
+            width: 100%;
+            padding-bottom: 60%;
+            position: relative;
+            img {
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                object-fit: cover;
+            }
+        }
+        .swiper-pagination-bullet {
+            margin: 0 10px !important;
+            background-color: #fff;
+        }
+    }
+    &-cooperate {
+        .intro-box {
+            margin: 0;
+        }
+    }
+}
+
+@media screen and (max-width:991px) {
+    .shulong{
+        &-color {
+            .color-box{
+                .color-bg {
+                    .text {
+                        left: 10px;
+                        h4 {
+                            font-size: 20px;
+                            margin-bottom: 15px;
+                        }
+                        p {
+                            font-size: 13px;
+                        }
+                    } 
+                } 
+            } 
+        } 
+        &-cross {
+            .season {
+                padding: 0 40px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:767px) {
+    .shulong{
+        &-blossom {
+            h2 {
+                font-size: 10vw;
+                margin-bottom: 75px;
+            }
+        } 
+        &-strategy {
+            .intro-box {
+                margin: 50px auto;
+            }
+        }
+        &-logo {
+            .logo-element {
+                width: 50%;
+            }
+        }
+        &-brand {
+            padding-bottom: 0;
+            &_feature {
+                .feature-box {
+                    .text {
+                        h4 {
+                            font-size: 18px;
+                        }
+                        p {
+                            font-size: 14px;
+                        }
+                    }
+                } 
+            } 
+            &_compare {
+                .pic {
+                    margin-bottom: 30px;
+                }
+            } 
+        }
+        &-color {
+            .color-box{
+                width: 100%;
+                display: flex;
+                .linear {
+                    height: 100%;
+                    width: 30%;
+                    display: flex;
+                    >div {
+                        width: 25%;
+                        .percent {
+                            top: inherit;
+                            left: 50%;
+                            bottom: 5px;
+                            transform: translateX(-50%);
+                        }
+                    }
+                }
+                .color-bg {
+                    width: 100%;
+                    // padding-bottom: 8.3333%;
+                    padding: 10px;
+                    .text {
+                        position: static;
+                        left: inherit;
+                        right: 15px;
+                        text-align: right;
+                        top: inherit;
+                        bottom: 10px;
+                        h4 {
+                            margin-bottom: 5px;
+                        }
+                        p {
+                            margin-bottom: 0;
+                        }
+                    } 
+                } 
+                .pic {
+                    width: 25%;
+                    padding-bottom: 25%;
+                }
+            } 
+        }
+        
+    }
+}
+
+@media screen and (max-width:575px) {
+    .shulong{
+        &-brand {
+            &_feature {
+                .feature-box {
+                    width: 90%;
+                    padding-bottom: 90%;
+                    margin: 0 auto;
+                    .text {
+                        h4 {
+                            font-size: 12px;
+                        }
+                        p {
+                            font-size: 14px;
+                        }
+                    }
+                } 
+            } 
+        }
+        &-color {
+            .color-box{
+                .color-bg {
+                    .text {
+                        p {
+                            margin-bottom: 0;
+                            br {
+                                display: none;
+                            }
+                        }
+                    } 
+                } 
+            } 
+        }
+        &-cross {
+            .season {
+                .line {
+                    width: calc(90% - 15px);
+                }
+            } 
+        } 
+    }
+}
+
+
+@media screen and (max-width:450px) {
+    .shulong-color {
+        .color-box {
+            .color-bg {
+                .text {
+                    p {
+                        &.space {
+                            display: none;
+                        }
+                    }
+                } 
+            } 
+        } 
+    } 
+}

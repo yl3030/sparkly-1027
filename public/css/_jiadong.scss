@@ -1,0 +1,744 @@
+.little-title {
+  h3 {
+    font-size: 22px;
+    font-family: $work-english;
+    margin-bottom: 0;
+  }
+  p {
+    font-size: 13px;
+  }
+}
+
+.bg {
+  &-ji-red {
+    background-color: $jiadong-red;
+  }
+}
+
+.jiadong {
+  &-red {
+    color: #fff;
+    padding-top: 30px;
+    marquee {
+      font-family: $english-font;
+      font-size: 60px;
+      line-height: 1.4;
+      img {
+        width: 80px;
+        display: inline-block;
+        margin: 0 15px;
+      }
+    }
+
+    > div {
+      margin-top: 100px;
+      align-items: flex-start;
+      &.scroll_div {
+        margin-top: 0;
+      }
+      .pic {
+        width: 40%;
+        img {
+          width: 180px;
+          display: block;
+        }
+      }
+      .intro-box {
+        width: 60%;
+      }
+      .text {
+        width: 60%;
+        h3 {
+          margin-bottom: 25px;
+        }
+        .content {
+          align-items: start !important;
+          p {
+            font-size: 15px;
+            line-height: 1.8;
+            padding-bottom: 25px;
+            ul {
+              width: 100%;
+              li {
+                display: inline-block;
+                font-size: 15px;
+                margin-bottom: 5px;
+                margin-right: 10px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  &-challenge {
+    // background-color: $jiadong-red;
+    // padding-top: 100px;
+    // padding-bottom: 100px;
+    margin-top: -6px;
+    display: flex;
+    justify-content: space-between;
+    .title-box {
+      width: 40%;
+    }
+    .content {
+      width: 60%;
+      .line-box {
+        // max-width: 800px;
+        width: 100%;
+        margin: 0 0 60px;
+        color: #fff;
+        span {
+          display: block;
+          width: 30%;
+          text-align: center;
+          position: relative;
+          &::after {
+            width: 1px;
+            height: 30px;
+            background-color: #fff;
+            position: absolute;
+            content: "";
+            top: calc(100% + 10px);
+            left: 50%;
+            transform: translateX(-50%);
+          }
+          &:nth-child(2) {
+            &::after {
+              height: 60px;
+            }
+            &::before {
+              width: calc(100% * 0.7 / 0.3);
+              height: 1px;
+              background-color: #fff;
+              position: absolute;
+              content: "";
+              top: calc(100% + 39px);
+              left: 50%;
+              transform: translateX(-50%);
+            }
+          }
+        }
+        .circle-box {
+          margin: 70px auto;
+          width: 150px;
+          height: 150px;
+          border: 1px solid #fff;
+          position: relative;
+          p {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            margin: 0;
+          }
+        }
+      }
+      .intro-box {
+        // padding: 0 40px;
+        margin: 0 0 100px;
+      }
+      .little-circle {
+        width: 8px;
+        height: 8px;
+        background-color: #fff;
+        margin: 0 auto;
+      }
+    }
+  }
+  &-stretagy {
+    // padding-bottom: 200px;
+    // background-color: $jiadong-red;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    .title-box {
+      width: 40%;
+    }
+    .content {
+      width: 60%;
+      .stretagy-box {
+        color: #fff;
+        max-width: 600px;
+        margin: 0 0 40px;
+        align-items: start !important;
+        > div {
+          width: 25%;
+          h5 {
+            font-weight: 400;
+            margin-bottom: 30px;
+            position: relative;
+            width: fit-content;
+            &::after {
+              position: absolute;
+              content: "";
+              width: 100%;
+              height: 1px;
+              background-color: #fff;
+              bottom: -10px;
+              left: 0;
+            }
+          }
+          p {
+            font-size: 13px;
+            // padding-right: 40px;
+          }
+        }
+      }
+      .pic {
+        width: 100%;
+        margin-bottom: 50px;
+      }
+      .logo-gif {
+        width: 80px;
+        margin: 250px 0 0;
+        display: block;
+      }
+    }
+
+    .stretagy-bg {
+      position: absolute;
+      width: 100%;
+      left: 0;
+      bottom: 0;
+    }
+  }
+  &-logo-concept {
+    background-image: url(../img/logo-concept_bg.png);
+    @include bg;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: space-between;
+    .title-box {
+      width: 40%;
+      color: $jiadong-red;
+    }
+    .content {
+      width: 60%;
+      p {
+        color: $jiadong-red;
+        font-size: 15px;
+        margin: 40px 0 100px;
+        text-align: justify;
+      }
+      .left-pic {
+        width: 100%;
+        padding-right: 40px;
+        img {
+          width: 50%;
+          margin: 0 auto 50px;
+          display: block;
+        }
+      }
+
+      .little-title {
+        margin-top: 50px;
+        color: $jiadong-red;
+      }
+      .right-pic {
+        img {
+          width: 40%;
+          display: block;
+          margin: 50px auto 0;
+        }
+      }
+      .logo-compare {
+        .pic {
+          width: 60%;
+          padding-bottom: 60%;
+          position: relative;
+          display: block;
+          margin: 0 auto 60px;
+          img {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+          }
+        }
+        p {
+          text-align: center;
+        }
+      }
+    }
+  }
+  &-color {
+    margin-top: -6px;
+    .row {
+      margin: 0;
+      > div {
+        padding: 0;
+        padding-bottom: 26%;
+        position: relative;
+        &.red-color {
+          &.red-left {
+            .rl {
+              position: absolute;
+              width: 100%;
+              height: 100%;
+              top: 0;
+              left: 0;
+              background-color: #fff;
+              > div {
+                height: 100%;
+                background-color: #e50012;
+                position: relative;
+                &:first-child {
+                  opacity: 0.8;
+                }
+                &:nth-child(2) {
+                  opacity: 0.6;
+                }
+                &:nth-child(3) {
+                  opacity: 0.4;
+                }
+                &:nth-child(4) {
+                  opacity: 0.2;
+                }
+                p {
+                  margin: 0;
+                  color: #fff;
+                  width: 100%;
+                  position: absolute;
+                  bottom: 10px;
+                  left: 0;
+                  text-align: center;
+                }
+              }
+            }
+          }
+          &.red-right {
+            background-color: #e50012;
+            p {
+              position: absolute;
+              color: #fff;
+              font-size: 14px;
+              bottom: 20px;
+              left: 15px;
+              margin: 0;
+              span {
+                display: inline-block;
+                margin-right: 20px;
+              }
+            }
+          }
+        }
+        &.green-color {
+          &.green-left {
+            background-color: #004d43;
+            img {
+              position: absolute;
+              width: 40%;
+              display: block;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+            }
+          }
+          &.green-right {
+            background-image: url(../img/jiadong-pic2.png);
+            @include bg;
+            background-size: 105%;
+            p {
+              position: absolute;
+              color: #fff;
+              font-size: 14px;
+              bottom: 20px;
+              left: 15px;
+              margin: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+  &-box {
+    margin: 0;
+    > div {
+      padding: 0;
+    }
+  }
+  &-feedback {
+    background-color: #c80608;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: #fff;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .title-box {
+      width: 40%;
+    }
+    .content {
+      width: 60%;
+      .intro-box {
+        padding-left: 50px;
+      }
+    }
+  }
+  &-green-bg {
+    background-color: #003223;
+    // color: #034e3d;
+    color: rgba(255, 255, 255, 0.52);
+    font-family: $work-english;
+    padding: 150px 0 0;
+    p {
+      font-size: 40px;
+      line-height: 1.5;
+      text-align: center;
+      font-family: $english-font;
+    }
+    .green-logo {
+      display: block;
+      width: 200px;
+      margin: 40px auto;
+    }
+    span {
+      font-size: 14px;
+      text-align: center;
+      color: #c79f62;
+      font-family: $chinese-font;
+      display: block;
+      margin: 60px 0 0;
+    }
+    .pack-pic {
+      width: 85%;
+      display: block;
+      margin: 80px auto 0;
+    }
+  }
+}
+
+.compare {
+  .c-title {
+    text-align: center;
+    padding: 30px 0;
+  }
+}
+
+.friut {
+  width: 100%;
+  padding: 40px;
+}
+
+@media screen and (max-width: 992px) {
+  .jiadong {
+    &-red {
+      h1 {
+        font-size: 50px;
+      }
+    }
+    &-feedback {
+      .text {
+        top: 40vw;
+      }
+    }
+    &-challenge {
+      flex-wrap: wrap;
+      .title-box {
+        text-align: center;
+        width: 100%;
+      }
+      .content {
+        width: 100%;
+        margin-top: 50px;
+      }
+    }
+    &-stretagy {
+      .content {
+        .stretagy-box {
+          > div {
+            width: 30%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .jiadong {
+    &-red {
+      h1 {
+        font-size: 35px;
+      }
+      > div {
+        .pic {
+          width: 100%;
+          margin-bottom: 50px;
+          img {
+            // width: 100%;
+          }
+        }
+        .intro-box {
+          width: 100%;
+        }
+        .text {
+          width: 100%;
+        }
+      }
+    }
+    &-stretagy {
+      background-size: 150%;
+      flex-wrap: wrap;
+      .logo-gif {
+        margin: 150px auto 0;
+      }
+      .title-box {
+        width: 100%;
+        text-align: center;
+      }
+      .content {
+        width: 100%;
+        margin-top: 60px;
+      }
+    }
+    &-logo-concept {
+      flex-wrap: wrap;
+      .title-box {
+        width: 100%;
+        text-align: center;
+      }
+      .content {
+        width: 100%;
+        margin-top: 50px;
+      }
+    }
+    &-feedback {
+      padding: 40px 20px;
+      flex-wrap: wrap;
+      .title-box {
+        width: 100%;
+        text-align: center;
+      }
+      .content {
+        width: 100%;
+        margin-top: 50px;
+        .intro-box {
+          padding: 0;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .jiadong {
+    &-feedback {
+      .big-title {
+        h2 {
+          font-size: 80px;
+        }
+      }
+      .text {
+        top: 50vw;
+        width: 40%;
+        right: 5vw;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .jiadong {
+    &-red {
+      padding: 40px 20px;
+      h1 {
+        font-size: 25px;
+      }
+      > div {
+        .pic {
+          width: 100%;
+          margin-bottom: 60px;
+          img {
+            width: 180px;
+            display: block;
+            margin: 0 auto;
+          }
+        }
+        .text {
+          width: 100%;
+        }
+      }
+    }
+    &-challenge {
+      padding: 40px 20px;
+      .line-box {
+        span {
+          display: block;
+          height: 48px;
+        }
+      }
+    }
+    &-intro-box {
+      h3 {
+        font-size: 25px;
+      }
+      h4 {
+        font-size: 16px;
+      }
+    }
+    &-title-box {
+      h2 {
+        font-size: 50px;
+      }
+    }
+    &-stretagy {
+      padding: 0 20px 60px;
+      .stretagy-box {
+        > div {
+          width: 30%;
+          p {
+            padding: 0;
+          }
+        }
+      }
+      .logo-gif {
+        margin: 55px auto 0;
+      }
+    }
+    &-logo-concept {
+      padding: 40px 20px;
+      .content {
+        .left-pic {
+          padding: 0;
+          img {
+            margin-right: auto;
+          }
+        }
+        .right-pic {
+          // width: 50%;
+          margin: 60px auto;
+          img {
+            width: 50%;
+            display: block;
+            margin: 0 auto;
+          }
+          p {
+            width: 100%;
+            margin: 60px auto 0;
+          }
+        }
+        .logo-compare {
+          .pic {
+            width: 80%;
+            padding-bottom: 80%;
+            margin-bottom: 30px;
+          }
+        }
+      }
+
+      .little-title {
+        width: 50%;
+        margin: 60px auto;
+      }
+    }
+    &-color {
+      .row {
+        > div {
+          padding-bottom: 52%;
+          &.green-color {
+            &.green-right {
+              background-size: 125%;
+            }
+          }
+        }
+      }
+    }
+    &-feedback {
+      .big-title {
+        h2 {
+          font-size: 60px;
+        }
+      }
+      .text {
+        position: static;
+        width: 100%;
+        margin-top: 40px;
+      }
+    }
+    &-green-bg {
+      p {
+        font-size: 40px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .jiadong {
+    &-feedback {
+      .big-title {
+        h2 {
+          font-size: 50px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .jiadong {
+    &-red {
+      h1 {
+        font-size: 20px;
+      }
+      marquee {
+        font-size: 40px;
+      }
+      > div {
+        .text {
+          width: 100%;
+          .content {
+            p {
+              // width: 70%;
+              // padding-right: 30px;
+            }
+            ul {
+              // width: 30%;
+            }
+          }
+        }
+      }
+    }
+    &-stretagy {
+      .stretagy-box {
+        > div {
+          h5 {
+            font-size: 16px;
+            font-weight: 700;
+          }
+        }
+      }
+    }
+    &-color {
+      .row {
+        > div {
+          &.red-color {
+            &.red-right {
+              p {
+                font-size: 12px;
+                left: 10px;
+                bottom: 10px;
+              }
+            }
+          }
+        }
+      }
+    }
+    &-feedback {
+      .big-title {
+        h2 {
+          font-size: 40px;
+        }
+      }
+    }
+    &-green-bg {
+      p {
+        font-size: 30px;
+      }
+    }
+  }
+}

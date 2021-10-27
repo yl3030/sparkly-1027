@@ -1,0 +1,408 @@
+.happy-main-color {
+  color: $happy-skin;
+}
+
+.happy-gray-color {
+  color: $happy-gray;
+}
+
+.bg {
+  &-ha-skin {
+    background-color: $happy-skin;
+  }
+  &-ha-light-skin {
+    background-color: $happy-light-skin;
+  }
+}
+
+.happy {
+  &-together {
+    background: linear-gradient(
+      to bottom,
+      #fff,
+      #fcf2e6 35%,
+      #f9a176 75%,
+      #f9a176
+    );
+    .content {
+      padding-top: 35%;
+    }
+  }
+  &-challenge {
+    .bg-pic {
+      background-image: url(../img/happy_pic_3.png);
+      background-size: cover;
+      background-position: center 0;
+      background-repeat: no-repeat;
+    }
+    .intro-box {
+      margin-top: 100px;
+      padding-bottom: 20%;
+      width: 50%;
+    }
+    .keyword {
+      &_content {
+        &_box {
+          width: 170px;
+          margin: 0 10px;
+        }
+        &_inner {
+          width: 100%;
+          padding-bottom: 100%;
+          border-radius: 50%;
+          border: 3px solid #fff;
+          .text {
+            width: 100%;
+            font-weight: 600;
+            h3 {
+              font-size: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+  &-strategy {
+    .strategy_content {
+      &_box {
+        width: 180px;
+        margin: 0 10px;
+      }
+      &_inner {
+        width: 100%;
+        padding-bottom: 100%;
+        border-radius: 50%;
+        border: 2px solid #fff;
+        .text {
+          font-size: 22px;
+          width: 80%;
+        }
+      }
+      &_arrow {
+        margin: 0 10px;
+        img {
+          width: 80px;
+        }
+        p {
+          top: 25px;
+          left: 30%;
+          margin: 0;
+          min-width: 30px;
+        }
+      }
+    }
+  }
+  &-logo {
+    margin-top: -10px;
+    .bg-pic {
+      background-image: url(../img/happy_pic_5.png);
+      background-position: right center;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+    .content {
+      .logo-icon {
+        width: 28%;
+        .pic {
+          width: 100%;
+          padding-bottom: 80%;
+          position: relative;
+          img {
+            width: 50%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+          }
+        }
+        p {
+          font-size: 18px;
+        }
+      }
+      .plus {
+        width: 4%;
+        padding-top: 8%;
+      }
+    }
+  }
+  &-core {
+    background: linear-gradient(
+      to bottom,
+      #fef6ea,
+      #fef6ea 35%,
+      #f9a176 75%,
+      #f9a176
+    );
+    .bg-pic {
+      padding-bottom: 50%;
+      background-size: contain;
+      background-position: center 90%;
+      background-repeat: no-repeat;
+    }
+  }
+  &-color {
+    .intro-box {
+      max-width: none;
+      p {
+        margin-bottom: 150px;
+      }
+      ul {
+        margin-top: 80px;
+      }
+    }
+  }
+  &-feedback {
+    .text {
+      width: 100%;
+      top: 5%;
+      left: 0;
+      h2 {
+        color: #fff;
+        text-align: center;
+        font-size: 15.5vw;
+        letter-spacing: 10px;
+        font-weight: 300;
+      }
+      .intro-box {
+        width: 30%;
+        margin: 50px auto 0;
+        h4 {
+          margin-bottom: 60px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .happy {
+    &-challenge {
+      .keyword {
+        &_content {
+          &_box {
+            width: 150px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .happy {
+    &-feedback {
+      .text {
+        .intro-box {
+          width: 50%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .happy {
+    &-strategy {
+      .strategy_content {
+        justify-content: space-between !important;
+        padding: 0 20px;
+        &_box {
+          width: 25%;
+          margin: 0;
+        }
+        &_arrow {
+          margin: 0;
+          width: 6%;
+          img {
+            width: 100%;
+          }
+          p {
+            left: 15%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .happy {
+    &-together {
+      background: linear-gradient(
+        to bottom,
+        #fff,
+        #fcf2e6 35%,
+        #f9a176 45%,
+        #f9a176
+      );
+      .content {
+        padding-top: 45%;
+      }
+    }
+    &-challenge {
+      img {
+        width: 100% !important;
+      }
+      .intro-box {
+        margin-top: 50px;
+        width: 100%;
+      }
+      .keyword {
+        &_content {
+          &_box {
+            width: 110px;
+            margin: 0 5px;
+          }
+          &_inner {
+            .text {
+              h3 {
+                font-size: 18px;
+              }
+            }
+          }
+        }
+      }
+    }
+    &-logo {
+      .intro-box {
+        width: 100% !important;
+      }
+    }
+    &-core {
+      .intro-box {
+        width: 100% !important;
+      }
+    }
+    &-feedback {
+      .text {
+        .intro-box {
+          width: 100%;
+          h4 {
+            margin-bottom: 20px !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .happy {
+    &-strategy {
+      .strategy_content {
+        &_inner {
+          .text {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+    &-feedback {
+      .text {
+        h2 {
+          font-size: 13.5vw;
+          letter-spacing: 8px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .happy {
+    &-challenge {
+      .keyword {
+        &_content {
+          &_box {
+            width: 170px;
+            margin: 0 10px 20px;
+          }
+          &_inner {
+            .text {
+              h3 {
+                font-size: 22px;
+              }
+            }
+          }
+        }
+      }
+    }
+    &-feedback {
+      h2 {
+        font-size: 13vw;
+      }
+      .text {
+        .intro-box {
+          width: 100%;
+          margin-top: 20px;
+          h4 {
+            margin-bottom: 15px !important;
+            font-size: 15px;
+          }
+          p {
+            font-size: 13px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .happy {
+    &-strategy {
+      .strategy_content {
+        &_inner {
+          .text {
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .happy {
+    &-challenge {
+      .keyword {
+        &_content {
+          &_box {
+            width: 120px;
+            margin: 0 10px 20px;
+          }
+          &_inner {
+            .text {
+              h3 {
+                font-size: 18px;
+              }
+            }
+          }
+        }
+      }
+    }
+    &-strategy {
+      .strategy_content {
+        &_inner {
+          .text {
+            font-size: 12px;
+          }
+        }
+        &_arrow {
+          p {
+            font-size: 12px;
+            left: -15%;
+          }
+        }
+      }
+    }
+    &-feedback {
+      .text {
+        h2 {
+          font-size: 12.5vw;
+          letter-spacing: 6px;
+        }
+      }
+    }
+  }
+}
