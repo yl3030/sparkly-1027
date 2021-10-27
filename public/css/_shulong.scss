@@ -551,6 +551,18 @@
                 }
             } 
         } 
+        &-video {
+            padding-bottom: 150%;
+            video {
+                width: 80%;
+            }
+            .link {
+                p {
+                    font-size: 14px;
+                    margin-bottom: 0;
+                }
+            }
+        } 
     }
 }
 

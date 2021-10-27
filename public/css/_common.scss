@@ -39,6 +39,10 @@ body {
 a {
   text-decoration: none;
   position: relative;
+  color: #000;
+  &:hover {
+    color: #000;
+  }
   &::after {
     position: absolute;
     content: "";

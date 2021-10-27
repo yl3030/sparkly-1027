@@ -154,6 +154,11 @@ body {
 a {
   text-decoration: none;
   position: relative;
+  color: #000;
+}
+
+a:hover {
+  color: #000;
 }
 
 a::after {
@@ -1091,6 +1096,7 @@ footer.normal > div > div p {
   width: -moz-fit-content;
   width: fit-content;
   text-align: center;
+  font-size: 22px;
 }
 
 .branding .inner > div img {
@@ -5256,6 +5262,16 @@ footer.normal > div > div p {
   }
   .shulong-cross .season .line {
     width: calc(90% - 15px);
+  }
+  .shulong-video {
+    padding-bottom: 150%;
+  }
+  .shulong-video video {
+    width: 80%;
+  }
+  .shulong-video .link p {
+    font-size: 14px;
+    margin-bottom: 0;
   }
 }
 
