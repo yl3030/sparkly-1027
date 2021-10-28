@@ -65,6 +65,10 @@
   margin-top: -5px;
 }
 
+.mt-n15 {
+  margin-top: -15px;
+}
+
 .position-center {
   top: 50%;
   left: 50%;
@@ -535,7 +539,7 @@ footer.normal > div .logo {
 }
 
 footer.normal > div > div.about {
-  width: 45%;
+  width: 35%;
   padding: 0 20px;
   word-wrap: break-word;
   word-break: break-all;
@@ -543,7 +547,6 @@ footer.normal > div > div.about {
 
 footer.normal > div > div.about > div {
   margin: 0 auto;
-  padding: 0 50px;
 }
 
 footer.normal > div > div.about > div a {
@@ -552,7 +555,7 @@ footer.normal > div > div.about > div a {
 }
 
 footer.normal > div > div.page-outer {
-  width: 20%;
+  width: 25%;
 }
 
 footer.normal > div > div.page-outer .page-box {
@@ -593,8 +596,17 @@ footer.normal > div > div.page-outer .page-box .page-list:nth-child(even) {
 }
 
 footer.normal > div > div.social {
-  width: calc(35% - 170px);
+  width: calc(40% - 170px);
   padding-left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 footer.normal > div > div.social .social-icon {
@@ -706,9 +718,6 @@ footer.normal > div > div p {
 }
 
 @media screen and (max-width: 1024px) {
-  footer.normal > div > div.logo {
-    width: 120px;
-  }
   .inner-nav > div h1 {
     font-size: 80px;
   }
@@ -728,7 +737,7 @@ footer.normal > div > div p {
     padding: 0;
   }
   footer.normal > div > div.page-outer {
-    padding: 0;
+    padding: 0 10px;
   }
   footer.normal > div > div.page-outer .page-box {
     width: 100%;
@@ -758,6 +767,21 @@ footer.normal > div > div p {
   }
   .inner-nav > div ul li a {
     line-height: 75px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  footer.normal > div .logo {
+    width: 130px;
+  }
+  footer.normal > div > div.about {
+    width: 37%;
+  }
+  footer.normal > div > div.page-outer {
+    width: 25%;
+  }
+  footer.normal > div > div.social {
+    width: calc(38% - 130px);
   }
 }
 
@@ -909,6 +933,9 @@ footer.normal > div > div p {
     font-size: 13px;
   }
   footer.normal {
+    padding: 0 10px;
+  }
+  footer.normal > div .logo {
     padding: 0 10px;
   }
   footer.normal > div > div {
@@ -1162,6 +1189,9 @@ footer.normal > div > div p {
   overflow: hidden;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .portfolio .portfolio-box.hide-half {
@@ -1899,6 +1929,10 @@ footer.normal > div > div p {
   margin-bottom: 5px;
 }
 
+.contact-content .inform ul li a {
+  color: #D54735;
+}
+
 .contact-content .map {
   padding-left: 60px;
 }
@@ -2180,6 +2214,18 @@ footer.normal > div > div p {
   }
   .work-content .row .work-box p {
     opacity: 1;
+  }
+  .cf-mobile {
+    height: 100vh;
+  }
+  .cf-mobile .contact-box {
+    height: 100%;
+  }
+  .cf-mobile footer.normal {
+    height: auto;
+    bottom: 50%;
+    -webkit-transform: translateY(50%);
+            transform: translateY(50%);
   }
 }
 
@@ -3470,6 +3516,7 @@ footer.normal > div > div p {
 
 .inner-space-box {
   padding-bottom: 50%;
+  height: 100%;
 }
 
 .brand-bg-text {
@@ -3494,14 +3541,12 @@ footer.normal > div > div p {
 
 .brand--pic--blue {
   background-image: url("../img/bijoutier-pic-4.png");
-  height: 100%;
   background-size: cover;
   background-position: center;
 }
 
 .brand--pic--gold {
   background-image: url("../img/bijoutier-pic-5.png");
-  height: 100%;
   background-size: cover;
   background-position: center;
 }

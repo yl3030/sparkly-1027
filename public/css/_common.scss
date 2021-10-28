@@ -362,14 +362,14 @@ footer.normal {
     }
     > div {
       &.about {
-        width: 45%;
+        width: 35%;
         padding: 0 20px;
         word-wrap: break-word;
         word-break: break-all;
         >div {
           // width: 60%;
           margin: 0 auto;
-          padding: 0 50px;
+          // padding: 0 50px;
           a {
             color: $main-color;
             text-decoration: underline;
@@ -377,7 +377,7 @@ footer.normal {
         }
       }
       &.page-outer {
-        width: 20%;
+        width: 25%;
         // padding: 0 20px;
         .page-box {
           display: flex;
@@ -405,8 +405,11 @@ footer.normal {
         }
       }
       &.social {
-        width: calc(35% - 170px);
+        width: calc(40% - 170px);
         padding-left: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         .social-icon {
           width: 35px;
           height: 35px;
@@ -504,15 +507,7 @@ footer.normal {
 }
 
 @media screen and (max-width: 1024px) {
-  footer.normal {
-    > div {
-      > div {
-        &.logo {
-          width: 120px;
-        }
-      }
-    }
-  }
+  
   .inner-nav {
     > div {
       h1 {
@@ -537,7 +532,7 @@ footer.normal {
           }
         }
         &.page-outer {
-          padding: 0;
+          padding: 0 10px;
           .page-box {
             width: 100%;
             .page {
@@ -577,6 +572,27 @@ footer.normal {
       }
     }
   }
+}
+
+@media screen and (max-width: 900px) {
+  footer.normal {
+    > div {
+      .logo {
+        width: 130px;
+      }
+      >div {
+        &.about {
+          width: 37%;
+        }
+        &.page-outer {
+          width: 25%;
+        }
+        &.social {
+          width: calc(38% - 130px);
+        }
+      }
+    } 
+  } 
 }
 
 @media screen and (max-width: 767px) {
@@ -768,6 +784,9 @@ footer.normal {
   footer.normal {
     padding: 0 10px;
     > div {
+      .logo {
+        padding: 0 10px;
+      }
       > div {
         padding: 0 10px !important;
         &.page-outer {

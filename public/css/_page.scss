@@ -206,7 +206,7 @@
     color: #fff;
     overflow: hidden;
     transition: 0.5s;
-    
+    @include bg;
     &.hide-half {
       padding-bottom: 35%;
       .text {
@@ -384,6 +384,15 @@
     left: 0;
     width: 100%;
   }
+  // &-mobile {
+  //   height: 100vh;
+  //   .contact-box {
+  //     height: auto;
+  //   }
+  //   footer {
+  //     position: static;
+  //   }
+  // }
 }
 
 // about
@@ -821,6 +830,9 @@
       li {
         color: $main-color;
         margin-bottom: 5px;
+        a {
+          color: $main-color;
+        }
       }
     }
   }
@@ -1229,6 +1241,21 @@
         }
         p {
           opacity: 1;
+        }
+      }
+    }
+  }
+  .cf {
+    &-mobile {
+      height: 100vh;
+      .contact-box {
+        height: 100%;
+      }
+      footer {
+        &.normal {
+          height: auto;
+          bottom: 50%;
+          transform: translateY(50%);
         }
       }
     }

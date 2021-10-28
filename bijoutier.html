@@ -65,7 +65,7 @@
     </script>
     <!--Google Analytics Script碼(End) -->
   </head>
-  <style>
+  <!-- <style>
     main {
       padding: 70px 0 0 0 !important;
       margin: 0;
@@ -76,7 +76,7 @@
         padding: 60px 0 0 0 !important;
       }
     }
-  </style>
+  </style> -->
 
   <body>
     <div id="loading">
@@ -507,7 +507,8 @@
       <img class="w-100" src="./public/img/bijoutier-pic-13.png" alt="">
 
       <!-- video -->
-      <video class="w-100" autoplay muted loop playsinline src="./public/video/bijoutier-2.mp4"></video>
+      <video class="w-100 d-sm-block d-none" autoplay muted loop playsinline src="./public/video/bijoutier-2.mp4"></video>
+      <video class="w-100 d-sm-none d-block" autoplay muted loop playsinline src="./public/video/bijoutier-mobile.mp4"></video>
 
       <!-- Feedback 品牌更新後成果 -->
       <div class="bijoutier-feedback bg-bi-blue work-px py-100px mt-n5">
@@ -661,7 +662,7 @@
         </div>
         <div class="page-outer">
           <ul class="page-box">
-            <li class="page-list"><a href="./work.html">WORK</a></li>
+            <li class="page-list"><a href="./work/">WORK</a></li>
             <li class="page-list">
               <a href="./contact.html">CONTACT</a>
             </li>

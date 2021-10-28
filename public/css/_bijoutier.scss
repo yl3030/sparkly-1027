@@ -149,6 +149,7 @@
 // 品牌識別：藍色＆金色
 .inner-space-box {
   padding-bottom: 50%;
+  height: 100%;
 }
 
 .brand-bg-text {
@@ -173,14 +174,14 @@
 
 .brand--pic--blue {
   background-image: url("../img/bijoutier-pic-4.png");
-  height: 100%;
+  // height: 100%;
   background-size: cover;
   background-position: center;
 }
 
 .brand--pic--gold {
   background-image: url("../img/bijoutier-pic-5.png");
-  height: 100%;
+  // height: 100%;
   background-size: cover;
   background-position: center;
 }
