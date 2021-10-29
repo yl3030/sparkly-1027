@@ -3503,6 +3503,12 @@ footer.normal > div > div p {
 
 .bijoutier_m-video {
   position: relative;
+  width: 100%;
+  padding-bottom: 70%;
+  background-image: url(../img/bijoutier-pic-14.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .bijoutier_m-video video {
@@ -3666,6 +3672,12 @@ footer.normal > div > div p {
   }
   .bijoutier_key .key-circle .bi-circle-box .circle .text p.ch {
     font-size: 14px;
+  }
+  .bijoutier_m-video {
+    padding-bottom: 150%;
+  }
+  .bijoutier_m-video video {
+    width: 70%;
   }
 }
 

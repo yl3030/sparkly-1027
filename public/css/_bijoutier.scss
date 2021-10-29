@@ -136,6 +136,12 @@
   }
   &_m-video {
       position: relative;
+      width: 100%;
+      padding-bottom: 70%;
+      background-image: url(../img/bijoutier-pic-14.png);
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
       video {
           position: absolute;
           width: 25%;
@@ -354,6 +360,12 @@
         }
       }
     }
+    &_m-video {
+      padding-bottom: 150%;
+      video {
+        width: 70%;
+      }
+    } 
   }
 }
 
