@@ -1189,6 +1189,7 @@ footer.normal > div > div p {
   overflow: hidden;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  z-index: 10;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -1257,7 +1258,7 @@ footer.normal > div > div p {
 }
 
 .portfolio .portfolio-box.happy {
-  background-color: #eae3d7;
+  background-image: url(../img/other-2.gif);
 }
 
 .portfolio .portfolio-box.happy .bg-pic video {
@@ -1999,7 +2000,6 @@ footer.normal > div > div p {
   .portfolio .portfolio-box .text {
     left: 20px;
     bottom: 100px;
-    z-index: 10;
   }
   .portfolio .portfolio-box .text h3 {
     font-size: 60px;

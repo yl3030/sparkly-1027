@@ -206,6 +206,7 @@
     color: #fff;
     overflow: hidden;
     transition: 0.5s;
+    z-index: 10;
     @include bg;
     &.hide-half {
       padding-bottom: 35%;
@@ -251,7 +252,8 @@
       @include bg;
     }
     &.happy {
-      background-color: #eae3d7;
+      // background-color: #eae3d7;
+      background-image: url(../img/other-2.gif);
       .bg-pic {
         video {
           position: absolute;
@@ -935,7 +937,6 @@
       .text {
         left: 20px;
         bottom: 100px;
-        z-index: 10;
         h3 {
           font-size: 60px;
         }
@@ -949,6 +950,7 @@
             display: block;
           }
         }
+
       }
       &.hide-half {
         padding-bottom: 50%;
