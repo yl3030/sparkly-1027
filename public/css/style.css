@@ -1257,16 +1257,13 @@ footer.normal > div > div p {
   background-repeat: no-repeat;
 }
 
-.portfolio .portfolio-box.happy {
-  background-image: url(../img/other-2.gif);
-}
-
 .portfolio .portfolio-box.happy .bg-pic video {
   position: absolute;
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  z-index: -1;
 }
 
 .portfolio .portfolio-box.boutijour {
@@ -1301,7 +1298,7 @@ footer.normal > div > div p {
 
 .portfolio .portfolio-box .text {
   position: absolute;
-  bottom: 60px;
+  bottom: 80px;
   left: 40px;
   -webkit-transition: 0.5s;
   transition: 0.5s;

@@ -253,13 +253,13 @@
     }
     &.happy {
       // background-color: #eae3d7;
-      background-image: url(../img/other-2.gif);
       .bg-pic {
         video {
           position: absolute;
           width: 100%;
           height: 100%;
           object-fit: cover;
+          z-index: -1;
           // display: none;
         }
       }
@@ -284,7 +284,7 @@
     }
     .text {
       position: absolute;
-      bottom: 60px;
+      bottom: 80px;
       left: 40px;
       transition: 0.5s;
       padding-right: 15px;
