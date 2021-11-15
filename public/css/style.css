@@ -3452,6 +3452,29 @@ footer.normal > div > div p {
   margin-bottom: 0;
 }
 
+.bijoutier_bg-male {
+  background-image: url(../img/bijoutier-bg-1.png);
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.bijoutier_bg-female {
+  background-image: url(../img/bijoutier-bg-2.png);
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.bijoutier_bg-female .sparkly-logo {
+  width: 100px;
+  margin-bottom: 100px;
+}
+
+.bijoutier_brand {
+  margin-bottom: 300px;
+}
+
 .bijoutier_brand .scroll_div {
   margin-bottom: 400px;
 }
@@ -3465,7 +3488,7 @@ footer.normal > div > div p {
 }
 
 .bijoutier_challenge .challenge-circle {
-  margin-bottom: 70px;
+  margin-bottom: 200px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -3481,6 +3504,10 @@ footer.normal > div > div p {
 
 .bijoutier_challenge .challenge-circle img {
   width: 8%;
+}
+
+.bijoutier_key {
+  margin-bottom: 200px;
 }
 
 .bijoutier_key .key-circle {
@@ -3518,6 +3545,65 @@ footer.normal > div > div p {
           transform: translate(-50%, -50%);
 }
 
+.bijoutier_image .left-image {
+  width: 50%;
+}
+
+.bijoutier_image .left-image .inner-image {
+  width: 100%;
+  padding-bottom: 70%;
+}
+
+.bijoutier_image .right-image {
+  width: 50%;
+}
+
+.bijoutier_image .right-image .inner-image {
+  width: 100%;
+  padding-bottom: 140%;
+}
+
+.bijoutier_image .inner-image {
+  position: relative;
+}
+
+.bijoutier_image .inner-image img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.bijoutier_image_text {
+  width: 35%;
+  padding-bottom: 35%;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  background-color: rgba(20, 44, 71, 0.8);
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.bijoutier_image_text p {
+  width: 100%;
+}
+
+.text-element {
+  position: absolute;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 2vw;
+  line-height: 2;
+  font-weight: 400;
+}
+
 .inner-space-box {
   padding-bottom: 50%;
   height: 100%;
@@ -3551,6 +3637,12 @@ footer.normal > div > div p {
 
 .brand--pic--gold {
   background-image: url("../img/bijoutier-pic-5.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.brand--pic--gold-2 {
+  background-image: url(../img/bijoutier-pic-21.png);
   background-size: cover;
   background-position: center;
 }
