@@ -137,6 +137,11 @@
   src: url(../font/FuturaPTMedium.woff) format("woff"), url(../font/FuturaPTMedium.otf) format("opentype");
 }
 
+@font-face {
+  font-family: PerpetuaTitlingMTLight;
+  src: url(../font/PerpetuaTitlingMTLight2.woff) format("woff"), url(../font/PerpetuaTitlingMTLight2.otf) format("opentype");
+}
+
 body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -3398,6 +3403,10 @@ footer.normal > div > div p {
   background-color: #1f2c5c;
 }
 
+.bg-bi-blue-2 {
+  background-color: #142C47;
+}
+
 .bg-bi-gold {
   background-color: #b28146;
 }
@@ -3589,6 +3598,24 @@ footer.normal > div > div p {
 
 .bijoutier_image_text p {
   width: 100%;
+  margin: 0;
+}
+
+.bijoutier_identity .bg-bi-blue-2 {
+  height: 100px;
+  width: 100%;
+}
+
+.bijoutier_identity p {
+  color: #264460;
+  width: 100%;
+  bottom: 3%;
+  left: 0;
+  text-align: center;
+  font-family: "PerpetuaTitlingMTLight";
+  font-size: 2.6vw;
+  padding: 0 20px;
+  letter-spacing: 1.2px;
 }
 
 .text-element {
@@ -3695,6 +3722,12 @@ footer.normal > div > div p {
 }
 
 @media screen and (max-width: 767px) {
+  .bijoutier_brand {
+    margin-bottom: 150px;
+  }
+  .bijoutier_brand .scroll_div {
+    margin-bottom: 200px;
+  }
   .bijoutier_challenge .title-box {
     margin-bottom: 60px;
   }
@@ -3714,6 +3747,9 @@ footer.normal > div > div p {
     width: 8%;
     margin-right: 0;
   }
+  .bijoutier_key {
+    margin-bottom: 100px;
+  }
   .bijoutier_key .title-box {
     margin-bottom: 60px;
   }
@@ -3730,6 +3766,16 @@ footer.normal > div > div p {
   }
   .bijoutier_key .key-circle .bi-circle-box .circle .text p.ch {
     font-size: 16px;
+  }
+  .bijoutier_image_text {
+    width: 45%;
+    padding-bottom: 45%;
+  }
+  .bijoutier_identity p {
+    font-size: 3vw;
+  }
+  .text-element {
+    font-size: 2.8vw;
   }
 }
 
@@ -3796,6 +3842,10 @@ footer.normal > div > div p {
   }
   .bi-circle-box .circle .text p.ch {
     font-size: 12px;
+  }
+  .bijoutier_image_text {
+    width: 50%;
+    padding-bottom: 50%;
   }
 }
 

@@ -28,6 +28,9 @@
 
 .bg-bi-blue {
   background-color: $bijoutier-blue;
+  &-2 {
+    background-color: $bijoutier-blue-second;
+  }
 }
 
 .bg-bi-gold {
@@ -204,7 +207,25 @@
       transform: translate(-50%, -50%);
       p {
         width: 100%;
+        margin: 0;
       }
+    }
+  }
+  &_identity {
+    .bg-bi-blue-2 {
+      height: 100px;
+      width: 100%;
+    }
+    p {
+      color: #264460;
+      width: 100%;
+      bottom: 3%;
+      left: 0;
+      text-align: center;
+      font-family: "PerpetuaTitlingMTLight";
+      font-size: 2.6vw;
+      padding: 0 20px;
+      letter-spacing: 1.2px;
     }
   }
 }
@@ -339,6 +360,12 @@
 
 @media screen and(max-width:767px) {
   .bijoutier {
+    &_brand {
+      margin-bottom: 150px;
+      .scroll_div {
+        margin-bottom: 200px;
+      }
+    }
     &_challenge {
       .title-box {
         margin-bottom: 60px;
@@ -359,6 +386,7 @@
       }
     }
     &_key {
+      margin-bottom: 100px;
       .title-box {
         margin-bottom: 60px;
       }
@@ -381,6 +409,18 @@
         }
       }
     }
+    &_image_text {
+      width: 45%;
+      padding-bottom: 45%;
+    }
+    &_identity {
+      p {
+        font-size: 3vw;
+      }
+    }
+  }
+  .text-element {
+    font-size: 2.8vw;
   }
 }
 
@@ -494,4 +534,8 @@
       }
     }
   }
+  .bijoutier_image_text {
+    width: 50%;
+    padding-bottom: 50%;
+  } 
 }

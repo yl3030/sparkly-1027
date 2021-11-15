@@ -17,6 +17,12 @@ $chinese-font: "Noto Sans TC", sans-serif;
        url(../font/FuturaPTMedium.otf) format("opentype");
 }
 
+@font-face {
+  font-family: PerpetuaTitlingMTLight;
+  src: url(../font/PerpetuaTitlingMTLight2.woff) format("woff"),
+       url(../font/PerpetuaTitlingMTLight2.otf) format("opentype");
+}
+
 @mixin bg {
   background-size: cover;
   background-position: center center;
