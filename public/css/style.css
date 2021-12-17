@@ -5632,8 +5632,18 @@ footer.normal > div > div p {
   font-size: 20px;
   font-weight: bold;
   color: #fff;
-  margin: 25px 0;
+  margin: 25px 0 5px;
   text-align: center;
+}
+
+.event-720 .degree-english {
+  font-size: 26px;
+  font-weight: bold;
+  color: #fff;
+  font-family: FuturaPTLight;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 2px;
 }
 
 .event-720 .degree-main-text {
@@ -5686,6 +5696,20 @@ footer.normal > div > div p {
   width: -moz-fit-content;
   width: fit-content;
   letter-spacing: 2.5px;
+  position: relative;
+}
+
+.event-contact .contact-link::after {
+  position: absolute;
+  content: "";
+  width: 60px;
+  height: 60px;
+  background-image: url(../img/btn-cursor.svg);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  left: 93%;
+  top: 60%;
 }
 
 .event-contact .event-triangle {
@@ -5937,7 +5961,10 @@ footer.normal > div > div p {
   }
   .event-720 .degree-text {
     font-size: 16px;
-    margin: 12px 0;
+    margin: 12px 0 5px;
+  }
+  .event-720 .degree-english {
+    font-size: 20px;
   }
   .event-info {
     padding-left: 20px;
@@ -6008,6 +6035,10 @@ footer.normal > div > div p {
   }
   .event-brand .text-slogan img {
     width: 7vw;
+  }
+  .event-720 .degree-english {
+    font-size: 13px;
+    height: 40px;
   }
   .event-contact .contact-title {
     margin-bottom: 30px;

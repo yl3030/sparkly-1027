@@ -126,8 +126,19 @@
             font-size: 20px;
             font-weight: bold;
             color: #fff;
-            margin: 25px 0;
+            margin: 25px 0 5px;
             text-align: center;
+        }
+        .degree-english {
+            font-size: 26px;
+            font-weight: bold;
+            color: #fff;
+            // margin: 25px 0;
+            font-family: FuturaPTLight;
+            // font-family: 微軟正黑體;
+            font-weight: 300;
+            text-align: center;
+            letter-spacing: 2px;
         }
         .degree-main-text {
             width: 65%;
@@ -173,6 +184,21 @@
                 border-radius: 10px;
                 width: fit-content;
                 letter-spacing: 2.5px;
+                position: relative;
+                &::after {
+                    position: absolute;
+                    content: "";
+                    width: 60px;
+                    height: 60px;
+                    background-image: url(../img/btn-cursor.svg);
+                    background-position: center center;
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    // right: 10px;
+                    // bottom: 5%;
+                    left: 93%;
+                    top: 60%;
+                }
             }
         }
         .event-triangle {
@@ -404,7 +430,10 @@
             }
             .degree-text {
                 font-size: 16px;
-                margin: 12px 0;
+                margin: 12px 0 5px;
+            }
+            .degree-english {
+                font-size: 20px;
             }
         }
         &-info {
@@ -484,6 +513,12 @@
                 img {
                     width: 7vw;
                 }
+            }
+        }
+        &-720 {
+            .degree-english {
+                font-size: 13px;
+                height: 40px;
             }
         }
         &-contact {
