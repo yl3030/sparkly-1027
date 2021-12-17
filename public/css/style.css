@@ -5477,4 +5477,562 @@ footer.normal > div > div p {
     display: none;
   }
 }
+
+.event-banner {
+  width: 100vw;
+  padding-bottom: 56.25%;
+  position: relative;
+  background-color: #e50012;
+}
+
+.event-banner .acti-main {
+  position: absolute;
+  width: 75%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.event-banner .acti-date {
+  position: absolute;
+  width: 43%;
+  left: 50%;
+  bottom: 23%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.event-banner .side-text {
+  position: absolute;
+  -webkit-writing-mode: vertical-lr;
+  -ms-writing-mode: tb-lr;
+      writing-mode: vertical-lr;
+  letter-spacing: 4px;
+  font-size: 18px;
+  font-weight: bold;
+  top: 5%;
+  left: 5%;
+  height: 90%;
+  text-align: center;
+}
+
+.event-banner .side-text span {
+  color: #fff;
+  margin: 10px 0;
+}
+
+.event-banner .acti-title {
+  position: absolute;
+  text-align: right;
+  right: 5%;
+  top: 22%;
+}
+
+.event-banner .acti-title h1 {
+  font-weight: bold;
+}
+
+.event-banner .acti-title h2 {
+  font-size: 22px;
+}
+
+.event-intro {
+  width: 100vw;
+  padding-bottom: 56.25%;
+  position: relative;
+  background-color: #000;
+}
+
+.event-intro .pic-shock {
+  position: absolute;
+  width: 40%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.event-intro p {
+  position: absolute;
+  color: #c9caca;
+  width: 25%;
+  margin: 0;
+}
+
+.event-intro p.text-chinese {
+  font-size: 15px;
+  top: 15%;
+  left: 5%;
+}
+
+.event-intro p.text-english {
+  font-size: 13px;
+  right: 5%;
+  bottom: 15%;
+}
+
+.event-brand {
+  width: 100vw;
+  padding-bottom: 56.25%;
+  position: relative;
+  background-color: #e50012;
+  background-image: url(../img/brand-bg.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.event-brand .text-slogan {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.event-brand .text-slogan h3 {
+  text-align: center;
+  font-size: 3.5vw;
+  font-weight: bold;
+  margin: 0;
+  color: #fff;
+}
+
+.event-brand .text-slogan img {
+  width: 5vw;
+  display: block;
+  margin: 2.5vw auto;
+}
+
+.event-720 {
+  background-color: #000;
+  padding: 14vw 40px;
+  background-image: url(../img/strategy-bg.svg), url(../img/strategy-bg.svg);
+  background-size: 28vw,44.5vw;
+  background-position: -10vw -3vw, 77vw calc(100% + 7.5vw);
+  background-repeat: no-repeat;
+}
+
+.event-720 .degree-pic {
+  width: 100%;
+  padding-bottom: 73%;
+  position: relative;
+}
+
+.event-720 .degree-pic img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.event-720 .degree-text {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  margin: 25px 0;
+  text-align: center;
+}
+
+.event-720 .degree-main-text {
+  width: 65%;
+}
+
+.event-contact {
+  background-color: #e50012;
+  padding: 11vw 7vw;
+}
+
+.event-contact p {
+  margin: 0;
+}
+
+.event-contact .contact-title {
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.event-contact .contact-title p:first-child {
+  margin-bottom: 10px;
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.event-contact .contact-title p:nth-child(2) {
+  font-size: 48px;
+  letter-spacing: 2.5px;
+}
+
+.event-contact .contact-text {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  margin-bottom: 30px;
+}
+
+.event-contact .contact-link {
+  background-color: #000;
+  display: block;
+  color: #fff;
+  font-weight: 600;
+  font-size: 24px;
+  padding: 12px 50px 14px;
+  border-radius: 10px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  letter-spacing: 2.5px;
+}
+
+.event-contact .event-triangle {
+  width: 66%;
+  display: block;
+  margin: 0 auto;
+}
+
+.event-info {
+  background-color: #000;
+  padding: 40px 40px 150px;
+}
+
+.event-info .info-classify {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.event-info .info-classify li {
+  margin: 0 20px;
+  color: rgba(255, 255, 255, 0.5);
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  position: relative;
+  letter-spacing: 1.3px;
+  font-size: 20px;
+}
+
+.event-info .info-classify li::before {
+  height: 22px;
+  width: 1px;
+  background-color: #fff;
+  top: 50%;
+  left: -20px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  position: absolute;
+  content: "";
+}
+
+.event-info .info-classify li:last-child::after {
+  height: 22px;
+  width: 1px;
+  background-color: #fff;
+  top: 50%;
+  right: -20px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  position: absolute;
+  content: "";
+}
+
+.event-info .info-classify li.active {
+  color: #e50012;
+}
+
+.event-info .event-map {
+  display: block;
+  width: 83%;
+  margin: 0 auto;
+}
+
+.event-info .map-text .acti-num {
+  background-color: #e50012;
+  padding: 10px 40px 10px 10px;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  margin-bottom: 40px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 18px;
+}
+
+.event-info .map-text .acti-place {
+  color: #fff;
+  font-size: 20px;
+  line-height: 2;
+  letter-spacing: 1.5px;
+}
+
+.event-info .event-floor {
+  width: 10.5vw;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+}
+
+.event-info .info-traffic .transportaion {
+  width: 150px;
+}
+
+.event-info .info-traffic .transportaion h4 {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: #e50012;
+  padding: 0 15px;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+}
+
+.event-info .info-traffic .traffic-method {
+  padding-left: 20px;
+  width: calc(100% - 150px);
+}
+
+.event-info .info-traffic .traffic-method li {
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 1.8;
+}
+
+.event-info .info-traffic .road-icon {
+  width: 25px;
+  margin-right: 10px;
+}
+
+.event-popup .popup-bg {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 10000;
+  cursor: pointer;
+}
+
+.event-popup .event-swiper {
+  z-index: 10005;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 677px;
+  -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+.event-popup .event-swiper .swiper-slide {
+  width: 100%;
+  padding-bottom: 100%;
+  position: relative;
+}
+
+.event-popup .event-swiper .swiper-slide img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media screen and (max-width: 1200px) {
+  .event-intro {
+    padding-bottom: 75%;
+  }
+  .event-intro p.text-chinese {
+    top: 7%;
+  }
+  .event-intro p.text-english {
+    bottom: 7%;
+  }
+  .event-intro .pic-shock {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .event-intro {
+    padding-bottom: 90%;
+  }
+  .event-intro p {
+    width: 35%;
+  }
+  .event-intro p.text-english {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .event-banner {
+    padding-bottom: 100%;
+  }
+  .event-banner .acti-main {
+    width: 110%;
+  }
+  .event-intro {
+    padding: 50px 0;
+  }
+  .event-intro .pic-shock {
+    position: static;
+    -webkit-transform: none;
+            transform: none;
+    margin: 40px auto;
+    display: block;
+    width: 80%;
+  }
+  .event-intro p {
+    width: 100%;
+    position: static;
+    padding: 0 5%;
+  }
+  .event-intro p.text-chinese {
+    top: 5%;
+  }
+  .event-intro p.text-english {
+    bottom: 5%;
+  }
+  .event-brand {
+    padding-bottom: 100%;
+  }
+  .event-brand .text-slogan h3 {
+    font-size: 5vw;
+  }
+  .event-brand .text-slogan img {
+    width: 5vw;
+  }
+  .event-720 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .event-720 .row {
+    margin-left: -5px;
+    margin-right: -5px;
+  }
+  .event-720 .row > div {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .event-720 .degree-text {
+    font-size: 16px;
+    margin: 12px 0;
+  }
+  .event-info {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .event-info .info-classify {
+    font-size: 18px;
+    margin: 0 10px;
+  }
+  .event-info .info-classify::before {
+    left: -10px;
+  }
+  .event-info .info-classify::after {
+    right: -10px;
+  }
+  .event-info .event-map {
+    width: 100%;
+  }
+  .event-info .map-text {
+    width: 100%;
+    margin: 50px auto 0;
+  }
+  .event-info .event-floor {
+    width: 15vw;
+    position: static;
+    display: block;
+    margin-left: auto;
+  }
+  .event-info .info-traffic .transportaion {
+    width: 100%;
+  }
+  .event-info .info-traffic .transportaion h4 {
+    font-size: 20px;
+  }
+  .event-info .info-traffic .traffic-method {
+    width: 100%;
+    margin-top: 10px;
+    padding-left: 0;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .event-banner {
+    padding-bottom: 150%;
+  }
+  .event-banner .side-text {
+    font-size: 14px;
+  }
+  .event-banner .acti-title h1 {
+    font-size: 24px;
+  }
+  .event-banner .acti-title h2 {
+    font-size: 20px;
+  }
+  .event-banner .acti-date {
+    width: 55%;
+    bottom: 16%;
+  }
+  .event-banner .acti-main {
+    width: 130%;
+  }
+  .event-brand {
+    padding-bottom: 150%;
+  }
+  .event-brand .text-slogan h3 {
+    font-size: 7vw;
+  }
+  .event-brand .text-slogan img {
+    width: 7vw;
+  }
+  .event-contact .contact-title {
+    margin-bottom: 30px;
+  }
+  .event-contact .contact-title p:first-child {
+    font-size: 22px;
+  }
+  .event-contact .contact-title p:nth-child(2) {
+    font-size: 36px;
+  }
+  .event-contact .contact-text {
+    font-size: 18px;
+  }
+  .event-contact .contact-link {
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .event-contact .event-triangle {
+    width: 80%;
+  }
+  .event-info .event-floor {
+    width: 100px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
