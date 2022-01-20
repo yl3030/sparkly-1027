@@ -1,23 +1,26 @@
 // index
 .home-swiper {
-  height: 100vh;
-  .swiper-wrapper {
-    height: 100%;
-    .swiper-slide {
-      height: 100%;
-    }
-  }
-  .swiper-pagination {
-    left: inherit;
-    right: 0;
-    &-progressbar {
-      background-color: #fff;
-      opacity: 0.8;
-    }
-    &-progressbar-fill {
-      background-color: $main-color;
-      opacity: 0.8;
-    }
+  // height: 100vh;
+  // .swiper-wrapper {
+  //   height: 100%;
+  //   .swiper-slide {
+  //     height: 100%;
+  //   }
+  // }
+  // .swiper-pagination {
+  //   left: inherit;
+  //   right: 0;
+  //   &-progressbar {
+  //     background-color: #fff;
+  //     opacity: 0.8;
+  //   }
+  //   &-progressbar-fill {
+  //     background-color: $main-color;
+  //     opacity: 0.8;
+  //   }
+  // }
+  >div>.swiper-slide {
+    height: 100vh;
   }
 }
 // banner

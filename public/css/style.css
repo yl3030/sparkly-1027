@@ -954,31 +954,8 @@ footer.normal > div > div p {
   }
 }
 
-.home-swiper {
+.home-swiper > div > .swiper-slide {
   height: 100vh;
-}
-
-.home-swiper .swiper-wrapper {
-  height: 100%;
-}
-
-.home-swiper .swiper-wrapper .swiper-slide {
-  height: 100%;
-}
-
-.home-swiper .swiper-pagination {
-  left: inherit;
-  right: 0;
-}
-
-.home-swiper .swiper-pagination-progressbar {
-  background-color: #fff;
-  opacity: 0.8;
-}
-
-.home-swiper .swiper-pagination-progressbar-fill {
-  background-color: #D54735;
-  opacity: 0.8;
 }
 
 #banner {

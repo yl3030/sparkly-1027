@@ -141,8 +141,8 @@
       </a>
     </div>
     <main>
-      <div class="swiper home-swiper">
-        <div class="swiper-wrapper">
+      <div class="home-swiper">
+        <div class="">
           <div class="swiper-slide">
             <div class="swiper-container" id="banner">
               <div class="swiper-wrapper">
@@ -613,25 +613,25 @@
     <script src="./public/js/swiper/swiper-bundle.min.js"></script>
     <script src="./public/js/index.js"></script>
     <script>
-      var Hswiper = new Swiper(".home-swiper", {
-        direction: "vertical",
-        speed: 1000,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-          type: "progressbar",
-        },
-        mousewheel: true,
-        keyboard: true,
-        on:{
-          slidePrevTransitionStart: function(){
-            $("header").css("top", "0");
-          },
-          slideNextTransitionStart: function(){
-            $("header").css("top", "-70px");
-          },
-        }
-      });
+      // var Hswiper = new Swiper(".home-swiper", {
+      //   direction: "vertical",
+      //   speed: 1000,
+      //   pagination: {
+      //     el: ".swiper-pagination",
+      //     clickable: true,
+      //     type: "progressbar",
+      //   },
+      //   mousewheel: true,
+      //   keyboard: true,
+      //   on:{
+      //     slidePrevTransitionStart: function(){
+      //       $("header").css("top", "0");
+      //     },
+      //     slideNextTransitionStart: function(){
+      //       $("header").css("top", "-70px");
+      //     },
+      //   }
+      // });
       var Bswiper = new Swiper("#banner", {
         loop: true,
         speed: 600,
