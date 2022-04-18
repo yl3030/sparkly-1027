@@ -6043,4 +6043,14 @@ footer.normal > div > div p {
     width: 100px;
   }
 }
+
+.cocoa-logo {
+  padding: 60px 0;
+}
+
+.cocoa-logo img {
+  display: block;
+  width: 500px;
+  margin: 0 auto;
+}
 /*# sourceMappingURL=style.css.map */
