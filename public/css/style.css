@@ -6471,7 +6471,7 @@ footer.normal > div > div p {
     border: 0;
   }
   .cocoa-introduction_text p {
-    padding: 20px 40px;
+    padding: 20px;
   }
   .cocoa-introduction_video {
     width: 100%;
@@ -6506,9 +6506,6 @@ footer.normal > div > div p {
   }
   .cocoa-introduction_text h3 {
     padding: 30px 20px;
-  }
-  .cocoa-introduction_text p {
-    padding: 20px;
   }
 }
 
