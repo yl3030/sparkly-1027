@@ -6053,6 +6053,10 @@ footer.normal > div > div p {
   color: #fff;
 }
 
+.cocoa-body main {
+  padding-top: 0;
+}
+
 .cocoa-logo {
   padding: 60px 0;
 }
@@ -6472,9 +6476,20 @@ footer.normal > div > div p {
   .cocoa-introduction_video {
     width: 100%;
   }
+  .cocoa-introduction_slogan p {
+    padding: 5.6vw 0;
+    font-size: 2.6vw;
+    letter-spacing: 0.7em;
+  }
 }
 
 @media screen and (max-width: 767px) {
+  .cocoa-logo {
+    padding: 30px 0;
+  }
+  .cocoa-logo img {
+    width: 80%;
+  }
   .cocoa-content {
     padding-left: 20px;
     padding-right: 20px;
@@ -6500,9 +6515,6 @@ footer.normal > div > div p {
 @media screen and (max-width: 575px) {
   .cocoa-introduction_text h3 {
     font-size: calc(1.3rem + 0.6vw);
-  }
-  .cocoa-introduction_slogan p {
-    padding: 15px 0;
   }
   .cocoa-inner-m_right .pic img {
     width: 60%;
