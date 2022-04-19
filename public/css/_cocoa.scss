@@ -1,10 +1,404 @@
 .cocoa {
+    &-body {
+        background-color: #000;
+        color: #fff;
+    }
     &-logo {
         padding: 60px 0;
         img {
             display: block;
             width: 500px;
             margin: 0 auto;
+        }
+    }
+    &-content {
+        padding: 50px 40px 80px;
+        &_title {
+            padding-bottom: 25px;
+            border-bottom: 1px solid rgba(255,255,255,0.5);
+            h2 {
+                margin: 0;
+            }
+            p {
+                margin: 0;
+            }
+        }
+        &_text {
+            width: calc(100% - 150px);
+            border-bottom: 1px solid rgba(255,255,255,0.5);
+        }
+        &_chinese {
+            margin: 0;
+            font-size: 24px;
+        }
+        &_english {
+            margin: 0;
+        }
+        &_icon {
+            width: 60px;
+        }
+    }
+    &-introduction {
+        border-bottom: 1px solid rgba(255,255,255,0.5);
+        &_title {
+            background-color: #fff;
+            color: #000;
+            padding: 25px 40px;
+        }
+        &_text {
+            width: 55%;
+            h3 {
+                padding: 30px 30px 30px 40px;
+                border-bottom: 1px solid rgba(255,255,255,0.5);
+                margin: 0;
+                font-size: calc(1.5rem + 0.6vw);
+                line-height: 1.7;
+            }
+            p {
+                padding: 20px 30px 20px 40px;
+                line-height: 2;
+            }
+        }
+        &_video {
+            width: 45%;
+            border-left: 1px solid rgba(255,255,255,0.5);
+        }
+        &_slogan {
+            background-color: rgba(204, 204, 204, 0.3);
+            p {
+                margin: 0;
+                padding: 20px 0;
+                background-image: url(../img/cocoa_bg-m.png);
+                background-position: center center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                text-align: center;
+                color: #fff;
+            }
+        }
+    }
+    &-inner {
+        // width: 530px;
+        width: 36.98vw;
+        border-top: 1px solid rgba(255,255,255,0.5);
+        border-bottom: 1px solid rgba(255,255,255,0.5);
+        &.left {
+            border-right: 1px solid rgba(255,255,255,0.5);
+        }
+        &.right {
+            border-left: 1px solid rgba(255,255,255,0.5);
+            margin-left: auto;
+        }
+        &_title {
+            padding: 25px 20px;
+            border-bottom: 1px solid rgba(255,255,255,0.5);
+            width: 100%;
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+            &_text {
+                border-bottom: 1px solid rgba(255,255,255,0.5);
+                h2 {
+                    font-size: 20px;
+                    font-weight: normal;
+                }
+                p {
+                    font-size: 20px;
+                    transform: translateY(4px);
+                }
+            }
+        }
+        &_content {
+            display: flex;
+            .pic {
+                width: 30%;
+                height: 500px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: #1A1A1A;
+                img {
+                    width: 50%;
+                }
+            }
+            .text {
+                width: 70%;
+                display: flex;
+                flex-wrap: wrap;
+                align-content: space-between;
+                padding: 40px 25px 25px;
+                &_main {
+                    font-size: 18px;
+                    margin: 0;
+                }
+            }
+        }
+        &_resource {
+            width: 100%;
+            border-bottom: 1px solid rgba(255,255,255,0.5);
+            p {
+                margin: 0;
+                font-size: 14px;
+            }
+            &-m {
+                margin: 0 auto 20px;
+                width: 90%;
+                border-bottom: 1px solid rgba(255,255,255,0.5);
+                // bottom: 5%;
+                // left: 50%;
+                // transform: translateX(-50%);
+                p {
+                    margin: 0;
+                    font-size: 14px;
+                }
+            }
+        }
+        &-m {
+            width: 90%;
+            border-top: 1px solid rgba(255,255,255,0.5);
+            border-bottom: 1px solid rgba(255,255,255,0.5);
+            &_left {
+                width: 70%;
+                .cocoa-inner_title {
+                    padding: 30px 20px;
+                    background-color: #333333;
+                    &_text {
+                        border: 0;
+                        justify-content: flex-start;
+                        h2 {
+                            font-size: 22px;
+                        }
+                        p {
+                            transform: none;
+                        }
+                    }
+                }
+                .text {
+                    padding: 20px;
+                }
+            }
+            &_right {
+                width: 30%;
+                border-right: 1px solid rgba(255,255,255,0.5);
+                border-left: 1px solid rgba(255,255,255,0.5);
+                .pic {
+                    width: 100%;
+                    background-color: #1A1A1A;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    height: 100%;
+                    img {
+                        width: 40%;
+                    }
+                }
+            }
+        }
+    }
+    &-prologue {
+        margin-top: 11vw;
+        padding-bottom: 30vw;
+        &_img {
+            width: 63.6vw;
+            right: 0;
+            bottom: 0;
+            &-m {
+                margin-top: -25vw;
+            }
+        }
+    }
+    &-biginning {
+        transform: translateY(-5.7vw);
+        padding-bottom: 6vw;
+        .cocoa-inner_title {
+            background-image: url(../img/cocoa_bg-1.png);
+        }
+        &_img {
+            width: 57.86vw;
+            left: 3%;
+            bottom: 0;
+            &-m {
+                padding: 30vw 0;
+            }
+        }
+    }
+    &-origian {
+        padding-top: 18.44vw;
+        padding-bottom: 47.19vw;
+        &_img {
+            width: 29.48vw;
+            right: 10%;
+            bottom: 0;
+            &-m {
+                width: 25vw;
+                margin-left: auto;
+                margin-right: 10%;
+                display: block;
+                margin-bottom: 30px;
+            }
+        }
+    }
+    &-longhour {
+        padding-bottom: 11.35vw;
+        .cocoa-inner_title {
+            background-image: url(../img/cocoa_bg-2.png);
+        }
+        &_img {
+            // top: -25.73vw;
+            bottom: 0;
+            left: 0;
+            width: 51.5vw;
+            &-m {
+                width: 95%;
+                margin: 0 auto;
+                display: block;
+            }
+        }
+    }
+    &-child {
+        padding-bottom: 25.47vw;
+        .cocoa-inner_title {
+            background-image: url(../img/cocoa_bg-3.png);
+        }
+        &_img {
+            top: 13.13vw;
+            right: 5%;
+            width: 51.35vw;
+            &-m {
+                margin-top: 17.78vw;
+                margin-bottom: 25.09vw;
+            }
+        }
+    }
+    &-healthy {
+        &_img {
+            left: 3%;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 54.64vw;
+            &-m {
+                margin-top: 17.78vw;
+                margin-bottom: 25.09vw;
+            }
+        }
+    }
+    &-smile {
+        padding-top: 18.33vw;
+        padding-bottom: 22.4vw;
+        &_img {
+            right: 0;
+            bottom: 0;
+            width: 53.07vw;
+        }
+    }
+    &-low {
+        padding-bottom: 33.33vw;
+        .cocoa-inner_title {
+            background-image: url(../img/cocoa_bg-4.png);
+        }
+        &_img {
+            left: 0;
+            top: 1.98vw;
+            width: 57.71vw;
+            &-m {
+                margin: 30px 0;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:991px) {
+    .cocoa {
+        &-content {
+            &_text {
+                width: calc(100% - 100px);
+            }
+        }
+        &-introduction {
+            &_title {
+                padding-left: 20px;
+                padding-right: 20px;
+                background-color: transparent;
+                // padding: 0;
+                h2 {
+                    color: #fff;
+                    border-top: 1px solid rgba(255,255,255,0.5);
+                    border-bottom: 1px solid rgba(255,255,255,0.5);
+                    padding: 25px 0;
+                    width: 100%;
+                    text-align: center;
+                }
+            }
+            &_text {
+                width: 100%;
+                h3 {
+                    padding: 30px 40px;
+                    border: 0;
+                }
+                p {
+                    padding: 20px 40px;
+                }
+            }
+            &_video {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:767px) {
+    .cocoa {
+        &-content {
+            padding-left: 20px;
+            padding-right: 20px;
+            &_title {
+                padding-top: 25px;
+                border-top: 1px solid rgba(255,255,255,0.5);
+            }
+            &_text {
+                width: calc(100% - 60px);
+            }
+            &_icon {
+                width: 40px;
+            }
+        }
+        &-introduction {
+            &_text {
+                h3 {
+                    padding: 30px 20px;
+                }
+                p {
+                    padding: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:575px) {
+    .cocoa {
+        &-introduction {
+            &_text {
+                h3 {
+                    font-size: calc(1.3rem + 0.6vw);
+                }
+            }
+            &_slogan {
+                p {
+                    padding: 15px 0;
+                }
+            }
+        }
+        &-inner {
+            &-m {
+                &_right {
+                    .pic {
+                        img {
+                            width: 60%;
+                        }
+                    }
+                }
+            }
         }
     }
 }
