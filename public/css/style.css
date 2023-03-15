@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200;300;400;500;600;700;900&display=swap");
 .py-100px {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -144,6 +145,11 @@
 @font-face {
   font-family: PerpetuaTitlingMTLight;
   src: url(../font/PerpetuaTitlingMTLight2.woff) format("woff"), url(../font/PerpetuaTitlingMTLight2.otf) format("opentype");
+}
+
+@font-face {
+  font-family: optima;
+  src: url(../font/OPTIMA.woff) format("woff"), url(../font/OPTIMA.otf) format("opentype");
 }
 
 body {
@@ -6511,6 +6517,346 @@ footer.normal > div > div p {
   }
   .cocoa-inner-m_right .pic img {
     width: 60%;
+  }
+}
+
+.sunmoonlake-hand {
+  background-image: url(../img/sunmoonlake-2-pc.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: #C9A063;
+  padding-bottom: 200px;
+  padding-top: 100px;
+}
+
+.sunmoonlake-hand_info {
+  margin-right: 85px;
+  margin-bottom: 100px;
+}
+
+.sunmoonlake-hand_info p {
+  font-size: 14px;
+  margin: 0;
+  font-family: optima;
+  line-height: 1.6;
+}
+
+.sunmoonlake-hand_info p.ch {
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+.sunmoonlake-hand_content {
+  width: 45%;
+}
+
+.sunmoonlake-hand_content h2 {
+  font-size: 45px;
+  font-weight: 500;
+  margin-bottom: 50px;
+  letter-spacing: 0.05em;
+}
+
+.sunmoonlake-hand_content p {
+  margin: 0;
+  line-height: 1.8;
+  letter-spacing: 0.05em;
+  text-align: justify;
+}
+
+@media screen and (max-width: 1199px) {
+  .sunmoonlake-hand_content {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .sunmoonlake-hand {
+    padding-top: 35px;
+    padding-bottom: 45px;
+    background-image: url(../img/sunmoonlake-2-m.png);
+  }
+  .sunmoonlake-hand_info {
+    margin-right: 35px;
+    margin-bottom: 36px;
+  }
+  .sunmoonlake-hand_info p {
+    font-size: 12px;
+  }
+  .sunmoonlake-hand_info:last-child {
+    margin-right: 0;
+  }
+  .sunmoonlake-hand_content {
+    width: 100%;
+  }
+  .sunmoonlake-hand_content h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .sunmoonlake-hand_content p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .sunmoonlake-hand_info {
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .sunmoonlake-hand_info {
+    margin: 0;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .sunmoonlake-hand_content {
+    margin-top: 40px;
+  }
+}
+
+.sunmoonlake-compose .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.sunmoonlake-compose .row > div {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.sunmoonlake-compose_item {
+  width: 100%;
+  padding-bottom: 100%;
+  position: relative;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.sunmoonlake-compose_item h3 {
+  font-family: "Noto Serif TC", serif;
+  color: #fff;
+  position: absolute;
+  margin: 0;
+  top: 50%;
+  width: 100%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  font-size: 32px;
+  letter-spacing: 0.2em;
+  text-shadow: 5px 5px 3px rgba(0, 0, 0, 0.75);
+  text-align: center;
+  font-weight: normal;
+}
+
+.sunmoonlake-compose_leaf {
+  background-image: url(../img/sunmoonlake-3-pc.png);
+}
+
+.sunmoonlake-compose_plant {
+  background-image: url(../img/sunmoonlake-4-pc.png);
+}
+
+.sunmoonlake-compose_skill {
+  background-image: url(../img/sunmoonlake-5-pc.png);
+}
+
+@media screen and (max-width: 991px) {
+  .sunmoonlake-compose_item h3 {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .sunmoonlake-compose_item {
+    padding-bottom: 30%;
+  }
+  .sunmoonlake-compose_item h3 {
+    font-size: 18px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.75);
+  }
+}
+
+.sunmoonlake-brand {
+  position: relative;
+}
+
+.sunmoonlake-brand_top {
+  position: absolute;
+  color: #fff;
+  width: 30%;
+  top: 5.57vw;
+  left: 40px;
+}
+
+.sunmoonlake-brand_top p {
+  margin: 0;
+  font-family: optima;
+  line-height: 1.7;
+  letter-spacing: 0.05em;
+}
+
+.sunmoonlake-brand_bottom {
+  position: absolute;
+  color: #fff;
+  width: 100%;
+  padding-left: 40px;
+  padding-right: 40px;
+  left: 0;
+  bottom: 1%;
+}
+
+.sunmoonlake-brand_bottom p {
+  font-size: 36px;
+  font-family: optima;
+  margin: 0;
+  letter-spacing: 0.05em;
+}
+
+.sunmoonlake-brand_bottom h2 {
+  margin: 0;
+  font-size: 11.5vw;
+  font-family: optima;
+  text-align: center;
+}
+
+@media screen and (max-width: 1470px) {
+  .sunmoonlake-brand_bottom h2 {
+    font-size: 11.3vw;
+  }
+}
+
+@media screen and (max-width: 1130px) {
+  .sunmoonlake-brand_top {
+    width: 50%;
+  }
+  .sunmoonlake-brand_top p {
+    font-size: 14px;
+  }
+  .sunmoonlake-brand_bottom p {
+    font-size: 30px;
+  }
+  .sunmoonlake-brand_bottom h2 {
+    font-size: 11vw;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .sunmoonlake-brand_bottom h2 {
+    font-size: 10.7vw;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .sunmoonlake-brand_top {
+    left: 20px;
+  }
+  .sunmoonlake-brand_top p {
+    font-size: 12px;
+  }
+  .sunmoonlake-brand_bottom {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .sunmoonlake-brand_bottom p {
+    font-size: 22px;
+  }
+  .sunmoonlake-brand_bottom h2 {
+    font-size: 11vw;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .sunmoonlake-brand_top {
+    width: calc(100% - 40px);
+  }
+  .sunmoonlake-brand_bottom p {
+    font-size: 16px;
+  }
+  .sunmoonlake-brand_bottom h2 {
+    font-size: 10.7vw;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .sunmoonlake-brand_bottom h2 {
+    font-size: 10.5vw;
+  }
+}
+
+.sunmoonlake-identity {
+  position: relative;
+}
+
+.sunmoonlake-identity_text {
+  position: absolute;
+  color: #C9A063;
+  left: 0;
+  top: 40px;
+}
+
+.sunmoonlake-identity_text h2 {
+  font-family: optima;
+  font-size: 60px;
+  margin-bottom: 10px;
+  letter-spacing: 0.05em;
+}
+
+.sunmoonlake-identity_text h3 {
+  font-size: 20px;
+  font-weight: normal;
+  margin: 0;
+  letter-spacing: 0.05em;
+}
+
+@media screen and (max-width: 767px) {
+  .sunmoonlake-identity_text h2 {
+    font-size: 48px;
+    margin-bottom: 5px;
+  }
+  .sunmoonlake-identity_text h3 {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .sunmoonlake-identity_text {
+    top: 20px;
+  }
+  .sunmoonlake-identity_text h2 {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .sunmoonlake-identity_text h2 {
+    font-size: 24px;
+  }
+}
+
+.sunmoonlake-hongyun {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: #1A1A1A;
+}
+
+.sunmoonlake-hongyun img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .sunmoonlake-hongyun {
+    height: 0;
+    padding-bottom: 100%;
   }
 }
 /*# sourceMappingURL=style.css.map */

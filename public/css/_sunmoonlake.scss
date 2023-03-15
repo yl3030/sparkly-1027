@@ -1,0 +1,309 @@
+.sunmoonlake {
+    &-hand {
+        background-image: url(../img/sunmoonlake-2-pc.png);
+        @include bg;
+        color: $sunmoonlake-brown;
+        padding-bottom: 200px;
+        padding-top: 100px;
+        &_info {
+            margin-right: 85px;
+            margin-bottom: 100px;
+            p {
+                font-size: 14px;
+                margin: 0;
+                font-family: $font-optima;
+                line-height: 1.6;
+                &.ch {
+                    font-family: $chinese-font;
+                }
+            }
+        }
+        &_content {
+            width: 45%;
+            h2 {
+                font-size: 45px;
+                font-weight: 500;
+                margin-bottom: 50px;
+                letter-spacing: 0.05em;
+            }
+            p {
+                margin: 0;
+                line-height: 1.8;
+                letter-spacing: 0.05em;
+                text-align: justify;
+            }
+        }
+        @media screen and (max-width: 1199px) {
+            &_content {
+                width: 60%;
+            }
+        }
+        @media screen and (max-width: 767px) {
+            padding-top: 35px;
+            padding-bottom: 45px;
+            background-image: url(../img/sunmoonlake-2-m.png);
+            &_info {
+                margin-right: 35px;
+                margin-bottom: 36px;
+                p {
+                    font-size: 12px;
+                }
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+            &_content {
+                width: 100%;
+                h2 {
+                    font-size: 24px;
+                    margin-bottom: 20px;
+                }
+                p {
+                    font-size: 14px;
+                }
+            }
+        }
+        @media screen and (max-width: 374px) {
+            &_info {
+                margin-right: 20px;
+            }
+        }
+        @media screen and (max-width: 350px) {
+            &_info {
+               margin: 0;
+               width: 100%;
+               margin-bottom: 15px;
+            }
+            &_content {
+                margin-top: 40px;
+            }
+        }
+    }
+    &-compose {
+        .row {
+            margin-left: 0;
+            margin-right: 0;
+            >div {
+                padding-left: 0;
+                padding-right: 0;
+            }
+        }
+        &_item {
+            width: 100%;
+            padding-bottom: 100%;
+            position: relative;
+            @include bg;
+            h3 {
+                font-family: $font-notoSerif;
+                color: #fff;
+                position: absolute;
+                margin: 0;
+                top: 50%;
+                width: 100%;
+                left: 0;
+                transform: translateY(-50%);
+                font-size: 32px;
+                letter-spacing: 0.2em;
+                text-shadow: 5px 5px 3px rgba(0,0,0,0.75);
+                text-align: center;
+                font-weight: normal;
+            }
+        }
+        &_leaf {
+            background-image: url(../img/sunmoonlake-3-pc.png);
+        }
+        &_plant {
+            background-image: url(../img/sunmoonlake-4-pc.png);
+        }
+        &_skill {
+            background-image: url(../img/sunmoonlake-5-pc.png);
+        }
+        @media screen and (max-width: 991px) {
+            &_item {
+                h3 {
+                    font-size: 24px;
+                }
+            }
+        }
+        @media screen and (max-width: 767px) {
+            &_item {
+                padding-bottom: 30%;
+                h3 {
+                    font-size: 18px;
+                    text-shadow: 2px 2px 2px rgba(0,0,0,0.75);
+                }
+            }
+        }
+    }
+    &-brand {
+        position: relative;
+        &_top {
+            position: absolute;
+            color: #fff;
+            width: 30%;
+            top: 5.57vw;
+            left: 40px;
+            p {
+                margin: 0;
+                font-family: $font-optima;
+                line-height: 1.7;
+                letter-spacing: 0.05em;
+            }
+        }
+        &_bottom {
+            position: absolute;
+            color: #fff;
+            width: 100%;
+            padding-left: 40px;
+            padding-right: 40px;
+            left: 0;
+            bottom: 1%;
+            p {
+                font-size: 36px;
+                font-family: $font-optima;
+                margin: 0;
+                letter-spacing: 0.05em;
+            }
+            h2 {margin: 0;
+                font-size: 11.5vw;
+                font-family: $font-optima;
+                text-align: center;
+            }
+        }
+        @media screen and (max-width: 1470px) {
+            &_bottom {
+                h2 {
+                    font-size: 11.3vw;
+                }
+            }
+        }
+        @media screen and (max-width: 1130px) {
+            &_top {
+                width: 50%;
+                p {
+                    font-size: 14px;
+                }
+            }
+            &_bottom {
+                p {
+                    font-size: 30px;
+                }
+                h2 {
+                    font-size: 11vw;
+                }
+            }
+        }
+        @media screen and (max-width: 840px) {
+            &_bottom {
+                h2 {
+                    font-size: 10.7vw;
+                }
+            }
+        }
+        @media screen and (max-width: 670px) {
+            &_top {
+                left: 20px;
+                p {
+                    font-size: 12px;
+                }
+            }
+            &_bottom {
+                padding-left: 20px;
+                padding-right: 20px;
+                p {
+                    font-size: 22px;
+                }
+                h2 {
+                    font-size: 11vw;
+                }
+            }
+        }
+        @media screen and (max-width: 420px) {
+            &_top {
+                width: calc(100% - 40px);
+            }
+            &_bottom {
+                p {
+                    font-size: 16px;
+                }
+                h2 {
+                    font-size: 10.7vw;
+                }
+
+            }
+        }
+        @media screen and (max-width: 350px) {
+            &_bottom {
+                h2 {
+                    font-size: 10.5vw;
+                }
+
+            }
+        }
+    }
+    &-identity {
+        position: relative;
+        &_text {
+            position: absolute;
+            color: $sunmoonlake-brown;
+            left: 0;
+            top: 40px;
+            h2 {
+                font-family: $font-optima;
+                font-size: 60px;
+                margin-bottom: 10px;
+                letter-spacing: 0.05em;
+            }
+            h3 {
+                font-size: 20px;
+                font-weight: normal;
+                margin: 0;
+                letter-spacing: 0.05em;
+            }
+        }
+        @media screen and (max-width: 767px) {
+            &_text {
+                h2 {
+                    font-size: 48px;
+                    margin-bottom: 5px;
+                }
+                h3 {
+                    font-size: 16px;
+                }
+            }
+        }
+        @media screen and (max-width: 575px) {
+            &_text {
+                top: 20px;
+                h2 {
+                    font-size: 32px;
+                }
+            }
+        }
+        @media screen and (max-width: 360px) {
+            &_text {
+                h2 {
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+    &-hongyun {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        background-color: #1A1A1A;
+        img {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            top: 0;
+            left: 0;
+        }
+        @media screen and (max-width: 767px) {
+            height: 0;
+            padding-bottom: 100%;
+        }
+    }
+}

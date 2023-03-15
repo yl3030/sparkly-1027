@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200;300;400;500;600;700;900&display=swap');
 $main-color: #D54735;
 $english-font: FuturaPTLight, sans-serif;
 $chinese-font: "Noto Sans TC", sans-serif;
@@ -21,6 +22,12 @@ $chinese-font: "Noto Sans TC", sans-serif;
   font-family: PerpetuaTitlingMTLight;
   src: url(../font/PerpetuaTitlingMTLight2.woff) format("woff"),
        url(../font/PerpetuaTitlingMTLight2.otf) format("opentype");
+}
+
+@font-face {
+  font-family: optima;
+  src: url(../font/OPTIMA.woff) format("woff"),
+       url(../font/OPTIMA.otf) format("opentype");
 }
 
 @mixin bg {
