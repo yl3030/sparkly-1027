@@ -152,6 +152,11 @@
   src: url(../font/OPTIMA.woff) format("woff"), url(../font/OPTIMA.otf) format("opentype");
 }
 
+@font-face {
+  font-family: optimaItalic;
+  src: url(../font/Optima_Italic.woff) format("woff"), url(../font/Optima_Italic.otf) format("opentype");
+}
+
 body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -2493,6 +2498,14 @@ footer.normal > div > div p {
 .work-footer.footer-omee {
   background-color: #163C38;
   margin-top: -1px;
+}
+
+.work-footer.footer-sunmoonlake {
+  background-color: #1a1a1a;
+}
+
+.work-footer.footer-sunmoonlake * {
+  color: #C9A063;
 }
 
 .work-footer > div {
@@ -6520,6 +6533,42 @@ footer.normal > div > div p {
   }
 }
 
+.sunmoonlake-title h2 {
+  font-family: optima;
+  font-size: 60px;
+  margin-bottom: 10px;
+  letter-spacing: 0.05em;
+}
+
+.sunmoonlake-title h3 {
+  font-size: 20px;
+  font-weight: normal;
+  margin: 0;
+  letter-spacing: 0.05em;
+}
+
+@media screen and (max-width: 767px) {
+  .sunmoonlake-title h2 {
+    font-size: 48px;
+    margin-bottom: 5px;
+  }
+  .sunmoonlake-title h3 {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .sunmoonlake-title h2 {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .sunmoonlake-title h2 {
+    font-size: 24px;
+  }
+}
+
 .sunmoonlake-hand {
   background-image: url(../img/sunmoonlake-2-pc.png);
   background-size: cover;
@@ -6797,42 +6846,9 @@ footer.normal > div > div p {
   top: 40px;
 }
 
-.sunmoonlake-identity_text h2 {
-  font-family: optima;
-  font-size: 60px;
-  margin-bottom: 10px;
-  letter-spacing: 0.05em;
-}
-
-.sunmoonlake-identity_text h3 {
-  font-size: 20px;
-  font-weight: normal;
-  margin: 0;
-  letter-spacing: 0.05em;
-}
-
-@media screen and (max-width: 767px) {
-  .sunmoonlake-identity_text h2 {
-    font-size: 48px;
-    margin-bottom: 5px;
-  }
-  .sunmoonlake-identity_text h3 {
-    font-size: 16px;
-  }
-}
-
 @media screen and (max-width: 575px) {
   .sunmoonlake-identity_text {
     top: 20px;
-  }
-  .sunmoonlake-identity_text h2 {
-    font-size: 32px;
-  }
-}
-
-@media screen and (max-width: 360px) {
-  .sunmoonlake-identity_text h2 {
-    font-size: 24px;
   }
 }
 
@@ -6857,6 +6873,634 @@ footer.normal > div > div p {
   .sunmoonlake-hongyun {
     height: 0;
     padding-bottom: 100%;
+  }
+}
+
+.sunmoonlake-flow {
+  background-color: #1A1A1A;
+  padding: 13vw;
+}
+
+.sunmoonlake-flow .row {
+  margin-left: -100px;
+  margin-right: -100px;
+}
+
+.sunmoonlake-flow .row > div {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.sunmoonlake-flow .row > div:last-child .sunmoonlake-flow_item::after {
+  display: none;
+}
+
+.sunmoonlake-flow_item {
+  position: relative;
+}
+
+.sunmoonlake-flow_item img {
+  width: 100%;
+}
+
+.sunmoonlake-flow_item::after {
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 10px;
+  background-image: url(../img/sunmoonlake-9_arrow.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  bottom: -20px;
+  right: -120px;
+}
+
+.sunmoonlake-flow_arrow {
+  width: 20px;
+  display: block;
+  margin: 80px auto;
+}
+
+@media screen and (max-width: 767px) {
+  .sunmoonlake-flow .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .sunmoonlake-flow .row > div {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .sunmoonlake-flow_item img {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+  .sunmoonlake-flow_item::after {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .sunmoonlake-flow_item img {
+    width: 70%;
+  }
+  .sunmoonlake-flow_arrow {
+    width: 15px;
+    margin: 40px auto;
+  }
+}
+
+.sunmoonlake-supporting {
+  padding-bottom: 130px;
+}
+
+.sunmoonlake-supporting_title {
+  margin-bottom: 130px;
+  color: #C9A063;
+}
+
+.sunmoonlake-supporting_item {
+  position: relative;
+}
+
+.sunmoonlake-supporting_item p {
+  text-align: center;
+  font-family: optima;
+  color: #C9A063;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.sunmoonlake-supporting_item img {
+  width: 100%;
+}
+
+.sunmoonlake-supporting_item::after {
+  position: absolute;
+  content: "";
+  width: 100px;
+  height: 18px;
+  background-image: url(../img/sunmoonlake-11_arrow.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: calc((100% - 60px) / 2 + 60px);
+  left: calc(100% + 50px);
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.sunmoonlake-supporting .row {
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-left: -100px;
+  margin-right: -100px;
+}
+
+.sunmoonlake-supporting .row > div {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.sunmoonlake-supporting .row > div:last-child .sunmoonlake-supporting_item::after {
+  display: none;
+}
+
+@media screen and (max-width: 991px) {
+  .sunmoonlake-supporting .row {
+    margin-left: -60px;
+    margin-right: -60px;
+  }
+  .sunmoonlake-supporting .row > div {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  .sunmoonlake-supporting_item::after {
+    width: 60px;
+    height: 10px;
+    left: calc(100% + 30px);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .sunmoonlake-supporting_title {
+    margin-bottom: 100px;
+  }
+  .sunmoonlake-supporting .row {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .sunmoonlake-supporting .row {
+    margin-left: -40px;
+    margin-right: -40px;
+  }
+  .sunmoonlake-supporting .row > div {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .sunmoonlake-supporting_item p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .sunmoonlake-supporting_item::after {
+    width: 40px;
+    height: 7px;
+    top: calc((100% - 34px) / 2 + 34px);
+    left: calc(100% + 20px);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .sunmoonlake-supporting .row {
+    margin-left: -25px;
+    margin-right: -25px;
+  }
+  .sunmoonlake-supporting .row > div {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .sunmoonlake-supporting_title {
+    margin-bottom: 50px;
+  }
+  .sunmoonlake-supporting_item::after {
+    width: 30px;
+    height: 5px;
+    top: calc((100% - 34px) / 2 + 34px);
+    left: calc(100% + 10px);
+  }
+}
+
+.sunmoonlake-logo {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+}
+
+.sunmoonlake-logo img {
+  position: absolute;
+  width: 70%;
+  height: 70%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 767px) {
+  .sunmoonlake-logo {
+    height: 0;
+    padding-bottom: 100%;
+  }
+}
+
+.sunmoonlake-color {
+  padding-top: 180px;
+}
+
+.sunmoonlake-color_title {
+  color: #C9A063;
+  margin-bottom: 170px;
+}
+
+.sunmoonlake-color_item {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.sunmoonlake-color_item.brown {
+  background-color: #C9A063;
+  color: #fff;
+}
+
+.sunmoonlake-color_item.white {
+  background-color: #fff;
+  color: #C9A063;
+}
+
+.sunmoonlake-color_item.black {
+  background-color: #000;
+  color: #fff;
+}
+
+.sunmoonlake-color_name {
+  margin-right: 100px;
+}
+
+.sunmoonlake-color_name p {
+  font-family: optimaItalic;
+  font-size: 30px;
+  letter-spacing: 0.1em;
+  margin: 0;
+}
+
+.sunmoonlake-color_name p:first-child {
+  margin-bottom: 25px;
+}
+
+.sunmoonlake-color_num p {
+  font-family: optima;
+  font-size: 20px;
+  letter-spacing: 0.05em;
+  margin-bottom: 6px;
+}
+
+.sunmoonlake-color_num p:last-child {
+  margin-bottom: 0;
+}
+
+.sunmoonlake-color_num_cmyk {
+  margin-right: 15px;
+}
+
+.sunmoonlake-color_num_rgb {
+  margin-right: 32px;
+}
+
+.sunmoonlake-color_gradient .row {
+  margin: 0;
+}
+
+.sunmoonlake-color_gradient_item {
+  height: 40px;
+  background-color: #C9A063;
+}
+
+.sunmoonlake-color_gradient_item:first-child {
+  opacity: 0.8;
+}
+
+.sunmoonlake-color_gradient_item:nth-child(2) {
+  opacity: 0.6;
+}
+
+.sunmoonlake-color_gradient_item:nth-child(3) {
+  opacity: 0.4;
+}
+
+.sunmoonlake-color_gradient_item:nth-child(4) {
+  opacity: 0.2;
+}
+
+@media screen and (max-width: 767px) {
+  .sunmoonlake-color_item {
+    padding: 30px 20px;
+  }
+  .sunmoonlake-color_name {
+    margin: 0;
+  }
+  .sunmoonlake-color_name p {
+    font-size: 24px;
+  }
+  .sunmoonlake-color_num p {
+    font-size: 16px;
+  }
+  .sunmoonlake-color_gradient_item {
+    height: 20px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .sunmoonlake-color_name {
+    margin: 0;
+  }
+  .sunmoonlake-color_name p {
+    font-size: 18px;
+  }
+  .sunmoonlake-color_name p:first-child {
+    margin-bottom: 15px;
+  }
+  .sunmoonlake-color_num p {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .sunmoonlake-color_item {
+    padding: 30px 10px;
+  }
+}
+
+.sunmoonlake-typography {
+  padding-top: 180px;
+  padding-bottom: 380px;
+}
+
+.sunmoonlake-typography_title {
+  color: #C9A063;
+  margin-bottom: 200px;
+}
+
+@media screen and (max-width: 767px) {
+  .sunmoonlake-typography {
+    padding-top: 90px;
+    padding-bottom: 190px;
+  }
+  .sunmoonlake-typography_title {
+    margin-bottom: 100px;
+  }
+}
+
+.sunmoonlake-scrolling {
+  padding-bottom: 20px;
+}
+
+.sunmoonlake-scrolling h3 {
+  text-align: center;
+  color: #C9A063;
+  font-size: 70px;
+  margin-bottom: 15px;
+  font-family: optima;
+}
+
+.sunmoonlake-scrolling img {
+  width: 70px;
+  display: block;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 767px) {
+  .sunmoonlake-scrolling h3 {
+    font-size: 42px;
+  }
+  .sunmoonlake-scrolling img {
+    width: 40px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .sunmoonlake-scrolling h3 {
+    font-size: 32px;
+  }
+  .sunmoonlake-scrolling img {
+    width: 25px;
+  }
+}
+
+.sunmoonlake-packing {
+  background-color: #1A1A1A;
+  padding-top: 90px;
+}
+
+.sunmoonlake-packing_title {
+  color: #C9A063;
+  margin-bottom: 150px;
+}
+
+.sunmoonlake-packing_pic img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.sunmoonlake-packing_pic .swiper-pagination {
+  bottom: 20px;
+}
+
+.sunmoonlake-packing_pic .swiper-pagination-bullet {
+  background-color: transparent;
+  border: 1px solid #fff;
+  opacity: 1;
+}
+
+.sunmoonlake-packing_pic .swiper-pagination-bullet-active {
+  background-color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+  .sunmoonlake-packing_pic {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .sunmoonlake-packing_pic img {
+    margin-bottom: 0;
+  }
+  .sunmoonlake-packing_pic .swiper-pagination {
+    bottom: 10px;
+  }
+  .sunmoonlake-packing_slider {
+    padding: 70px 30px;
+  }
+}
+
+.sunmoonlake-symbol {
+  background-color: #1a1a1a;
+  padding-top: 175px;
+  padding-bottom: 175px;
+}
+
+.sunmoonlake-symbol_title {
+  color: #C9A063;
+  margin-bottom: 120px;
+}
+
+.sunmoonlake-symbol_text {
+  padding-right: 100px;
+}
+
+.sunmoonlake-symbol_text p {
+  color: #C9A063;
+  margin: 0;
+}
+
+.sunmoonlake-symbol_pic {
+  padding-left: 100px;
+}
+
+@media screen and (max-width: 1199px) {
+  .sunmoonlake-symbol_title {
+    margin-bottom: 60px;
+  }
+  .sunmoonlake-symbol_text {
+    padding-right: 30px;
+  }
+  .sunmoonlake-symbol_text p {
+    font-size: 14px;
+  }
+  .sunmoonlake-symbol_pic {
+    padding-left: 30px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .sunmoonlake-symbol_text {
+    padding-right: 0;
+    margin-bottom: 100px;
+  }
+  .sunmoonlake-symbol_pic {
+    padding-left: 0;
+  }
+}
+
+.sunmoonlake-icon {
+  padding-top: 225px;
+  padding-bottom: 160px;
+  background-color: #1a1a1a;
+}
+
+.sunmoonlake-icon_item {
+  width: calc(100% / 11);
+  margin-bottom: 90px;
+}
+
+.sunmoonlake-icon_item img {
+  max-width: 100px;
+  width: 100%;
+  display: block;
+  margin: 0 auto 15px;
+}
+
+.sunmoonlake-icon_item p {
+  text-align: center;
+  font-size: 12px;
+  color: #C9A063;
+  margin: 0;
+}
+
+.sunmoonlake-icon_arrow img {
+  max-width: 80px;
+}
+
+@media screen and (max-width: 1199px) {
+  .sunmoonlake-icon_item {
+    width: calc(100% / 7);
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .sunmoonlake-icon_item {
+    width: calc(100% / 5);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .sunmoonlake-icon {
+    padding-top: 120px;
+    padding-bottom: 80px;
+  }
+  .sunmoonlake-icon_item {
+    width: calc(100% / 4);
+  }
+}
+
+.sunmoonlake-prototype {
+  background-color: #1a1a1a;
+}
+
+.sunmoonlake-prototype_text {
+  padding-top: 95px;
+  padding-bottom: 95px;
+  color: #C9A063;
+}
+
+.sunmoonlake-prototype_text h2 {
+  font-size: 35px;
+  margin-bottom: 10px;
+  font-family: optima;
+  letter-spacing: 0.05em;
+}
+
+.sunmoonlake-prototype_text h3 {
+  font-size: 20px;
+  margin-bottom: 60px;
+  letter-spacing: 0.05em;
+  font-weight: normal;
+}
+
+.sunmoonlake-prototype_text p {
+  font-size: 35px;
+  margin-bottom: 0;
+  font-family: optima;
+  letter-spacing: 0.05em;
+}
+
+@media screen and (max-width: 767px) {
+  .sunmoonlake-prototype_text {
+    padding-top: 45px;
+    padding-bottom: 45px;
+  }
+  .sunmoonlake-prototype_text h2 {
+    font-size: 30px;
+  }
+  .sunmoonlake-prototype_text h3 {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  .sunmoonlake-prototype_text p {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .sunmoonlake-prototype_text {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .sunmoonlake-prototype_text h2 {
+    font-size: 22px;
+  }
+  .sunmoonlake-prototype_text p {
+    font-size: 22px;
+  }
+  .sunmoonlake-prototype_text h3 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .sunmoonlake-prototype_text h2 {
+    font-size: 18px;
+  }
+  .sunmoonlake-prototype_text p {
+    font-size: 18px;
+  }
+  .sunmoonlake-prototype_text h3 {
+    font-size: 12px;
   }
 }
 /*# sourceMappingURL=style.css.map */

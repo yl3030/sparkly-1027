@@ -183,6 +183,12 @@ $sunmoonlake-brown: #C9A063;
     background-color: #163C38;
     margin-top: -1px;
   }
+  &.footer-sunmoonlake {
+    background-color: #1a1a1a;
+    * {
+      color: $sunmoonlake-brown;
+    }
+  }
   > div {
     display: flex;
     align-items: flex-end;

@@ -30,6 +30,12 @@ $chinese-font: "Noto Sans TC", sans-serif;
        url(../font/OPTIMA.otf) format("opentype");
 }
 
+@font-face {
+  font-family: optimaItalic;
+  src: url(../font/Optima_Italic.woff) format("woff"),
+       url(../font/Optima_Italic.otf) format("opentype");
+}
+
 @mixin bg {
   background-size: cover;
   background-position: center center;
