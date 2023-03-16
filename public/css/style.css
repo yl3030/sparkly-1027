@@ -157,6 +157,16 @@
   src: url(../font/Optima_Italic.woff) format("woff"), url(../font/Optima_Italic.otf) format("opentype");
 }
 
+@font-face {
+  font-family: AvenirRoman;
+  src: url(../font/AvenirLTStd-Roman.woff) format("woff"), url(../font/AvenirLTStd-Roman.otf) format("opentype");
+}
+
+@font-face {
+  font-family: AvenirMedium;
+  src: url(../font/AvenirHeavy.woff) format("woff"), url(../font/AvenirHeavy.otf) format("opentype");
+}
+
 body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -6856,7 +6866,7 @@ footer.normal > div > div p {
   position: relative;
   width: 100%;
   height: 100vh;
-  background-color: #1A1A1A;
+  background-color: #1a1a1a;
 }
 
 .sunmoonlake-hongyun img {
@@ -6877,7 +6887,7 @@ footer.normal > div > div p {
 }
 
 .sunmoonlake-flow {
-  background-color: #1A1A1A;
+  background-color: #1a1a1a;
   padding: 13vw;
 }
 
@@ -7283,7 +7293,7 @@ footer.normal > div > div p {
 }
 
 .sunmoonlake-packing {
-  background-color: #1A1A1A;
+  background-color: #1a1a1a;
   padding-top: 90px;
 }
 

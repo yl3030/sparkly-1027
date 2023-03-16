@@ -292,7 +292,7 @@
         position: relative;
         width: 100%;
         height: 100vh;
-        background-color: #1A1A1A;
+        background-color: $sunmoonlake-black;
         img {
             position: absolute;
             width: 100%;
@@ -307,7 +307,7 @@
         }
     }
     &-flow {
-        background-color: #1A1A1A;
+        background-color: $sunmoonlake-black;
         padding: 13vw;
         .row {
             margin-left: -100px;
@@ -679,7 +679,7 @@
         }
     }
     &-packing {
-        background-color: #1A1A1A;
+        background-color: $sunmoonlake-black;
         padding-top: 90px;
         &_title {
             color: $sunmoonlake-brown;
@@ -719,7 +719,7 @@
         }
     }
     &-symbol {
-        background-color: #1a1a1a;
+        background-color: $sunmoonlake-black;
         padding-top: 175px;
         padding-bottom: 175px;
         &_title {
@@ -763,7 +763,7 @@
     &-icon {
         padding-top: 225px;
         padding-bottom: 160px;
-        background-color: #1a1a1a;
+        background-color: $sunmoonlake-black;
         &_item {
             width: calc(100% / 11);
             margin-bottom: 90px;
@@ -805,7 +805,7 @@
         }
     }
     &-prototype {
-        background-color: #1a1a1a;
+        background-color: $sunmoonlake-black;
         &_text {
             padding-top: 95px;
             padding-bottom: 95px;

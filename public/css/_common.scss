@@ -36,6 +36,18 @@ $chinese-font: "Noto Sans TC", sans-serif;
        url(../font/Optima_Italic.otf) format("opentype");
 }
 
+@font-face {
+  font-family: AvenirRoman;
+  src: url(../font/AvenirLTStd-Roman.woff) format("woff"),
+       url(../font/AvenirLTStd-Roman.otf) format("opentype");
+}
+
+@font-face {
+  font-family: AvenirMedium;
+  src: url(../font/AvenirHeavy.woff) format("woff"),
+       url(../font/AvenirHeavy.otf) format("opentype");
+}
+
 @mixin bg {
   background-size: cover;
   background-position: center center;
