@@ -807,70 +807,12 @@
     &-prototype {
         background-color: $sunmoonlake-black;
         &_text {
-            padding-top: 95px;
-            padding-bottom: 95px;
             color: $sunmoonlake-brown;
             h2 {
-                font-size: 35px;
-                margin-bottom: 10px;
                 font-family: $font-optima;
-                letter-spacing: 0.05em;
-            }
-            h3 {
-                font-size: 20px;
-                margin-bottom: 60px;
-                letter-spacing: 0.05em;
-                font-weight: normal;
             }
             p {
-                font-size: 35px;
-                margin-bottom: 0;
                 font-family: $font-optima;
-                letter-spacing: 0.05em;
-            }
-        }
-        @media screen and (max-width: 767px) {
-            &_text {
-                padding-top: 45px;
-                padding-bottom: 45px;
-                h2 {
-                    font-size: 30px;
-                }
-                h3 {
-                    font-size: 18px;
-                    margin-bottom: 30px;
-                }
-                p {
-                    font-size: 30px;
-                }
-            }
-        }
-        @media screen and (max-width: 575px) {
-            &_text {
-                padding-left: 20px;
-                padding-right: 20px;
-                h2 {
-                    font-size: 22px;
-                }
-                p {
-                    font-size: 22px;
-                }
-                h3 {
-                    font-size: 14px;
-                }
-            }
-        }
-        @media screen and (max-width: 370px) {
-            &_text {
-                h2 {
-                    font-size: 18px;
-                }
-                p {
-                    font-size: 18px;
-                }
-                h3 {
-                    font-size: 12px;
-                }
             }
         }
     }

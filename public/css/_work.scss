@@ -25,7 +25,9 @@ $sunmoonlake-brown: #C9A063;
 $sunmoonlake-black: #1a1a1a;
 
 $valley-green: #0C682A;
-$valley-orange: #EF9D65;
+$valley-lightGreen: #669966;
+$valley-orange: #FF9966;
+$valley-bg: #F7FAF6;
 $font-avenirRoman: AvenirRoman;
 $font-avenirMedium: AvenirMedium;
 
@@ -195,6 +197,12 @@ $font-avenirMedium: AvenirMedium;
       color: $sunmoonlake-brown;
     }
   }
+  &.footer-valley {
+    background-color: $valley-bg;
+    * {
+      color: $valley-lightGreen;
+    }
+  }
   > div {
     display: flex;
     align-items: flex-end;
@@ -230,6 +238,65 @@ $font-avenirMedium: AvenirMedium;
       &:last-child {
         margin-bottom: 0;
       }
+    }
+  }
+}
+
+.work-intro {
+  padding-top: 95px;
+  padding-bottom: 95px;
+  h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+    letter-spacing: 0.05em;
+  }
+  h3 {
+      font-size: 20px;
+      margin-bottom: 60px;
+      letter-spacing: 0.05em;
+      font-weight: normal;
+  }
+  p {
+    font-size: 35px;
+    margin-bottom: 0;
+    letter-spacing: 0.05em;
+  }
+  @media screen and (max-width: 991px) {
+    padding-top: 45px;
+    padding-bottom: 45px;
+    h2 {
+        font-size: 30px;
+    }
+    h3 {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+    p {
+        font-size: 30px;
+    }
+  }
+  @media screen and (max-width: 575px) {
+    padding-left: 20px;
+    padding-right: 20px;
+    h2 {
+        font-size: 22px;
+    }
+    p {
+        font-size: 22px;
+    }
+    h3 {
+        font-size: 14px;
+    }
+  }
+  @media screen and (max-width: 370px) {
+    h2 {
+        font-size: 18px;
+    }
+    p {
+        font-size: 18px;
+    }
+    h3 {
+        font-size: 12px;
     }
   }
 }
