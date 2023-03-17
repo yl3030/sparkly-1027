@@ -33,6 +33,8 @@ $font-avenirMedium: AvenirMedium;
 
 $lee-red: #BF0023;
 $lee-darkRed: #A00023;
+$lee-black: #1a1a1a;
+$lee-bg: #EEEEEA;
 
 .title-box {
   color: #fff;
@@ -204,6 +206,12 @@ $lee-darkRed: #A00023;
     background-color: $valley-bg;
     * {
       color: $valley-lightGreen;
+    }
+  }
+  &.footer-lee {
+    background-color: $lee-red;
+    * {
+      color: #fff;
     }
   }
   > div {

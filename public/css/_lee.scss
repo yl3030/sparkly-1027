@@ -1,0 +1,420 @@
+.lee {
+    &-cover {
+        position: relative;
+        &_text {
+            color: $lee-black;
+            font-family: FuturaPTMedium;
+            position: absolute;
+            letter-spacing: 0.05em;
+            &.text {
+                &-1 {
+                    top: 5.57vw;
+                    left: 6vw;
+                }
+                &-2 {
+                    top: 5.57vw;
+                    right: 6vw;
+                }
+                &-3 {
+                    top: 25.16vw;
+                    left: 6vw;
+                }
+                &-4 {
+                    top: 25.16vw;
+                    left: 25.52vw;
+                }
+                &-5 {
+                    top: 25.16vw;
+                    right: 6vw;
+                }
+                &-6 {
+                    top: 48vw;
+                    left: 6vw;
+                }
+                &-7 {
+                    top: 48vw;
+                    right: 6vw;
+                }
+            }
+        }
+        &_present {
+            position: absolute;
+            color: #fff;
+            bottom: 6.6vw;
+            left: 50%;
+            transform: translateX(-50%);
+            p {
+                text-align: center;
+                letter-spacing: 0.05em;
+                &:first-child {
+                    font-family: optimaItalic;
+                    font-size: 14px;
+                    margin-bottom: 30px;
+                }
+                &:nth-child(2) {
+                    font-family: FuturaPTMedium;
+                    margin: 0;
+                }
+            }
+        }
+    }
+    &-intro {
+        padding-top: 140px;
+        padding-bottom: 40px;
+        background-color: $lee-red;
+        color: #fff;
+        &_info {
+            margin-bottom: 150px;
+            display: flex;
+            align-items: center;
+            &_item {
+                margin-right: 80px;
+                &:last-child {
+                    margin-right: 0;
+                }
+                p {
+                    margin-bottom: 8px;
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+                    &.ch {
+                        font-family: "noto sans TC";
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+        &_content {
+            margin-bottom: 185px;
+            h2 {
+                font-size: 25px;
+                font-weight: 500;
+                margin-bottom: 30px;
+                letter-spacing: 0.05em;
+            }
+            p {
+                font-size: 18px;
+                line-height: 1.7;
+                margin: 0;
+                text-align: justify;
+                letter-spacing: 0.05em;
+            }
+        }
+        &_pic {
+            display: block;
+            width: 100%;
+            margin: 0 auto;
+            max-width: 885px;
+        }
+    }
+    &-change {
+        padding-top: 160px;
+        padding-bottom: 215px;
+        background-color: $lee-red;
+        &_item {
+            padding: 0 10px;
+            width: 40%;
+            p {
+                text-align: center;
+                margin-bottom: 30px;
+                font-size: 22px;
+                font-family: FuturaPTMedium;
+                color: #fff;
+                letter-spacing: 0.05em;
+            }
+        }
+        &_pic {
+            position: relative;
+            width: 100%;
+            padding-bottom: 100%;
+            background-color: #fff;
+            img {
+                position: absolute;
+                width: 56%;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+    }
+    &-core {
+        padding-top: 225px;
+        padding-bottom: 0;
+        background-color: $lee-bg;
+        text-align: center;
+        color: $lee-red;
+        h4 {
+            font-size: 36px;
+            font-family: $font-avenirMedium;
+            margin-bottom: 130px;
+            letter-spacing: 0.05em;
+        }
+        h5 {
+            font-family: $font-notoSerif;
+            letter-spacing: 0.2em;
+            &:first-child {
+                padding-right: 9vw;
+            }
+            &:nth-child(2) {
+                padding-left: 9vw;
+            }
+        }
+        h2 {
+            font-family: $font-avenirRoman;
+            margin: 0;
+            font-size: 10.2vw;
+            letter-spacing: 0.05em;
+        }
+        h3 {
+            font-family: $font-avenirRoman;
+            font-size: 60px;
+            margin-bottom: 130px;
+            letter-spacing: 0.05em;
+        }
+        &_pic {
+            position: relative;
+            img {
+                width: 100%;
+            }
+            p {
+                position: absolute;
+                color: #fff;
+                font-family: $font-notoSerif;
+                font-size: 36px;
+                margin: 0;
+                top: 50%;
+                transform: translateY(-50%);
+                font-weight: 500;
+                letter-spacing: 0.2em;
+                &.p {
+                    &-left {
+                        left: 8%;
+                    }
+                    &-right {
+                        right: 8%;
+                    }
+                }
+            }
+        }
+    }
+    &-challenge {
+        background-color: $lee-bg;
+        color: $lee-red;
+        padding-top: 140px;
+        padding-bottom: 130px;
+        h2 {
+            font-family: $font-avenirMedium;
+        }
+    }
+    &-bg {
+        background-color: $lee-bg;
+        &-red {
+            background-color: $lee-red;
+        }
+    }
+    &-solution {
+        padding-top: 270px;
+        padding-bottom: 290px;
+        background-image: url(../img/lee-7.png);
+        background-size: cover;
+        background-position: center;
+        color: #fff;
+        h2 {
+            text-align: center;
+            font-family: optimaItalic;
+            font-size: 84px;
+            margin-bottom: 100px;
+            letter-spacing: 0.05em;
+        }
+        p {
+            font-family: $font-avenirRoman;
+            font-size: 8.3vw;
+            width: fit-content;
+            margin-bottom: 90px;
+            letter-spacing: 0.05em;
+            line-height: 1;
+        }
+    }
+    &-logo {
+        padding: 250px 0;
+        img {
+            width: 100%;
+            display: block;
+            max-width: 650px;
+            margin: 0 auto;
+        }
+    }
+    &-pic {
+        padding-top: 150px;
+        padding-bottom: 150px;
+        img {
+            width: 100%;
+        }
+        .row {
+            margin-left: -8px;
+            margin-right: -8px;
+            >div {
+                padding: 8px;
+            }
+        }
+    }
+    &-title {
+        text-align: center;
+        font-size: 24px;
+        font-family: $font-avenirMedium;
+        margin-bottom: 100px;
+    }
+    &-color {
+        h2 {
+            color: $lee-red;
+        }
+        &_item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-top: 80px;
+            padding-bottom: 80px;
+            &.bg-white {
+                background-color: #F2EBD7;
+                color: #000;
+            }
+            &.bg-black {
+                background-color: #000;
+                color: #fff;
+            }
+        }
+        &_name {
+            p {
+                &:first-child {
+                    font-size: 24px;
+                    margin-bottom: 10px;
+                    .en {
+                        font-family: FuturaPTMediumItalic;
+                    }
+                }
+                &:nth-child(2) {
+                    font-size: 20px;
+                    font-family: FuturaPTMediumItalic;
+                    margin-bottom: 0;
+                }
+            }
+        }
+        &_num {
+            width: 40%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            span {
+                // width: 33.3333%;
+                font-family: $font-avenirRoman;
+                font-size: 20px;
+                &:last-child {
+                    text-align: right;
+                }
+                &.rgb {
+                    width: 158px;
+                }
+                &.cmyk {
+                    width: 180px;
+                }
+            }
+        }
+        &_main {
+            padding-top: 170px;
+            padding-bottom: 170px;
+            background-color: $lee-red;
+            color: #fff;
+        }
+        &_gradient {
+            .row {
+                margin-left: 0;
+                margin-right: 0;
+            }
+            &_item {
+                padding-left: 0;
+                padding-right: 0;
+                height: 40px;
+                &:first-child {
+                    background-color: #CB644C;
+                }
+                &:nth-child(2) {
+                    background-color: #D68C72;
+                }
+                &:nth-child(3) {
+                    background-color: #E4B49E;
+                }
+                &:nth-child(4) {
+                    background-color: #F1DBCD;
+                }
+            }
+        }
+    }
+    &-key {
+        padding-top: 160px;
+        padding-bottom: 160px;
+        background-color: $lee-black;
+        img {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        &_since {
+            position: relative;
+            &_text {
+                position: absolute;
+                color: $lee-black;
+                font-family: FuturaPTMedium;
+                &.text {
+                    &-1 {
+                        top: 10.5%;
+                        left: 7%;
+                    }
+                    &-2 {
+                        top: 10.5%;
+                        right: 7%;
+                    }
+                }
+            }
+            &_title {
+                position: absolute;
+                color: #fff;
+                text-align: center;
+                width: 100%;
+                left: 0;
+                bottom: 2%;
+                p {
+                    font-family: optimaItalic;
+                    font-size: 30px;
+                    margin: 5px;
+                }
+                h3 {
+                    font-family: $font-optima;
+                    margin: 0;
+                    font-size: 8.6vw;
+                }
+            }
+        }
+    }
+    &-prototype {
+        img {
+            width: 100%;
+            margin-bottom: 50px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+    &-content {
+        background-color: $lee-red;
+        color: #fff;
+        h2, p {
+            font-family: $font-avenirRoman;
+        }
+        ul {
+            margin-top: 50px;
+            li {
+                font-family: $font-avenirRoman;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
