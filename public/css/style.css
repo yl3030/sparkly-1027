@@ -8582,6 +8582,10 @@ footer.normal > div > div p {
   padding: 8px;
 }
 
+.lee-pic2 {
+  margin-bottom: 16vw;
+}
+
 .lee-title {
   text-align: center;
   font-size: 24px;
@@ -8591,6 +8595,11 @@ footer.normal > div > div p {
 
 .lee-color h2 {
   color: #BF0023;
+}
+
+.lee-color .lee-title {
+  font-family: AvenirMedium;
+  letter-spacing: 0.08em;
 }
 
 .lee-color_item {
@@ -8699,12 +8708,22 @@ footer.normal > div > div p {
 .lee-key {
   padding-top: 160px;
   padding-bottom: 160px;
-  background-color: #1a1a1a;
+  background-color: #000;
 }
 
 .lee-key img {
   width: 100%;
   margin-bottom: 10px;
+}
+
+.lee-key .lee-title {
+  color: #fff;
+}
+
+.lee-key_curve {
+  display: block;
+  width: 37vw !important;
+  margin: 9vw auto 0 !important;
 }
 
 .lee-key_since {

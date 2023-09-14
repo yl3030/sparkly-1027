@@ -258,6 +258,9 @@
             }
         }
     }
+    &-pic2 {
+        margin-bottom: 16vw;
+    }
     &-title {
         text-align: center;
         font-size: 24px;
@@ -267,6 +270,10 @@
     &-color {
         h2 {
             color: $lee-red;
+        }
+        .lee-title {
+            font-family: AvenirMedium;
+            letter-spacing: 0.08em;
         }
         &_item {
             display: flex;
@@ -352,10 +359,18 @@
     &-key {
         padding-top: 160px;
         padding-bottom: 160px;
-        background-color: $lee-black;
+        background-color: #000;
         img {
             width: 100%;
             margin-bottom: 10px;
+        }
+        .lee-title {
+            color: #fff;
+        }
+        &_curve {
+            display: block;
+            width: 37vw !important;
+            margin: 9vw auto 0 !important;
         }
         &_since {
             position: relative;
