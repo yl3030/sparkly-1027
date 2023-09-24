@@ -8397,6 +8397,7 @@ footer.normal > div > div p {
   width: 100%;
   margin: 0 auto;
   max-width: 885px;
+  mix-blend-mode: lighten;
 }
 
 .lee-change {
